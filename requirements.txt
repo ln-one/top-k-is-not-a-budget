@@ -1,0 +1,5 @@
+# Replay and analysis dependencies; versions are not a frozen reproduction environment.
+numpy
+scipy
+matplotlib
+pyarrow

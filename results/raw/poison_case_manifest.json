@@ -1,0 +1,28 @@
+{
+  "outputs": [
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/adaptive-top-k/results/derived/poison_case_summary.csv",
+      "sha256": "d43185e59435c48f2bd683c6441aaf803cfd96f92a16f9026b9ce84e7df76fc2"
+    }
+  ],
+  "queryIds": [
+    "855410",
+    "443396"
+  ],
+  "realData": true,
+  "schema": "adaptive-top-k-poison-cases-v1",
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2019/source/manifest.json",
+      "sha256": "7705ab61f7f2e83eab56524b1237e6d19c70e78f0df0d007df194d016349bd48"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0034-8016fd8df8a4.json",
+      "sha256": "81cfada1e79ab694063ef87bc17e44e71046acac34cf5ddccf3abf72c054d9c9"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0031-39718a6b9027.json",
+      "sha256": "2bc164dc7d1a0a2bca7cbe8feec6d122af970c59596c47ec90e054303e93bd55"
+    }
+  ]
+}

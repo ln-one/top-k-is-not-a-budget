@@ -1,0 +1,225 @@
+{
+  "datasets": [
+    "msmarco-passage-trec-dl-2019"
+  ],
+  "executionChunk": 64,
+  "maxChannelDepth": "per-query available stream length",
+  "oracleGrid": 64,
+  "outputs": [
+    {
+      "path": "results/smoke-2019/derived/anytime_frontier_per_query.csv",
+      "sha256": "293ed529d7a661cfb110638ab02a789b3b7e4389d77d2dfae902ce9019a48906"
+    },
+    {
+      "path": "results/smoke-2019/derived/anytime_frontier_aggregate.csv",
+      "sha256": "d9cc6cc9b09856172eb8672d2c9c5aeb9b85b39a31d8a0a787b749ad2d583843"
+    }
+  ],
+  "policies": [
+    "balanced",
+    "blocker",
+    "pressure",
+    "allocation-grid-oracle"
+  ],
+  "realData": true,
+  "reportCap": 100,
+  "rrfK": 60,
+  "schema": "anytime-asymmetric-certified-frontier-v1",
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/run.json",
+      "sha256": "2856a650b6a366aceab18ab3b60beb463bb395bc96567b01375b797b187fa7bf"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2019/source/qrels.tsv",
+      "sha256": "28708eaf31682c3c58ec536fe501b281c4b133337d873bd21a8d02f37913025b"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0000-e13e56bc8212.json",
+      "sha256": "bd3b0831526ece319066094ad9a9f99417c922828261464478af271327fae7ce"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0001-61820e305179.json",
+      "sha256": "9765235620c6bf7560f0c0d9acd460c23818cb295f4f856ecd12376649b1f81e"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0002-c70e1614aa0b.json",
+      "sha256": "f59b12f9f819ea6de1daa979c8982afd72e852fc231d3c99fa2424bcf1b6175a"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0003-bb04d5475f36.json",
+      "sha256": "678be454cc70325672863f4cd5be2dfed87afcfe49c1f7b55788d2cd4b126f94"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0004-625762f7eead.json",
+      "sha256": "5ea2cff3e8b8790e0d7657c9e5f11809e060068d99944843ffe2a22f729035fd"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0005-cb25121969e5.json",
+      "sha256": "e044f52dd3dac104412b855f4a74f480f8fb102796267ddc301883ac4149b2b7"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0006-bdf1a487da63.json",
+      "sha256": "6be90874b0f353995cb7b9f4825628f25e5653d0ec3522ab965c3edbbf0eff12"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0007-50e92ce87d73.json",
+      "sha256": "51211754083529c7c9ec6a8225f4e4c1e307ab627b103c03a601cee1d91c26b9"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0008-c5a24762cdbb.json",
+      "sha256": "e27afbbfe4a5b10a90f1e5825d616c6aa81cd051455d8c9ed877da0a7121e4f4"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0009-558ebab6f433.json",
+      "sha256": "ba89c56db09d2bf8782631b3c37c7bac42bb71d09f14134264ff4663ce371c91"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0010-2657f24c67d0.json",
+      "sha256": "75ee8985fb8929333d0a696bcad6f089b36f3c8c947a2f76f36f6bb0a87e69cc"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0011-4f9d7e908db1.json",
+      "sha256": "e0cfefd215de2b50b8d61e239ac0a78e661ab0cbec10536a1637aa965ca8ef99"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0012-55df8fd14d4a.json",
+      "sha256": "217447f515aef9fc6b2a7c922d172578c7b679be620806bf03d3b2fbe19f17d9"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0013-c0760ba0f7fd.json",
+      "sha256": "00632cb868b33ef35910ed78b644e6c2f1372ad5a738bf628f90734088c95eeb"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0014-718f818779a5.json",
+      "sha256": "00c587a1f96135cd0def0b4682c6aef1eacf111ef070f8060526e432e217c7b8"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0015-b779f4bc83f4.json",
+      "sha256": "1ddb0cd6a3185008b69c153a0761f1c98ef0cdb848041756acd214d06493614d"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0016-0c2c21372bcd.json",
+      "sha256": "104acd07de5872375a46125070a5fb2172080ac223406d714f604293689b401b"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0017-67b81fb99711.json",
+      "sha256": "ba1f72218329559e82c994f82c5200daaea1b1b20c25e096968c741aa8f2d9d0"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0018-21400a8a25e8.json",
+      "sha256": "20407ad5ac1f88cd1b354f4b7a47080d430e00551d82d7f64534967ef188c136"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0019-71665400cb62.json",
+      "sha256": "bc03e5e4195fb92fd8f7b45b1e0a025ac0604d212891f194a6f03497310b1dc7"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0020-085beafa1c95.json",
+      "sha256": "413b93d933cf079660ee386500bca126dbdce107acbc9a5e397567bcf9b4ec45"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0021-07c409c82f12.json",
+      "sha256": "ed1fb8eb59a0a73bfae82627f3d263f72171f0c817b67e9c0b6270c2961d9aa3"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0022-158c9f400a97.json",
+      "sha256": "edde1b00fbc489b2139ce362979012a28791ba202e42dc5f7d8aea29d6f8928d"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0023-80aef1ad6e97.json",
+      "sha256": "662940590c7284e9cbcd0a1a8f18ea2287674107667accf5e763d43d16a9ddd3"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0024-13d31c8fe1b3.json",
+      "sha256": "6b7bc979ec75907379b1a3ad55614adcff46facb6876cd1e0932c33a06c89ab5"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0025-63d54c69fb5b.json",
+      "sha256": "01f2fc7b44618f38705172548fdab719fe1d46f65bcc1a2996e42ee1899190d3"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0026-e3af52031255.json",
+      "sha256": "9aa56029d6a986ffb79722245921372bd47f2b26208829d18c4177e1d6cab810"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0027-2b152b9a1437.json",
+      "sha256": "f99fd3bfe632724c23cff021d261cedbee5a047908bddb2f574db82b43b6957e"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0028-c38af931d698.json",
+      "sha256": "0bed6732fdeb1950b86b9933a6cde7e48a0dfb23f543f521c3ac97b6e0de520c"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0029-3fe8c0ce6a77.json",
+      "sha256": "36d7c2bc2ee471b1811a728d109f2c0466a1b62d527a9e90c79bda7bf821b70c"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0030-866f0e672daa.json",
+      "sha256": "78978282e9fa2f9ffcd0242b5c619a1d50fb413bb6611e1b885dc4d9038b906e"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0031-39718a6b9027.json",
+      "sha256": "2bc164dc7d1a0a2bca7cbe8feec6d122af970c59596c47ec90e054303e93bd55"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0032-a15c81fd0339.json",
+      "sha256": "4f6acdf2ec75269e86db2c9bd7120b5b1aafdbc8001bd1977ed8a125fcd4dacc"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0033-75235310fe08.json",
+      "sha256": "3e1162a6ba8e267cdfbedc7fc875c1f4ff22a6bd64e020f5dd3c6814f6b1e917"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0034-8016fd8df8a4.json",
+      "sha256": "81cfada1e79ab694063ef87bc17e44e71046acac34cf5ddccf3abf72c054d9c9"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0035-250ff565e8cf.json",
+      "sha256": "2692dd1038faacdc8fa03601725f9db4141f08a71a0dc47eb8ea20a774e16436"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0036-8becab36d6a1.json",
+      "sha256": "6166cda615f58fcea3f07286392ee624b03a079e53609d221c5a97f16267242d"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0037-379515dd2769.json",
+      "sha256": "50c27e0ca03af4164ee3f57c3a40aa0c0d7f9c159dedf884e0f25f87383398a2"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0038-469f0d607548.json",
+      "sha256": "15b991233212d52aaeb257f2c815d6cb91487c636e58b3f7395fa0677628a0e4"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0039-0b5e3cfff97b.json",
+      "sha256": "236ad6885a2c1398d4c53a935aacfb7eb2942e2c4e29f6c12a2ab3c18e5f0400"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0040-ef92933879ea.json",
+      "sha256": "749a6426da1274335b0428a69418e4adbd794d1614630e484ada8460417657d9"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0041-6d9bc5d36bb3.json",
+      "sha256": "423dff89c3553e72762fffc18883b0d0852ab1d06058bc8727d93deb31c56a63"
+    },
+    {
+      "path": "/Users/ln1/Projects/stratumind-artifacts/canonical-v1/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/queries/0042-c76c0e6e5251.json",
+      "sha256": "9ba369d698f16dc6ff44d883a3e24200753edbe06ce29b937ec615cafcbf777d"
+    }
+  ],
+  "weights": [
+    1.0,
+    1.0
+  ],
+  "workBudgets": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    10000
+  ],
+  "workDefinition": "dense depth + sparse positive depth"
+}
