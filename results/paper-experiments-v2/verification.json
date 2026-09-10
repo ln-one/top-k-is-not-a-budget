@@ -1,0 +1,10 @@
+{
+  "queries": 920,
+  "budget_rows": 29440,
+  "ndcg20_rows_checked": 29440,
+  "max_ndcg20_error": 3.3306690738754696e-16,
+  "independent_array_endpoints": 12961,
+  "ordered_mismatches": 0,
+  "budget_violations": 0,
+  "smoke_array_checks": 296562
+}

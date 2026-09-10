@@ -20,15 +20,15 @@ Chunran Zhang,
 \newblock ``Exact adaptive hybrid retrieval without fixed top-{L} cutoffs,''
 \newblock {\em arXiv preprint arXiv:2608.07152}, 2026.
 
-\bibitem{snra}
-Jing Yuan, Guang-Zhong Sun, Ye~Tian, Guoliang Chen, and Zhi Liu,
-\newblock ``Selective-{NRA} algorithms for top-$k$ queries,''
-\newblock in {\em Advances in Data and Web Management (APWeb/WAIM)}, 2009, pp. 15--26.
-
 \bibitem{lara}
 Nikos Mamoulis, Kit~Hung Cheng, Man~Lung Yiu, and David~W. Cheung,
 \newblock ``Efficient aggregation of ranked inputs,''
 \newblock in {\em Proc. IEEE International Conference on Data Engineering (ICDE)}, 2006, p.~72.
+
+\bibitem{snra}
+Jing Yuan, Guang-Zhong Sun, Ye~Tian, Guoliang Chen, and Zhi Liu,
+\newblock ``Selective-{NRA} algorithms for top-$k$ queries,''
+\newblock in {\em Advances in Data and Web Management (APWeb/WAIM)}, 2009, pp. 15--26.
 
 \bibitem{dl19}
 Nick Craswell, Bhaskar Mitra, Emine Yilmaz, Daniel Campos, and Ellen~M. Voorhees,

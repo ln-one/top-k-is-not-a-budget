@@ -1,0 +1,46 @@
+"""Measured replay figures; no synthetic data. All intervals preserve observation limits."""
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+ROOT=Path(__file__).resolve().parents[2];P=ROOT/'results/paper-experiments-v2';OUT=Path(__file__).parent
+DS=['msmarco-passage-trec-dl-2019','msmarco-passage-trec-dl-2020','nfcorpus','scifact','trec-covid'];N=['DL19','DL20','NFCorpus','SciFact','COVID']
+colors=['#4477AA','#66AABB','#228833','#AA7744','#AA3377'];methods={'balanced':('#888888','Balanced'),'dibud':('#276B9A','DiBud')}
+plt.rcParams.update({'font.family':'sans-serif','font.sans-serif':['Arial','DejaVu Sans'],'font.size':8,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.7,'legend.frameon':False,'pdf.fonttype':42,'svg.fonttype':'none'})
+def save(fig,name):
+ for ext in ('pdf','svg','png'):fig.savefig(OUT/f'{name}.{ext}',bbox_inches='tight',dpi=300)
+ plt.close(fig)
+t=pd.read_csv(P/'transfer-summary.csv');a=pd.read_csv(P/'aggregate.csv');c=pd.read_csv(P/'fixed-k.csv');g=pd.read_csv(P/'certificate-gaps.csv');q=pd.read_csv(P/'quality-budget-summary.csv')
+fig,ax=plt.subplots(2,1,figsize=(3.4,3.6),layout='constrained')
+x=np.arange(5);s=t.set_index('dataset').loc[DS];ax[0].bar(x,s.delta,color=colors,width=.6);ax[0].errorbar(x,s.delta,yerr=np.array([s.delta-s.ci_lower,s.ci_upper-s.delta]),fmt='none',color='#333333',capsize=2,lw=.8);ax[0].axhline(0,color='black',lw=.6);ax[0].set_xticks(x,N);ax[0].set_ylabel('nDCG@10 difference from full RRF');ax[0].set_title('(a) Held-out query transfer',loc='left')
+s=t[t.dataset.str.contains('chrono')];x=np.arange(1,6);ax[1].plot(x,s.delta,'o-',color=colors[0]);ax[1].fill_between(x,s.ci_lower,s.ci_upper,color=colors[0],alpha=.15);ax[1].axhline(0,color='black',lw=.6);ax[1].set_xticks(x);ax[1].set_xlabel('Corpus snapshot');ax[1].set_ylabel('nDCG@10 difference from full RRF');ax[1].set_title('(b) Frozen Round-1 selection',loc='left');save(fig,'transfer')
+fig,ax=plt.subplots(2,1,figsize=(3.4,3.6),layout='constrained')
+for ds,n,col in zip(DS,N,colors):
+ s=c[(c.dataset==ds)&(c.policy=='dibud')&(c.batch==1)&(c.k==20)];cost=np.sort(s[s.completed==1].cost);xx=np.r_[0,cost,10000];yy=np.r_[0,np.arange(1,len(cost)+1)/len(s),len(cost)/len(s)];ax[0].step(xx,yy,where='post',label=n,color=col,lw=1.1)
+ s=g[(g.dataset==ds)&(g.policy=='dibud')&(g.batch==1)&(g.complete20==1)];ax[1].plot([.25,.5,.75,1],[s.k_at25.mean(),s.k_at50.mean(),s.k_at75.mean(),20],'o-',color=col,label=n,markersize=3)
+ax[0].set_xscale('symlog',linthresh=100);ax[0].set_xlim(0,10000);ax[0].set_ylim(0,1.04);ax[0].set_xlabel('Sorted accesses');ax[0].set_ylabel('Fraction with observed exact Top-20');ax[0].set_title('(a) Completion cost',loc='left');ax[0].legend(fontsize=7)
+ax[1].set_xticks([.25,.5,.75,1],['25%','50%','75%','100%']);ax[1].set_xlabel('Fraction of observed Top-20 cost');ax[1].set_ylabel('Mean certified prefix length');ax[1].set_ylim(0,21);ax[1].set_title('(b) Queries with observed completion',loc='left');save(fig,'cost')
+fig,axes=plt.subplots(2,3,figsize=(7.1,4.05),layout='constrained')
+for ax,ds,n in zip(axes.flat,DS,N):
+ for pol,(col,label) in methods.items():
+  s=a[(a.dataset==ds)&(a.policy==pol)&(a.batch==1)].sort_values('budget');ax.plot(s.budget,s.mean_k_lower,label=label,color=col,lw=1.2);ax.fill_between(s.budget,s.mean_k_lower,s.mean_k_upper,color=col,alpha=.15)
+ ax.set_xscale('log',base=2);ax.set_xticks([128,1024,10000],['128','1024','10000']);ax.set_ylim(0,102);ax.set_title(n,loc='left');ax.set_ylabel('Mean prefix (cap 100)');ax.set_xlabel('Access budget')
+ax=axes.flat[-1]
+for pol,(col,label) in methods.items():
+ s=a[(a.dataset.str.contains('chrono'))&(a.policy==pol)&(a.batch==1)&(a.budget==2048)].sort_values('dataset');ax.plot(range(1,6),s.k20_lower,'o-',color=col,label=label,markersize=3)
+ax.set_ylim(0,21);ax.set_xticks(range(1,6));ax.set_title('Snapshots, B=2048',loc='left');ax.set_ylabel('Mean prefix (cap 20)');ax.set_xlabel('Corpus snapshot');ax.legend(fontsize=7);save(fig,'yield')
+fig,ax=plt.subplots(2,1,figsize=(3.4,3.6),layout='constrained')
+s=q[q.target==.95].set_index('dataset').loc[DS];x=np.arange(5)
+ax[0].bar(x,100*s.quality_lower,color=colors,width=.6);ax[0].errorbar(x,100*s.quality_lower,yerr=[np.zeros(5),100*(s.quality_upper-s.quality_lower)],fmt='none',color='black',capsize=3);ax[0].axhline(95,color='#555555',ls='--',lw=.8);ax[0].set_ylim(0,102);ax[0].set_xticks(x,N);ax[0].set_ylabel('Held-out nDCG@20 retained (%)');ax[0].set_title('(a) 95% calibration target',loc='left')
+ax[1].bar(x,100*s.cost_saving_lower,color=colors,width=.6);ax[1].set_xticks(x,N);ax[1].set_ylim(0,100);ax[1].set_ylabel('Access reduction (%)');ax[1].set_title('(b) Exact values or conservative bounds',loc='left')
+for i,v in enumerate(s.cost_saving_lower):ax[1].text(i,100*v+2,('≥' if s.baseline20_completion.iloc[i]<1 else '')+f'{100*v:.1f}',ha='center',fontsize=7)
+save(fig,'quality-cost')
+# Distribution and granularity retained as standalone supporting figure.
+fig,ax=plt.subplots(2,1,figsize=(3.4,3.6),layout='constrained')
+for pol,(col,label) in methods.items():
+ s=a[(a.dataset.isin(DS))&(a.policy==pol)&(a.batch==1)].groupby('budget').agg({'at20_lower':'mean','at20_upper':'mean','empty_lower':'mean','empty_upper':'mean'})
+ ax[0].plot(s.index,s.at20_lower,color=col,label=label);ax[0].fill_between(s.index,s.at20_lower,s.at20_upper,color=col,alpha=.15);ax[1].plot(s.index,s.empty_upper,color=col,label=label);ax[1].fill_between(s.index,s.empty_lower,s.empty_upper,color=col,alpha=.15)
+for v in ax:v.set_xscale('log',base=2);v.set_xlabel('Access budget');v.set_ylim(0,1.02);v.legend(fontsize=7)
+ax[0].set_ylabel('Fraction returning at least 20');ax[1].set_ylabel('Fraction returning no results');save(fig,'delivery')

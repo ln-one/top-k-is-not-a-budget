@@ -1,0 +1,7 @@
+{
+  "replicates": 2000,
+  "seed": 20260910,
+  "transfer": "nested calibration reselection and disjoint heldout resampling; same heldout identity across snapshots",
+  "paired": "query-level",
+  "quality_budget": "heldout point estimates, no significance claim"
+}

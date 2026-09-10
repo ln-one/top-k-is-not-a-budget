@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Mean certified output at $B=2048$. Both methods use unit accesses and the same certifier. All endpoints in this table are observed.}
+\label{tab:yield}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Cap 100} & \multicolumn{2}{c}{Cap 20} \\ Query set & Balanced & DiBud & Balanced & DiBud \\
+\midrule
+TREC-DL 2019 & 41.86 & 46.19 & 17.77 & 17.91 \\
+TREC-DL 2020 & 34.91 & 38.31 & 18.33 & 18.35 \\
+NFCorpus & 62.06 & 63.71 & 19.24 & 19.28 \\
+SciFact & 43.55 & 47.26 & 19.44 & 19.57 \\
+TREC-COVID & 26.48 & 29.80 & 15.58 & 15.78 \\
+\bottomrule
+\end{tabular}
+\end{table}

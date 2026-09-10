@@ -1,0 +1,264 @@
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
+Rc files read (in order):
+  NONE
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: making output directory 'build'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (./spconf.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (./authors.tex) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (build/main.aux) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (./sections/abstract.tex (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd)) (./sections/introduction.tex
+
+LaTeX Warning: Citation `elastic' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `rrf' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `nra' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `eahr' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lara' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `snra' on page 1 undefined on input line 9.
+
+) (./sections/method.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [1{/Users/ln1/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/ln1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+LaTeX Warning: Reference `eq:contract' on page 2 undefined on input line 38.
+
+) (./sections/experiments.tex
+
+LaTeX Warning: Citation `dl19' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `dl20' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `nfcorpus' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `scifact' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `covid' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `covid' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `bge' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `bm25' on page 2 undefined on input line 6.
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 6--7
+[]\OT1/ptm/m/n/10 We re-play frozen ex-act rank-ings from bge-small-en-
+[2] (./tables/transfer-v2.tex)
+
+LaTeX Warning: Reference `tab:transfer' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fig:transfer' on page 3 undefined on input line 18.
+
+(./tables/cost-v2.tex
+Underfull \hbox (badness 1546) in paragraph at lines 3--3
+[]\OT1/ptm/b/n/10 Table 2\OT1/ptm/m/n/10 . []Sorted ac-cesses to ex-act Top-20 un-der unit
+)
+
+LaTeX Warning: Reference `tab:cost' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Reference `fig:cost' on page 3 undefined on input line 27.
+
+[3 <./figures/transfer.pdf>] (./tables/yield-v2.tex)
+
+LaTeX Warning: Reference `tab:yield' on page 4 undefined on input line 31.
+
+
+LaTeX Warning: Reference `fig:yield' on page 4 undefined on input line 36.
+
+[4 <./figures/cost.pdf>] (./tables/quality-v2.tex)
+
+LaTeX Warning: Reference `tab:quality' on page 5 undefined on input line 43.
+
+) (./sections/conclusion.tex
+Underfull \vbox (badness 3471) has occurred while \output is active [5 <./figures/yield.pdf>]) [6 <./figures/quality-cost.pdf>] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/10 Elastic,  ``Re-cip-ro-cal rank fu-sion,'' []$https :
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+\OT1/ptm/m/n/10 / / www . elastic . co / docs / reference / elasticsearch / rest-[]apis /
+
+Underfull \hbox (badness 1466) in paragraph at lines 19--22
+[]\OT1/ptm/m/n/10 Chunran Zhang,  ``Ex-act adap-tive hy-brid re-trieval
+
+Underfull \hbox (badness 8113) in paragraph at lines 19--22
+\OT1/ptm/m/n/10 with-out fixed top-L cut-offs,''  \OT1/ptm/m/it/10 arXiv preprint
+
+Underfull \hbox (badness 1178) in paragraph at lines 34--37
+\OT1/ptm/m/n/10 TREC 2019 deep learn-ing track,''  \OT1/ptm/m/it/10 arXiv preprint
+
+Underfull \hbox (badness 4886) in paragraph at lines 54--57
+\OT1/ptm/m/n/10 Demner-Fushman, Kyle Lo, Ian Sobo-roff, Ellen
+
+Underfull \hbox (badness 1308) in paragraph at lines 54--57
+\OT1/ptm/m/n/10 Voorhees, Lucy Lu Wang, and William R. Hersh,
+
+Underfull \hbox (badness 1430) in paragraph at lines 59--62
+[]\OT1/ptm/m/n/10 BAAI,  ``bge-small-en-v1.5: Model card,'' []$https : / /
+
+Underfull \hbox (badness 1859) in paragraph at lines 59--62
+\OT1/ptm/m/n/10 huggingface . co / BAAI / bge-[]small-[]en-[]v1 . 5$[],  Ac-cessed
+) [7] (build/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)</Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on build/main.pdf (7 pages, 311094 bytes).
+Transcript written on build/main.log.
+Latexmk: Getting log file 'build/main.log'
+Latexmk: Examining 'build/main.fls'
+Latexmk: Examining 'build/main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'build/main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'build/main.bbl' for 'pdflatex'
+Create bibtex build/main
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex build/main'...
+Rule 'bibtex build/main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex build/main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex build/main'
+------------
+====== ENV{BIBINPUTS} changed to '/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check:build:/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check/build:'
+Latexmk: Change directory to 'build/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check:build:/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check/build:'
+  BSTINPUTS='/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check:'.
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026)
+The top-level auxiliary file: main.aux
+The style file: IEEEbib.bst
+Database file #1: references.bib
+Latexmk: Change directory back to '/Users/ln1/Projects/StratumindLab/budgeted-exact-prefix/tmp/source-v2-check'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  build/main.aux
+  build/main.bbl
+  build/main.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (./spconf.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (./authors.tex) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (build/main.aux) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (build/main.out) (build/main.out) (./sections/abstract.tex (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (/Users/ln1/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd)) (./sections/introduction.tex) (./sections/method.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [1{/Users/ln1/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/ln1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./sections/experiments.tex
+Underfull \hbox (badness 1215) in paragraph at lines 6--7
+[]\OT1/ptm/m/n/10 We re-play frozen ex-act rank-ings from bge-small-en-
+[2] (./tables/transfer-v2.tex) (./tables/cost-v2.tex
+Underfull \hbox (badness 1546) in paragraph at lines 3--3
+[]\OT1/ptm/b/n/10 Table 2\OT1/ptm/m/n/10 . []Sorted ac-cesses to ex-act Top-20 un-der unit
+) [3 <./figures/transfer.pdf>] (./tables/yield-v2.tex) [4 <./figures/cost.pdf>] (./tables/quality-v2.tex)) (./sections/conclusion.tex
+Underfull \vbox (badness 3471) has occurred while \output is active [5 <./figures/yield.pdf>]) [6 <./figures/quality-cost.pdf>] (build/main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/10 Elastic,  ``Re-cip-ro-cal rank fu-sion,'' []$https :
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+\OT1/ptm/m/n/10 / / www . elastic . co / docs / reference / elasticsearch / rest-[]apis /
+
+Underfull \hbox (badness 1466) in paragraph at lines 19--22
+[]\OT1/ptm/m/n/10 Chunran Zhang,  ``Ex-act adap-tive hy-brid re-trieval
+
+Underfull \hbox (badness 8113) in paragraph at lines 19--22
+\OT1/ptm/m/n/10 with-out fixed top-L cut-offs,''  \OT1/ptm/m/it/10 arXiv preprint
+
+Underfull \hbox (badness 1178) in paragraph at lines 34--37
+\OT1/ptm/m/n/10 TREC 2019 deep learn-ing track,''  \OT1/ptm/m/it/10 arXiv preprint
+
+Underfull \hbox (badness 4886) in paragraph at lines 54--57
+\OT1/ptm/m/n/10 Demner-Fushman, Kyle Lo, Ian Sobo-roff, Ellen
+
+Underfull \hbox (badness 1308) in paragraph at lines 54--57
+\OT1/ptm/m/n/10 Voorhees, Lucy Lu Wang, and William R. Hersh,
+
+Underfull \hbox (badness 1430) in paragraph at lines 59--62
+[]\OT1/ptm/m/n/10 BAAI,  ``bge-small-en-v1.5: Model card,'' []$https : / /
+
+Underfull \hbox (badness 1859) in paragraph at lines 59--62
+\OT1/ptm/m/n/10 huggingface . co / BAAI / bge-[]small-[]en-[]v1 . 5$[],  Ac-cessed
+) [7] (build/main.aux) )
+(see the transcript file for additional information)</Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></Users/ln1/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on build/main.pdf (7 pages, 312921 bytes).
+Transcript written on build/main.log.
+Latexmk: Getting log file 'build/main.log'
+Latexmk: Examining 'build/main.fls'
+Latexmk: Examining 'build/main.log'
+Latexmk: Found input bbl file 'build/main.bbl'
+Latexmk: Log file says output to 'build/main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'build/main.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: All targets (build/main.pdf) are up-to-date
+
+cp build/main.pdf DiBud-ICASSP2027.pdf

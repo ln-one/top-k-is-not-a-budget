@@ -1,0 +1,33 @@
+{
+  "budgets": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    10000
+  ],
+  "L": [
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000
+  ],
+  "seed": 20260910,
+  "smoke": true,
+  "jobs": 20,
+  "quality_targets": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "quality_selection": "five-fold held-out, ratio of mean nDCG20; minimum calibration budget meeting target",
+  "budget_cost": "same SNRA trajectory, early stop at 20, observation limits retained"
+}

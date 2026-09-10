@@ -1,0 +1,96 @@
+{
+  "real_data": true,
+  "jobs": 20,
+  "smoke": true,
+  "sources": [
+    {
+      "path": "data/inputs/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2019/run.json",
+      "sha256": "2856a650b6a366aceab18ab3b60beb463bb395bc96567b01375b797b187fa7bf"
+    },
+    {
+      "path": "data/inputs/datasets/msmarco-passage-trec-dl-2019/source/qrels.tsv",
+      "sha256": "28708eaf31682c3c58ec536fe501b281c4b133337d873bd21a8d02f37913025b"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/static-v3/msmarco-passage-trec-dl-2020/run.json",
+      "sha256": "9174b804f3fd31a65019b8805e70f2cad46c4d721919467d950b85237975a7b7"
+    },
+    {
+      "path": "data/inputs/datasets/msmarco-passage-trec-dl-2020/source/qrels.tsv",
+      "sha256": "d4a5564d1602bd3b7680c159a6d4e1c80c9fc96ebcf697caffa567252b16d103"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/static-v3/nfcorpus/run.json",
+      "sha256": "54230d9df1242cd3f5529de36c66e5699517ab8ebf6bf101b2368d626a805740"
+    },
+    {
+      "path": "data/inputs/datasets/nfcorpus/source/qrels.tsv",
+      "sha256": "9209a9151268afc27eb9c30a6eb139aca89311f31c4aa0e49410f28bec095b8d"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/static-v3/scifact/run.json",
+      "sha256": "ebdd76cc1854995612eecb154d63705ee70cb5622a0fada2f802ec11c4e7ce0f"
+    },
+    {
+      "path": "data/inputs/datasets/scifact/source/qrels.tsv",
+      "sha256": "68dd668c8c6811a3baa7cec6e10c55bb512b768f332f7f741563d811f94d2369"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/static-v3/trec-covid/run.json",
+      "sha256": "007a55a66829d98f2a5f3a42fdf3401d43410930de057810ce0d64645c6a21e7"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid/source/qrels.tsv",
+      "sha256": "f4c57bdd0d16c2c3b5629a292ecd62004166108ec00bb10ee5d9661b5cb944a5"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/chronological-v1/round-1/run.json",
+      "sha256": "93f278f31caca2fc2c855674e91990c8e0c85e245a2b96fc9681743e2633514f"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid-chrono-r1/source/qrels.tsv",
+      "sha256": "3e784e7c20c905332ca8d91412845f485308603bc243dad495977b63d6db541d"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/chronological-v1/round-2/run.json",
+      "sha256": "c120f4ca00cc5753451346dbe6575b1ffdaad61507e72022b75c37e2e17315ac"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid-chrono-r2/source/qrels.tsv",
+      "sha256": "8f19e34f5890598282d61c98f41fcb19242574bbd497b5d38778bb7b8fb5edb1"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/chronological-v1/round-3/run.json",
+      "sha256": "2e2e73b5283c0ecaa948d654ba8ac1388fca54a94c6f6af1d64eea8e5fb87d3b"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid-chrono-r3/source/qrels.tsv",
+      "sha256": "b95657ee151b97415ceb9778041202260f06dca06cfe982fd7e8086a88033cb5"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/chronological-v1/round-4/run.json",
+      "sha256": "ccce2af7d9f1b19acb956965cafc35d1a81d1c55a1ec06f4cf2752b7ec726de6"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid-chrono-r4/source/qrels.tsv",
+      "sha256": "649bc61a58e41c11bde0e858d5150fbc740e99871a969dcbb66173339a19a7a2"
+    },
+    {
+      "path": "data/inputs/experiments/target-validity/chronological-v1/round-5/run.json",
+      "sha256": "145a0f3dbfdb1bb19e0b20a32ac0a9f413d6d14fc3c5848066ba819ff5ddd88f"
+    },
+    {
+      "path": "data/inputs/datasets/trec-covid-chrono-r5/source/qrels.tsv",
+      "sha256": "9d3acede7636f4ab75754a93863127323ea5dd5a2550b0de5aee90e30998a18f"
+    }
+  ],
+  "script_hashes": {
+    "run_paper_experiments_v2.py": "0d3abd35d52bae24f367b4c641063e8bb0b71b2fc8c84af15de9309e4c17bfbe",
+    "pilot_grouped_frontier.py": "52b517ef0d26c47e8ac29405c3ace8ca73604d6f99de7c0d989387c942611d35",
+    "run_anytime_frontier_pilot.py": "48c430958525234ae345b2793077404b632452486fc665c240385b8837cf937f"
+  },
+  "python": "3.12.13",
+  "numpy": "2.4.2",
+  "seconds": 15.554308374994434,
+  "array_checks": 296562
+}
