@@ -1,0 +1,2829 @@
+{
+  "snra": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "lara": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2025-04-09T10:06:09Z",
+      "timestamp": 1744193169030
+    },
+    "reference-count": 14,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "DOI": "10.1109/icde.2006.54",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2006-04-28T07:05:46Z",
+      "timestamp": 1146207946000
+    },
+    "page": "72-72",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Efficient Aggregation of Ranked Inputs"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "N.",
+        "family": "Mamoulis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "family": "Kit Hung Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "family": "Man Lung Yiu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "D.W.",
+        "family": "Cheung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDE.1999.754894"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-012088469-8/50058-9"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1007568.1007593"
+      },
+      {
+        "key": "12",
+        "article-title": "Supporting incremental join queries on ranked inputs",
+        "author": "natsev",
+        "year": "2001",
+        "journal-title": "VLDB Conference"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2007.1007"
+      },
+      {
+        "key": "2",
+        "article-title": "evaluating top-k queries over web-accessible databases",
+        "author": "bruno",
+        "year": "2002",
+        "journal-title": "ICDE"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDE.2001.914855"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-012722442-8/50072-0"
+      },
+      {
+        "key": "7",
+        "article-title": "Optimizing multi-feature queries in image databases",
+        "author": "gu?ntzer",
+        "year": "2000",
+        "journal-title": "VLDB Conference"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/375551.375567"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/872757.872795"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jcss.1998.1600"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-155860869-6/50094-9"
+      },
+      {
+        "key": "8",
+        "article-title": "Towards efficient multifeature queries in heterogeneous environments",
+        "author": "gu?ntzer",
+        "year": "2001",
+        "journal-title": "IEEE Int'l Conf on Information Technology (ITCC)"
+      }
+    ],
+    "event": {
+      "name": "22nd International Conference on Data Engineering (ICDE'06)",
+      "start": {
+        "date-parts": [
+          [
+            2006,
+            4,
+            3
+          ]
+        ]
+      },
+      "location": "Atlanta, GA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2006,
+            4,
+            7
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "22nd International Conference on Data Engineering (ICDE'06)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/10757/33902/01617440.pdf?arnumber=1617440",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2017-03-14T22:48:58Z",
+      "timestamp": 1489531738000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/1617440/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "references-count": 14,
+    "URL": "https://doi.org/10.1109/icde.2006.54",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    }
+  },
+  "rrf": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2026-09-10T00:22:24Z",
+      "timestamp": 1788999744847,
+      "version": "build-2803163510"
+    },
+    "publisher-location": "New York, NY, USA",
+    "reference-count": 6,
+    "publisher": "ACM",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2009,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2009-07-19T00:00:00Z",
+          "timestamp": 1247961600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1145/1571941.1572114",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2009-07-28T08:45:28Z",
+      "timestamp": 1248770728000
+    },
+    "page": "758-759",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 561,
+    "title": [
+      "Reciprocal rank fusion outperforms condorcet and individual rank learning methods"
+    ],
+    "prefix": "10.1145",
+    "author": [
+      {
+        "given": "Gordon V.",
+        "family": "Cormack",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Waterloo, Waterloo, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles L A",
+        "family": "Clarke",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Waterloo, Waterloo, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Buettcher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google, Mountain View, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_1_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273513"
+      },
+      {
+        "key": "e_1_3_2_1_2_1",
+        "first-page": "4",
+        "author": "Freund Y.",
+        "year": "2003",
+        "unstructured": "Freund , Y. , Iyer , R. , Schapire , R. E. , and Singer , Y. An efficient boosting algorithm for combining preferences. JMLR 4 ( 2003 ). Freund, Y., Iyer, R., Schapire, R. E., and Singer, Y. An efficient boosting algorithm for combining preferences. JMLR 4 (2003).",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "e_1_3_2_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/775047.775067"
+      },
+      {
+        "key": "e_1_3_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/584792.584881"
+      },
+      {
+        "key": "e_1_3_2_1_5_1",
+        "volume-title": "TREC -- Experiment and Evaluation in IR",
+        "author": "Voorhees E. M.",
+        "year": "2005",
+        "unstructured": "Voorhees , E. M. , and Harman , D. K. , Eds . TREC -- Experiment and Evaluation in IR . MIT Press , 2005 . Voorhees, E. M., and Harman, D. K., Eds. TREC -- Experiment and Evaluation in IR. MIT Press, 2005."
+      },
+      {
+        "key": "e_1_3_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1277741.1277809"
+      }
+    ],
+    "event": {
+      "name": "SIGIR '09: The 32nd International ACM SIGIR conference on research and development in Information Retrieval",
+      "location": "Boston MA USA",
+      "acronym": "SIGIR '09",
+      "sponsor": [
+        "ACM Association for Computing Machinery",
+        "SIGIR ACM Special Interest Group on Information Retrieval"
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/1571941.1572114",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/1571941.1572114",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2025-06-18T08:23:33Z",
+      "timestamp": 1750235013000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/1571941.1572114"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          19
+        ]
+      ]
+    },
+    "references-count": 6,
+    "alternative-id": [
+      "10.1145/1571941.1572114",
+      "10.1145/1571941"
+    ],
+    "URL": "https://doi.org/10.1145/1571941.1572114",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          19
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2009-07-19",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "nra": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2026-08-26T04:23:55Z",
+      "timestamp": 1787718235393,
+      "version": "build-2784847793"
+    },
+    "reference-count": 23,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2003,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2003-06-01T00:00:00Z",
+          "timestamp": 1054425600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              22
+            ]
+          ],
+          "date-time": "2013-08-22T00:00:00Z",
+          "timestamp": 1377129600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 3735,
+        "URL": "https://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of Computer and System Sciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2003,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0022-0000(03)00026-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2003-05-12T21:09:12Z",
+      "timestamp": 1052773752000
+    },
+    "page": "614-656",
+    "source": "Crossref",
+    "is-referenced-by-count": 592,
+    "title": [
+      "Optimal aggregation algorithms for middleware"
+    ],
+    "prefix": "10.1016",
+    "volume": "66",
+    "author": [
+      {
+        "given": "Ronald",
+        "family": "Fagin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amnon",
+        "family": "Lotem",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Moni",
+        "family": "Naor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "6",
+        "key": "10.1016/S0022-0000(03)00026-6_BIBAF99",
+        "doi-asserted-by": "crossref",
+        "first-page": "846",
+        "DOI": "10.1109/90.811450",
+        "article-title": "RxW",
+        "volume": "7",
+        "author": "Aksoy",
+        "year": "1999",
+        "journal-title": "IEEE/ACM Trans. Networking"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBBEY98",
+        "series-title": "Online Computation and Competitive Analysis",
+        "author": "Borodin",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBBGM02",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Bruno, L. Gravano, A. Marian, Evaluating top-k queries over web-accessible databases, in: Proceedings of the 18th International Conference on Data Engineering, IEEE Computer Society, Silver Spring, MD, 2002.",
+        "DOI": "10.1109/ICDE.2002.994751"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBCG96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Chaudhuri, L. Gravano, Optimizing queries over multimedia repositories, in: Proceedings of the ACM SIGMOD Conference, Montreal, 1996, pp. 91\u2013102.",
+        "DOI": "10.1145/233269.233323"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBCHS95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M.J. Carey, L.M. Haas, P.M. Schwarz, M. Arya, W.F. Cody, R. Fagin, M. Flickner, A.W. Luniewski, W. Niblack, D. Petkovic, J. Thomas, J.H. Williams, E.L. Wimmers, Towards heterogeneous multimedia information systems: the Garlic approach, in: RIDE-DOM\u201995 (5th Int'l Workshop on Research Issues in Data Engineering: Distributed Object Management), 1995, pp. 124\u2013131.",
+        "DOI": "10.1109/RIDE.1995.378736"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/S0022-0000(03)00026-6_BIBDKLR00",
+        "doi-asserted-by": "crossref",
+        "first-page": "1484",
+        "DOI": "10.1137/S0097539797315306",
+        "article-title": "An optimal algorithm for Monte Carlo estimation",
+        "volume": "29",
+        "author": "Dagum",
+        "year": "2000",
+        "journal-title": "SIAM J. Comput."
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBDLM00",
+        "unstructured": "E.D. Demaine, A. L\u00f3pez-Ortiz, J.I. Munro, Adaptive set intersections, unions, and differences, in: Proceedings of the 11th ACM-SIAM Symposium on Discrete Algorithms (SODA), San Francisco, 2000, pp. 743\u2013752."
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBFAG99",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1006/jcss.1998.1600",
+        "article-title": "Combining fuzzy information from multiple systems",
+        "volume": "58",
+        "author": "Fagin",
+        "year": "1999",
+        "journal-title": "J. Comput. System Sci."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/S0022-0000(03)00026-6_BIBFHMV97",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1007/s004460050038",
+        "article-title": "Knowledge-based programs",
+        "volume": "10",
+        "author": "Fagin",
+        "year": "1997",
+        "journal-title": "Distributed Comput."
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBFMRW85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F.E. Fich, F. Meyer auf der Heide, P. Ragde, A. Wigderson, One, two, three ... infinity: lower bounds for parallel computation, in: Proceedings of the 17th ACM Symposium on Theory of Computing (STOC), Providence, 1985, pp. 48\u201358.",
+        "DOI": "10.1145/22145.22151"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBGBK00",
+        "unstructured": "U. G\u00fcntzer, W.-T. Balke, W. Kiessling, Optimizing multi-feature queries in image databases, in: Proceedings of the 26th Very Large Databases (VLDB) Conference, Cairo, Egypt, 2000, pp. 419\u2013428."
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBGBK01",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U. G\u00fcntzer, W.-T. Balke, W. Kiessling, Towards efficient multi-feature queries in heterogeneous environments, in: Proceedings of the IEEE International Conference on Information Technology: Coding and Computing (ITCC 2001), Las Vegas, USA, April 2001.",
+        "DOI": "10.1109/ITCC.2001.918866"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBHOC97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D.S. Hochbaum (Ed.) Approximation Algorithms for NP-Hard Problems, PWS Publishing Company, Boston, MA, 1997.",
+        "DOI": "10.1145/261342.571216"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBMR95",
+        "series-title": "Randomized Algorithms",
+        "author": "Motwani",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBNBE93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Niblack, R. Barber, W. Equitz, M. Flickner, E. Glasman, D. Petkovic, P. Yanker, The QBIC project: querying images by content using color, texture and shape, in: SPIE Conference on Storage and Retrieval for Image and Video Databases, Vol. 1908, 1993, pp. 173\u2013187. QBIC Web server is http://wwwqbic.almaden.ibm.com/.",
+        "DOI": "10.1117/12.143648"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBNCS01",
+        "unstructured": "A. Natsev, Y.-C. Chang, J.R. Smith, C.-S. Li, J.S. Vitter, Supporting incremental join queries on ranked inputs, in: Proceedings of the 27th Very Large Databases (VLDB) Conference, Rome, Italy, 2001, pp. 281\u2013290."
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBNR99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Nepal, M.V. Ramakrishna, Query processing issues in image (multimedia) databases, in: Proceedings of the 15th International Conference on Data Engineering (ICDE), March 1999, pp. 22\u201329.",
+        "DOI": "10.1109/ICDE.1999.754894"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBSAL89",
+        "series-title": "Automatic Text Processing, the Transformation, Analysis and Retrieval of Information by Computer",
+        "author": "Salton",
+        "year": "1989"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBST85",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1145/2786.2793",
+        "article-title": "Amortized efficiency of list update and paging rules",
+        "volume": "28",
+        "author": "Sleator",
+        "year": "1985",
+        "journal-title": "Comm. ACM"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBWHRB99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E.L. Wimmers, L.M. Haas, M. Tork Roth, C. Braendli, Using Fagin's algorithm for merging ranked results in multimedia middleware, in: Fourth IFCIS International Conference on Cooperative Information Systems, IEEE Computer Society Press, Silver Spring, September 1999, pp. 267\u2013278.",
+        "DOI": "10.1109/COOPIS.1999.792176"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBYAO77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A.C.-C. Yao, Probabilistic computations: towards a unified measure of complexity, in: Proceedings of the 17th IEEE Symposium on Foundations of Computer Science, Providence 1977.",
+        "DOI": "10.1109/SFCS.1977.24"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBZAD69",
+        "doi-asserted-by": "crossref",
+        "first-page": "338",
+        "DOI": "10.1016/S0019-9958(65)90241-X",
+        "article-title": "Fuzzy sets",
+        "volume": "8",
+        "author": "Zadeh",
+        "year": "1969",
+        "journal-title": "Inform. Control"
+      },
+      {
+        "key": "10.1016/S0022-0000(03)00026-6_BIBZIM96",
+        "series-title": "Fuzzy Set Theory",
+        "author": "Zimmermann",
+        "year": "1996"
+      }
+    ],
+    "container-title": [
+      "Journal of Computer and System Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022000003000266?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022000003000266?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2020-03-19T17:47:47Z",
+      "timestamp": 1584640067000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022000003000266"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          6
+        ]
+      ]
+    },
+    "references-count": 23,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2003,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0022000003000266"
+    ],
+    "URL": "https://doi.org/10.1016/s0022-0000(03)00026-6",
+    "relation": {},
+    "ISSN": [
+      "0022-0000"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-0000",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2003,
+          6
+        ]
+      ]
+    }
+  },
+  "covid": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2026-07-20T13:54:38Z",
+      "timestamp": 1784555678179,
+      "version": "3.55.0"
+    },
+    "reference-count": 57,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              2
+            ]
+          ],
+          "date-time": "2022-09-02T00:00:00Z",
+          "timestamp": 1662076800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 366,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2021-09-01T00:00:00Z",
+          "timestamp": 1630454400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbi.2021.103865",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2021-07-08T06:47:02Z",
+      "timestamp": 1625726822000
+    },
+    "page": "103865",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "special_numbering": "C",
+    "title": [
+      "Searching for scientific evidence in a pandemic: An overview of TREC-COVID"
+    ],
+    "prefix": "10.1016",
+    "volume": "121",
+    "author": [
+      {
+        "given": "Kirk",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tasmeer",
+        "family": "Alam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven",
+        "family": "Bedrick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dina",
+        "family": "Demner-Fushman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kyle",
+        "family": "Lo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ian",
+        "family": "Soboroff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ellen",
+        "family": "Voorhees",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucy Lu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William R.",
+        "family": "Hersh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbi.2021.103865_b0005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2196/18717",
+        "article-title": "Assessment of Health Information About COVID-19 Prevention on the Internet: Infodemiological Study",
+        "volume": "6",
+        "author": "Hern\u00e1ndez-Garc\u00eda",
+        "year": "2020",
+        "journal-title": "JMIR Public Health Surveil."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbi.2021.103865_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "e19374",
+        "DOI": "10.2196/19374",
+        "article-title": "COVID-19-Related Web Search Behaviors and Infodemic Attitudes in Italy: Infodemiological Study",
+        "volume": "6",
+        "author": "Rovetta",
+        "year": "2020",
+        "journal-title": "JMIR Public Health Surveil."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbi.2021.103865_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "e18444",
+        "DOI": "10.2196/18444",
+        "article-title": "Misinformation of COVID-19 on the Internet: Infodemiology Study",
+        "volume": "6",
+        "author": "Cuan-Baltazar",
+        "year": "2020",
+        "journal-title": "JMIR Public Health Surveil."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0020",
+        "series-title": "TREC: Experiment and Evaluation in Information Retrieval",
+        "author": "Voorhees",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0025",
+        "unstructured": "Lucy Lu Wang, Kyle Lo, Yoganand Chandrasekhar, Russell Reas, Jiangjiang Yang, Doug Burdick, Darrin Eide, Kathryn Funk, Yannis Katsis, Rodney Kinney, Yunyao Li, Ziyang Liu, William Merrill, Paul Mooney, Dewey Murdick, Devvret Rishi, Jerry Sheehan, Zhihong Shen, Brandon Stilson, Alex Wade, Kuansan Wang, Nancy Xin Ru Wang, Chris Wilhelm, Boya Xie, Douglas Raymond, DanielS. Weld, Oren Etzioni, Sebastian Kohlmeier, CORD-19: The COVID-19 Open Research Dataset, in: Proceedings of the NLP-COVID Workshop at the 58th Annual Meeting of the Association for Computational Linguistics, 2020."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jbi.2021.103865_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1431",
+        "DOI": "10.1093/jamia/ocaa091",
+        "article-title": "TREC-COVID: Rationale and Structure of an Information Retrieval Shared Task for COVID-19",
+        "volume": "27",
+        "author": "Roberts",
+        "year": "2020",
+        "journal-title": "Journal of the American Medical Informatics Association"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0035",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ellen Voorhees, Tasmeer Alam, Steven Bedrick, Dina Demner-Fushman, WilliamR Hersh, Kyle Lo, Kirk Roberts, Ian Soboroff, and LucyLu Wang, TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection, SIGIR Forum, June, 2020.",
+        "DOI": "10.1145/3451964.3451965"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0040",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Hersh, RaviTeja Bhupatiraju, TREC Genomics Track Overview, in: Proceedings of the Twelfth Text REtrieval Conference, 2003.",
+        "DOI": "10.6028/NIST.SP.500-255.genomics-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0045",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Hersh, RaviTeja Bhupatiraju, Laura Ross, Phoebe Johnson, AaronM Cohen, and DaleF Kraemer, TREC 2004 Genomics Track Overview, in: Proceedings of the Thirteenth Text REtrieval Conference, 2004.",
+        "DOI": "10.6028/NIST.SP.500-261.genomics-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0050",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Hersh, Aaron Cohen, Jianji Yang, RaviTeja Bhupatiraju, Phoebe Roberts, and Marti Hearst, TREC 2005 Genomics Track Overview, in: Proceedings of the Fourteenth Text REtrieval Conference, 2005.",
+        "DOI": "10.6028/NIST.SP.500-266.genomics-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0055",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Hersh, AaronM. Cohen, Phoebe Roberts, HariKrishna Rekapalli, TREC 2006 Genomics Track Overview, in: Proceedings of the Fifteenth Text REtrieval Conference, 2006.",
+        "DOI": "10.6028/NIST.SP.500-272.genomics-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0060",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Hersh, Aaron Cohen, Lynn Ruslen, and Phoebe Roberts, TREC 2007 Genomics Track Overview, in: Proceedvings of the Sixteenth Text REtrieval Conference, 2007.",
+        "DOI": "10.6028/NIST.SP.500-274.genomics-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10791-008-9076-6",
+        "article-title": "TREC genomics special issue overview",
+        "volume": "12",
+        "author": "Hersh",
+        "year": "2009",
+        "journal-title": "Inf. Retrieval"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0070",
+        "series-title": "Proceedings of the Twenty-Third Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2014 Clinical Decision Support Track",
+        "author": "Simpson",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0075",
+        "series-title": "Proceedings of the Twenty-Fourth Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2015 Clinical Decision Support Track",
+        "author": "Roberts",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0080",
+        "series-title": "Proceedings of the Twenty-Fifth Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2016 Clinical Decision Support Track",
+        "author": "Roberts",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0085",
+        "series-title": "Proceedings of the Twenty-Sixth Text Retrieval Conference",
+        "article-title": "Steven Bedrick, Alexandar Lazar, and Shubham Pant. Overview of the TREC 2017 Precision Medicine Track",
+        "author": "Roberts",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0090",
+        "series-title": "Proceedings of the Twenty-Seventh Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2018 Precision Medicine Track",
+        "author": "Roberts",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0095",
+        "series-title": "Proceedings of the Twenty-Eighth Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2019 Precision Medicine Track",
+        "author": "Roberts",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0100",
+        "series-title": "Proceedings of the Twenty-Ninth Text Retrieval Conference",
+        "article-title": "Overview of the TREC 2020 Precision Medicine Track",
+        "author": "Roberts",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0105",
+        "series-title": "Proceedings of the 10th Text REtrieval Conference",
+        "article-title": "Overview of the TREC 2011 Medical Records Track",
+        "author": "Voorhees",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0110",
+        "series-title": "Proceedings of the Twenty-First Text REtrieval Conference",
+        "article-title": "Overview of the TREC 2012 Medical Records Track",
+        "author": "Voorhees",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "648",
+        "DOI": "10.1007/s10278-008-9154-8",
+        "article-title": "The ImageCLEFmed Medical Image Retrieval Task Test Collection",
+        "volume": "22",
+        "author": "Hersh",
+        "year": "2009",
+        "journal-title": "J. Digit. Imaging"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henning M\u00fcller, Paul Clough, Thomas Deselaers, Barbara Caputo (eds.), ImageCLEF: Experimental Evaluation in Visual Information Retrieval, The Information Retrieval Series, 2010.",
+        "DOI": "10.1007/978-3-642-15181-1"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0125",
+        "article-title": "Evaluating performance of biomedical image retrieval systems \u2013 An overview of the medical image retrieval task at ImageCLEF 2004\u20132013",
+        "author": "Kalpathy-Cramer",
+        "year": "2014",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.compmedimag.2014.12.002",
+        "article-title": "A decade of community-wide efforts in advancing medical image understanding and retrieval",
+        "volume": "39",
+        "author": "Demner-Fushman",
+        "year": "2014",
+        "journal-title": "Comput. Med. Imaging Graph."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0135",
+        "unstructured": "Lorraine Goeuriot, Gareth J.F. Jones, Liadh Kelly, Johannes Leveling, Allan Hanbury, Henning M\u00fcller, Sanna Salanter\u00e4, Hanna Suominen, Guido Zuccon, ShARe/CLEF eHealth Evaluation Lab 2013, Task 3: Information Retrieval to Address Patients\u2019 Questions when Reading Clinical Reports, in: CLEF 2013 Working Notes, 2013."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0140",
+        "unstructured": "Lorraine Goeuriot, Liadh Kelly, Wei Li, Joao Palotti, Pavel Pecina, Guido Zuccon, Allan Hanbury, Gareth J.F. Jones, Henning M\u00fcller, ShARe/CLEF eHealth Evaluation Lab 2014, Task 3: User-centred health information retrieval, in: CLEF 2014 Working Notes, 2014, pp. 43\u201361."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0145",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stephen Robertson, Ian Soboroff, The TREC 2002 Filtering Track Report, in: Proceedings of the Eleventh Text REtrieval Conference, 2002.",
+        "DOI": "10.6028/NIST.SP.500-251.filtering-overview"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0150",
+        "series-title": "Proceedings of the Seventeenth Text REtrieval Conference",
+        "article-title": "Relevance Feedback Track Overview: TREC 2008",
+        "author": "Buckley",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0155",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peilin Yang, Hui Fang, and Jimmy Lin, Anserini: Enabling the Use of Lucene for Information Retrieval Research, in: Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2017, pp. 1253\u20131256.",
+        "DOI": "10.1145/3077136.3080721"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbi.2021.103865_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1145/3239571",
+        "article-title": "Anserini: Reproducible Ranking Baselines Using Lucene",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2018",
+        "journal-title": "J. Data Information Qual."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0165",
+        "article-title": "An Evaluation of Two Commercial Deep Learning-Based Information Retrieval Systems for COVID-19 Literature",
+        "author": "Soni",
+        "year": "2020",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0170",
+        "unstructured": "The RECOVERY Collaborative Group, Dexamethasone in Hospitalized Patients with Covid-19\u2014Preliminary Report, 2020."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0175",
+        "series-title": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+        "first-page": "4969",
+        "article-title": "S2ORC: The Semantic Scholar Open Research Corpus",
+        "author": "Lo",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0180",
+        "series-title": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics \u2013 System Demonstrations",
+        "first-page": "87",
+        "article-title": "A Web-scale system for scientific knowledge exploration",
+        "author": "Shen",
+        "year": "2018"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbi.2021.103865_b0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.1093/bib/bbaa296",
+        "article-title": "Text mining approaches for dealing with the rapidly expanding literature on COVID-19",
+        "volume": "22",
+        "author": "Lu Wang",
+        "year": "2021",
+        "journal-title": "Briefings Bioinformat"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0190",
+        "series-title": "Report on the need for and provision of an \u201cideal\u201d information retrieval test collection",
+        "author": "Jones",
+        "year": "1975"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0195",
+        "first-page": "355",
+        "article-title": "Improving retrieval performance by relevance feedback",
+        "volume": "41",
+        "author": "Salton",
+        "year": "1997",
+        "journal-title": "J. Assoc. Informat. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0200",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jbi.2021.103745",
+        "article-title": "Analysis of System Features Used in the TREC-COVID Information Retrieval Challenge",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "J. Biomed. Inform."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0205",
+        "unstructured": "Edwin Zhang, Nikhil Gupta, Rodrigo Nogueira, Kyunghyun Cho, Jimmy Lin, Rapidly Deploying a Neural Search Engine for the COVID-19 Open Research Dataset: Preliminary Thoughts and Lessons Learned, arXiv, 2004.05125, 2020."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0210",
+        "unstructured": "Edwin Zhang, Nikhil Gupta, Raphael Tang, Xiao Han, Ronak Pradeep, Kuang Lu, Yue Zhang, Rodrigo Nogueira, Kyunghyun Cho, Hui Fang, and Jimmy Lin. Covidex: Neural Ranking Models and Keyword Search Infrastructure for the COVID-19 Open Research Dataset. arXiv, 2007.07846."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0215",
+        "unstructured": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and PeterJ Liu. Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. arXiv, 1910.10683, 2019."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0220",
+        "unstructured": "Sean MacAvaney, Arman Cohan, and Nazli Goharian. SLEDGE: A Simple Yet Effective Baseline for Coronavirus Scientific Knowledge Search. arXiv, 2005.02365, 2020."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0225",
+        "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+        "first-page": "4171",
+        "article-title": "SLEDGE-Z: A Zero-Shot Baseline for COVID-19 Literature Search",
+        "author": "MacAvaney",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0230",
+        "doi-asserted-by": "crossref",
+        "unstructured": "IzBeltagy, Kyle Lo, Arman Cohan, SciBERT: A Pretrained Language Model for Scientific Text, in: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 2019, pp. 3615\u20133620.",
+        "DOI": "10.18653/v1/D19-1371"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0235",
+        "unstructured": "Payal Bajaj, Daniel Campos, and NickCraswell, et al., MS MARCO: A Human Generated MAchine Reading COmprehension Dataset, arXiv, abs/1611.09268, 2018."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0240",
+        "unstructured": "Romain Paulus Kazuma Hashimoto Wenpeng Yin Dragomir Radev RichardSocher AndreEsteva, AnupritKale, CO-Search: COVID-19 Information Retrieval with Semantic Search, Question Answering, and Abstractive Summarization, 2020, arXiv:2006.09595."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1038/s41746-021-00437-0",
+        "article-title": "COVID-19 information retrieval with deep-learning based semantic search, question answering, and abstractive summarization",
+        "volume": "4",
+        "author": "Esteva",
+        "year": "2021",
+        "journal-title": "NPJ Digital Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0250",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nils Reimers, Iryna Gurevych, Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks, 2019, arXiv:1908.10084.",
+        "DOI": "10.18653/v1/D19-1410"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0255",
+        "unstructured": "Vincent Nguyen, Maciek Rybinski, Sarvnaz Karimi, Zhenchang Xing, Searching Scientific Literature for Answers on COVID-19 Questions, 2020, arXiv:2007.02492."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jbi.2021.103865_b0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "1234",
+        "DOI": "10.1093/bioinformatics/btz682",
+        "article-title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+        "volume": "36",
+        "author": "Lee",
+        "year": "2020",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0265",
+        "unstructured": "Canjia Li, Andrew Yates, Sean MacAvaney, Ben He, and Yingfei Sun, PARADE: Passage Represenation Aggregation for Document Reranking, 2020, arXiv:2008.09093."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0270",
+        "unstructured": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv, abs/1810.04805, 2018."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0275",
+        "unstructured": "Michael Bendersky, Honglei Zhuang, JiMa, Shuguang Han, Keith Hall, and Ryan McDonald, RRF102: Meeting the TREC-COVID Challenge with a 100+ Runs Ensemble, 2020, arXiv:2020.00200."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0280",
+        "unstructured": "Thomas Schoegje, Chris Kamphuis, Koen Dercksen, Djoerd Hiemstra, and ArjenP de Vries, Caos-19: Exploring term selection for task-based retrieval at TREC Covid, 2020, arXiv."
+      },
+      {
+        "key": "10.1016/j.jbi.2021.103865_b0285",
+        "doi-asserted-by": "crossref",
+        "unstructured": "EllenM Voorhees and Kirk Roberts. On the Quality of the TREC-COVID IR Test Collections, in: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, 2021, Figure 1, High-level structure of TREC-COVID.a.",
+        "DOI": "10.1145/3404835.3463244"
+      }
+    ],
+    "container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046421001945?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046421001945?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2025-10-26T22:47:39Z",
+      "timestamp": 1761518859000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046421001945"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "references-count": 57,
+    "alternative-id": [
+      "S1532046421001945"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbi.2021.103865",
+    "relation": {},
+    "ISSN": [
+      "1532-0464"
+    ],
+    "issn-type": [
+      {
+        "value": "1532-0464",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Searching for scientific evidence in a pandemic: An overview of TREC-COVID",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Biomedical Informatics",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbi.2021.103865",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2021 Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103865"
+  },
+  "bm25": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          9
+        ]
+      ],
+      "date-time": "2026-09-09T14:13:28Z",
+      "timestamp": 1788963208443,
+      "version": "build-2803163510"
+    },
+    "reference-count": 63,
+    "publisher": "Emerald",
+    "issue": "1-2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The Probabilistic Relevance Framework (PRF) is a formal framework for document retrieval, grounded in work done in the 1970\u20131980s, which led to the development of one of the most successful text-retrieval algo\u00acrithms, BM25. In recent years, research in the PRF has yielded new retrieval models capable of taking into account document meta-data (especially structure and link-graph information). Again, this has led to one of the most successful Web-search and corporate-search algo\u00acrithms, BM25F. This work presents the PRF from a conceptual point of view, describing the probabilistic modelling assumptions behind the framework and the different ranking algorithms that result from its application: the binary independence model, relevance feedback mod\u00acels, BM25 and BM25F. It also discusses the relation between the PRF and other statistical models for IR, and covers some related topics, such as the use of non-textual features, and parameter optimisation for models with free parameters.</jats:p>",
+    "DOI": "10.1561/1500000019",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2010-01-12T10:08:33Z",
+      "timestamp": 1263290913000
+    },
+    "page": "1-174",
+    "source": "Crossref",
+    "is-referenced-by-count": 2505,
+    "title": [
+      "The Probabilistic Relevance Framework: BM25 and Beyond"
+    ],
+    "prefix": "10.1108",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Stephen",
+        "family": "Robertson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Microsoft Research , 7 J J Thomson Avenue, Cambridge CB3 0FB,",
+            "place": [
+              "UK"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugo",
+        "family": "Zaragoza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yahoo! Research, Av. Diagonal 177, Barcelona 08028, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "140",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2026040314280606700_ref001",
+        "article-title": "Proceedings of the NIPS 2005 Workshop on Learning to Rank",
+        "author": "Agarwal",
+        "year": "2005"
+      },
+      {
+        "issue": "4",
+        "key": "2026040314280606700_ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1145/582415.582416",
+        "article-title": "Probabilistic models of information retrieval based on measuring the divergence from randomness",
+        "volume": "20",
+        "author": "Amati",
+        "year": "2002",
+        "journal-title": "ACM Transactions on Information Systems"
+      },
+      {
+        "key": "2026040314280606700_ref003",
+        "first-page": "143",
+        "article-title": "Okapi at TREC-5",
+        "volume-title": "The Fifth Text Retrieval Conference (TREC-5). NIST Special Publication",
+        "author": "Beaulieu",
+        "year": "1997"
+      },
+      {
+        "key": "2026040314280606700_ref004",
+        "unstructured": "Berghen, F. V.\n          \n          n.d., Trust Region Algorithms. Webpage. http://www.lemurproject.org"
+      },
+      {
+        "key": "2026040314280606700_ref005",
+        "article-title": "CONDOR: A constrained, non-linear, derivative-free parallel optimizer for continuous, high computing load, noisy objective functions",
+        "volume-title": "PhD thesis",
+        "author": "Berghen",
+        "year": "2004"
+      },
+      {
+        "key": "2026040314280606700_ref006",
+        "author": "Bishop",
+        "year": "2006"
+      },
+      {
+        "key": "2026040314280606700_ref007",
+        "first-page": "993",
+        "article-title": "Latent dirichlet allocation",
+        "volume": "3",
+        "author": "Blei",
+        "year": "2003",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "2026040314280606700_ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "471",
+        "DOI": "10.1002/asi.10398",
+        "article-title": "A new unified probabilistic model",
+        "volume": "55",
+        "author": "Bodoff",
+        "year": "2004",
+        "journal-title": "Journal of the American Society for Information Science and Technology"
+      },
+      {
+        "key": "2026040314280606700_ref009",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.6028/NIST.SP.500-266.terabyte-umilano.vigna",
+        "article-title": "MG4J at TREC 2005",
+        "volume-title": "The Fourteenth Text Retrieval Conference (TREC 2005) Proceedings, NIST Special Publication",
+        "author": "Boldi",
+        "year": "2005"
+      },
+      {
+        "key": "2026040314280606700_ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1145/1102351.1102363",
+        "article-title": "Learning to rank using gradient descent",
+        "volume-title": "Proceedings of the International Conference on Machine Learning (ICML)",
+        "author": "Burges",
+        "year": "2005"
+      },
+      {
+        "key": "2026040314280606700_ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1145/195705.195735",
+        "article-title": "Some inconsistencies and misidentified modelling assumptions in probabilistic information retrieval",
+        "volume": "13",
+        "author": "Cooper",
+        "year": "1995",
+        "journal-title": "ACM Transactions on Information Systems"
+      },
+      {
+        "key": "2026040314280606700_ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "472",
+        "DOI": "10.1145/1076034.1076106",
+        "article-title": "Relevance weighting for query independent evidence",
+        "volume-title": "Proceedings of the 28th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Craswell",
+        "year": "2005"
+      },
+      {
+        "key": "2026040314280606700_ref013",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.6028/NIST.SP.500-266.enterprise-microsoft.robertson",
+        "article-title": "Microsoft Cambridge at TREC-14: Enterprise track",
+        "volume-title": "The Fourteenth Text Retrieval Conference (TREC 2005)",
+        "author": "Craswell",
+        "year": "2005"
+      },
+      {
+        "issue": "4",
+        "key": "2026040314280606700_ref014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/299917.299920",
+        "article-title": "\u201cIs this document relevant? \u2026 probably\u201d: A survey of probabilistic models in information retrieval",
+        "volume": "30",
+        "author": "Crestani",
+        "year": "1998",
+        "journal-title": "ACM Computing Surveys"
+      },
+      {
+        "key": "2026040314280606700_ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1108/eb026683",
+        "article-title": "Using probabilistic models of document retrieval without relevance information",
+        "volume": "35",
+        "author": "Croft",
+        "year": "1979",
+        "journal-title": "Journal of Documentation"
+      },
+      {
+        "key": "2026040314280606700_ref016",
+        "author": "Feller",
+        "year": "1968"
+      },
+      {
+        "issue": "3",
+        "key": "2026040314280606700_ref017",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/comjnl/35.3.243",
+        "article-title": "Probabilistic Models in Information Retrieval",
+        "volume": "35",
+        "author": "Fuhr",
+        "year": "1992",
+        "journal-title": "The Computer Journal"
+      },
+      {
+        "key": "2026040314280606700_ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "465",
+        "DOI": "10.1145/62437.62487",
+        "article-title": "Information retrieval using a singular value decomposition model of latent semantic structure",
+        "volume-title": "Proceedings of the 11th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Furnas",
+        "year": "1988"
+      },
+      {
+        "key": "2026040314280606700_ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1002/asi.4630260402",
+        "article-title": "A probabilistic approach to automatic keyword indexing (parts 1 and 2)",
+        "volume": "26",
+        "author": "Harter",
+        "year": "1975",
+        "journal-title": "Journal of the American Society for Information Science"
+      },
+      {
+        "key": "2026040314280606700_ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1145/1008992.1009025",
+        "article-title": "Parsimonious language models for information retrieval",
+        "volume-title": "Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Hiemstra",
+        "year": "2004"
+      },
+      {
+        "key": "2026040314280606700_ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1145/312624.312649",
+        "article-title": "Probabilistic latent semantic indexing",
+        "volume-title": "Proceedings of the 22nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Hofmann",
+        "year": "1999"
+      },
+      {
+        "key": "2026040314280606700_ref022",
+        "unstructured": "NA\n              NA\n            \n          \n          Indri Homepage\n          Lemur Project\n          NA\n          http://www.lemurproject.org/indri"
+      },
+      {
+        "issue": "2",
+        "key": "2026040314280606700_ref023",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1145/1328964.1328974",
+        "article-title": "Learning to rank for information retrieval (LR4IR 2007)",
+        "volume": "41",
+        "author": "Joachims",
+        "year": "2007",
+        "journal-title": "SIGIR Forum"
+      },
+      {
+        "key": "2026040314280606700_ref024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/383952.383970",
+        "article-title": "Document language models, query models, and risk minimization for information retrieval",
+        "volume-title": "Proceedings of the 24th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Lafferty",
+        "year": "2001"
+      },
+      {
+        "key": "2026040314280606700_ref025",
+        "first-page": "1",
+        "volume-title": "Language Modelling for Information Retrieval",
+        "author": "Lafferty",
+        "year": "2003"
+      },
+      {
+        "key": "2026040314280606700_ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "120",
+        "DOI": "10.1145/383952.383972",
+        "article-title": "Relevance based language models",
+        "volume-title": "Proceedings of the 24th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Lavrenko",
+        "year": "2001"
+      },
+      {
+        "key": "2026040314280606700_ref027",
+        "unstructured": "Lemur Project\n          \n          Lemur Toolkit Homepage\n          Lemur Project\n          NA\n          http://www.lemurproject.org"
+      },
+      {
+        "issue": "2",
+        "key": "2026040314280606700_ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "76",
+        "DOI": "10.1145/1480506.1480519",
+        "article-title": "Learning to rank for information retrieval (LR4IR 2008)",
+        "volume": "42",
+        "author": "Li",
+        "year": "2008",
+        "journal-title": "SIGIR Forum"
+      },
+      {
+        "key": "2026040314280606700_ref029",
+        "unstructured": "Apache Software Foundation\n          \n          Lucene Homepage\n          Apache Software Foundation\n          NA\n          http://lucene.apache.org"
+      },
+      {
+        "issue": "3",
+        "key": "2026040314280606700_ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1145/321033.321035",
+        "article-title": "On relevance, probabilistic indexing and information retrieval",
+        "volume": "7",
+        "author": "Maron",
+        "year": "1960",
+        "journal-title": "Journal of the ACM"
+      },
+      {
+        "key": "2026040314280606700_ref031",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1145/1321440.1321478",
+        "article-title": "Automatic feature selection in the Markov random field model for information retrieval",
+        "volume-title": "Proceedings of the Sixteenth ACM Conference on Information and Knowledge Management",
+        "author": "Metzler",
+        "year": "2007"
+      },
+      {
+        "key": "2026040314280606700_ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "472",
+        "DOI": "10.1145/1076034.1076115",
+        "article-title": "A Markov random field model for term dependencies",
+        "volume-title": "Proceedings of the 28th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Metzler",
+        "year": "2005"
+      },
+      {
+        "key": "2026040314280606700_ref033",
+        "volume-title": "Information Retrieval in Practice",
+        "author": "Metzler",
+        "year": "2009"
+      },
+      {
+        "key": "2026040314280606700_ref034",
+        "unstructured": "Universit\u00e0 degli Studi di Milano \u2013 DSI\n          \n          MG4J Homepage\n          Universit\u00e0 degli Studi di Milano \u2013 DSI\n          NA\n          http://mg4j.dsi.unimi.it"
+      },
+      {
+        "key": "2026040314280606700_ref035",
+        "unstructured": "MacFarlane\n              A.\n            \n          \n          Okapi-Pack Homepage\n          City University London\n          NA\n          http://www.soi.city.ac.uk/andym/OKAPI-PACK"
+      },
+      {
+        "key": "2026040314280606700_ref036",
+        "article-title": "UCM-Y!R at CLEF 2008 Robust and WSD tasks",
+        "volume-title": "CLEF 2008 Workshop",
+        "author": "P\u00e9rez-Agu\u0308era",
+        "year": "2008"
+      },
+      {
+        "key": "2026040314280606700_ref037",
+        "article-title": "Exploiting morphological query structure using genetic optimization",
+        "volume-title": "NLDB 2008, LNCS, Springer Verlag",
+        "author": "P\u00e9rez-Agu\u0308era",
+        "year": "2008"
+      },
+      {
+        "key": "2026040314280606700_ref038",
+        "unstructured": "P\u00e9rez-Iglesias, J.\n          \n          BM25 and BM25F Implementation for Lucene\n          Webpage\n          http://nlp.uned.es/~jperezi/Lucene-BM25\n          NA"
+      },
+      {
+        "key": "2026040314280606700_ref039",
+        "unstructured": "University of Twente\n          \n          PF-Tijah Homepage\n          University of Twente\n          NA\n          http://dbappl.cs.utwente.nl/pftijah"
+      },
+      {
+        "key": "2026040314280606700_ref040",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1108/eb026647",
+        "article-title": "The probability ranking principle in information retrieval",
+        "volume": "33",
+        "author": "Robertson",
+        "year": "1977",
+        "journal-title": "Journal of Documentation"
+      },
+      {
+        "key": "2026040314280606700_ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1108/eb026866",
+        "article-title": "On term selection for query expansion",
+        "volume": "46",
+        "author": "Robertson",
+        "year": "1990",
+        "journal-title": "Journal of Documentation"
+      },
+      {
+        "key": "2026040314280606700_ref042",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1023/A:1015702129514",
+        "article-title": "Threshold setting and performance optimization in adaptive filtering",
+        "volume": "5",
+        "author": "Robertson",
+        "year": "2002",
+        "journal-title": "Information Retrieval"
+      },
+      {
+        "key": "2026040314280606700_ref043",
+        "first-page": "108",
+        "article-title": "The unified probabilistic model for IR",
+        "volume-title": "Proceedings of Research and Development in Information Retrieval",
+        "author": "Robertson",
+        "year": "1983"
+      },
+      {
+        "key": "2026040314280606700_ref044",
+        "article-title": "Relevance weighting of search terms",
+        "author": "Robertson",
+        "year": "1977",
+        "journal-title": "Journal of the American Society for Information Science"
+      },
+      {
+        "key": "2026040314280606700_ref045",
+        "first-page": "35",
+        "article-title": "Probabilistic models of indexing and searching",
+        "volume-title": "Information Retrieval Research (Proceedings of Research and Development in Information Retrieval, Cambridge, 1980)",
+        "author": "Robertson",
+        "year": "1981"
+      },
+      {
+        "key": "2026040314280606700_ref046",
+        "first-page": "232",
+        "article-title": "Some Simple Effective Approximations to the 2-Poisson Model for Probabilistic Weighted Retrieval",
+        "volume-title": "Proceedings of the 17th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Robertson",
+        "year": "1994"
+      },
+      {
+        "key": "2026040314280606700_ref047",
+        "first-page": "16",
+        "article-title": "On relevance weights with little relevance information",
+        "volume-title": "Proceedings of the 20th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Robertson",
+        "year": "2007"
+      },
+      {
+        "key": "2026040314280606700_ref048",
+        "first-page": "21",
+        "article-title": "Okapi at TREC",
+        "volume-title": "The First Text Retrieval Conference (TREC-1), NIST Special Publication 500-207",
+        "author": "Robertson",
+        "year": "1992"
+      },
+      {
+        "issue": "3",
+        "key": "2026040314280606700_ref049",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1007/s10791-007-9025-9",
+        "article-title": "On rank-based effectiveness measures and optimization",
+        "volume": "10",
+        "author": "Robertson",
+        "year": "2007",
+        "journal-title": "Information Retrieval"
+      },
+      {
+        "key": "2026040314280606700_ref050",
+        "first-page": "42",
+        "article-title": "Simple BM25 extension to multiple weighted fields",
+        "volume-title": "Proceedings of the 2004 ACM CIKM International Conference on Information and Knowledge Management",
+        "author": "Robertson",
+        "year": "2004"
+      },
+      {
+        "key": "2026040314280606700_ref051",
+        "first-page": "346",
+        "article-title": "Viewing term proximity from a different perspective",
+        "volume-title": "Advances in Information Retrieval (ECIR 2008), Springer LNCS 4956",
+        "author": "Song",
+        "year": "2008"
+      },
+      {
+        "key": "2026040314280606700_ref052",
+        "doi-asserted-by": "crossref",
+        "first-page": "779",
+        "DOI": "10.1016/S0306-4573(00)00015-7",
+        "article-title": "A probabilistic model of information retrieval: Development and comparative experiments. Part 1",
+        "author": "Sparck Jones",
+        "year": "2000",
+        "journal-title": "Information Processing and Management"
+      },
+      {
+        "key": "2026040314280606700_ref053",
+        "doi-asserted-by": "crossref",
+        "first-page": "809",
+        "DOI": "10.1016/S0306-4573(00)00016-9",
+        "article-title": "A probabilistic model of information retrieval: Development and comparative experiments. Part 2",
+        "author": "Sparck Jones",
+        "year": "2000",
+        "journal-title": "Information Processing and Management"
+      },
+      {
+        "key": "2026040314280606700_ref054",
+        "first-page": "295",
+        "article-title": "An exploration of proximity measures in information retrieval",
+        "volume-title": "Proceedings of the 20th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "author": "Tao",
+        "year": "2007"
+      },
+      {
+        "key": "2026040314280606700_ref055",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/1183614.1183698",
+        "article-title": "Optimisation methods for ranking functions with multiple parameters",
+        "volume-title": "Fifteenth Conference on Information and Knowledge Management (ACM CIKM)",
+        "author": "Taylor",
+        "year": "2006"
+      },
+      {
+        "key": "2026040314280606700_ref056",
+        "unstructured": "Terrier, \n           (n.d.), Homepage. http://ir.dcs.gla.ac.uk/terrier."
+      },
+      {
+        "key": "2026040314280606700_ref057",
+        "first-page": "12",
+        "article-title": "PF/Tijah: Text search in an XML database system",
+        "volume-title": "Proceedings of the 2nd International Workshop on Open Source Information Retrieval (OSIR)",
+        "author": "van Os",
+        "year": "2006"
+      },
+      {
+        "key": "2026040314280606700_ref058",
+        "author": "van Rijsbergen",
+        "year": "1979"
+      },
+      {
+        "key": "2026040314280606700_ref059",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.6028/NIST.SP.500-246",
+        "article-title": "Overview of the eighth text retrieval conference (TREC-8)",
+        "volume-title": "The Eighth Text Retrieval Conference (TREC-8), NIST Special Publication 500-246",
+        "author": "Voorhees",
+        "year": "2000"
+      },
+      {
+        "key": "2026040314280606700_ref060",
+        "unstructured": "Wumpus\n            \n           (n.d.), Homepage. Wumpus. http://www.wumpus-search.org/."
+      },
+      {
+        "key": "2026040314280606700_ref061",
+        "unstructured": "Xapian\n            \n           (n.d.), Homepage. Xapian. http://xapian.org."
+      },
+      {
+        "key": "2026040314280606700_ref062",
+        "article-title": "Microsoft Cambridge at TREC 2004: Web and HARD track",
+        "volume-title": "The Thirteenth Text Retrieval Conference (TREC 2004), NIST Special Publication 500-261",
+        "author": "Zaragoza",
+        "year": "2005"
+      },
+      {
+        "key": "2026040314280606700_ref063",
+        "unstructured": "Zettair\n            \n           (n.d.), Homepage. Zettair. http://www.seg.rmit.edu.au/zettair."
+      }
+    ],
+    "container-title": [
+      "Foundations and Trends\u00ae in Information Retrieval"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.emerald.com/ftinr/article-pdf/4/1-2/1/11486410/1500000019en.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://www.emerald.com/ftinr/article-pdf/4/1-2/1/11486410/1500000019en.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T14:32:00Z",
+      "timestamp": 1777473120000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.emerald.com/ftinr/article/4/1-2/1/1326508/The-Probabilistic-Relevance-Framework-BM25-and"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          17
+        ]
+      ]
+    },
+    "references-count": 63,
+    "journal-issue": {
+      "issue": "1-2",
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            9,
+            17
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1561/1500000019",
+    "relation": {},
+    "ISSN": [
+      "1554-0669",
+      "1554-0677"
+    ],
+    "issn-type": [
+      {
+        "value": "1554-0669",
+        "type": "print"
+      },
+      {
+        "value": "1554-0677",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          17
+        ]
+      ]
+    }
+  },
+  "nfcorpus": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T15:02:50Z",
+      "timestamp": 1786978970620,
+      "version": "build-2736575974"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 7,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319306704",
+        "type": "print"
+      },
+      {
+        "value": "9783319306711",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-30671-1_58",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          9
+        ]
+      ],
+      "date-time": "2016-03-09T11:39:50Z",
+      "timestamp": 1457523590000
+    },
+    "page": "716-722",
+    "source": "Crossref",
+    "is-referenced-by-count": 77,
+    "title": [
+      "A Full-Text Learning to Rank Dataset for Medical Information Retrieval"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Vera",
+        "family": "Boteva",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Demian",
+        "family": "Gholipour",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Artem",
+        "family": "Sokolov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Riezler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "58_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "291",
+        "DOI": "10.1007/s10791-009-9117-9",
+        "volume": "13",
+        "author": "B Bai",
+        "year": "2010",
+        "unstructured": "Bai, B., Weston, J., Grangier, D., Collobert, R., Sadamasa, K., Qi, Y., Chapelle, O., Weinberger, K.: Learning to rank with (a lot of) word features. Inf. Retr. J. 13(3), 291\u2013314 (2010)",
+        "journal-title": "Inf. Retr. J."
+      },
+      {
+        "issue": "1",
+        "key": "58_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1162/0891201053630273",
+        "volume": "31",
+        "author": "M Collins",
+        "year": "2005",
+        "unstructured": "Collins, M., Koo, T.: Discriminative reranking for natural language parsing. Comput. Linguist. 31(1), 25\u201369 (2005)",
+        "journal-title": "Comput. Linguist."
+      },
+      {
+        "key": "58_CR3",
+        "unstructured": "Goel, S., Langford, J., Strehl, A.L.: Predictive indexing for fast search. In: NIPS, Vancouver, Canada (2008)"
+      },
+      {
+        "issue": "2",
+        "key": "58_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "78",
+        "DOI": "10.1145/2701583.2701592",
+        "volume": "48",
+        "author": "L Goeuriot",
+        "year": "2014",
+        "unstructured": "Goeuriot, L., Kelly, L., Jones, G.J.F., M\u00fcller, H., Zobel, J.: Report on the SIGIR 2014 workshop on medical information retrieval (MedIR). SIGIR Forum 48(2), 78\u201382 (2014)",
+        "journal-title": "SIGIR Forum"
+      },
+      {
+        "key": "58_CR5",
+        "unstructured": "Shi, Q., Petterson, J., Dror, G., Langford, J., Smola, A.J., Strehl, A.L., Vishwanathan, V.: Hash Kernels. In: AISTATS, Irvine, CA (2009)"
+      },
+      {
+        "key": "58_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Smucker, M.D., Allan, J., Carterette, B.: A comparison of statistical significance tests for information retrieval evaluation. In: CIKM, Lisbon, Portugal (2007)",
+        "DOI": "10.1145/1321440.1321528"
+      },
+      {
+        "key": "58_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sokolov, A., Jehl, L., Hieber, F., Riezler, S.: Boosting cross-language retrieval by learning bilingual phrase associations from relevance rankings. In: EMNLP, Seattle (2013)",
+        "DOI": "10.18653/v1/D13-1175"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Advances in Information Retrieval"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-30671-1_58",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          1
+        ]
+      ],
+      "date-time": "2025-06-01T14:17:59Z",
+      "timestamp": 1748787479000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-319-30671-1_58"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783319306704",
+      "9783319306711"
+    ],
+    "references-count": 7,
+    "URL": "https://doi.org/10.1007/978-3-319-30671-1_58",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  "scifact": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2026-09-03T15:34:27Z",
+      "timestamp": 1788449667093,
+      "version": "build-2803163510"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/2020.emnlp-main.609",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          29
+        ]
+      ],
+      "date-time": "2020-11-29T09:51:46Z",
+      "timestamp": 1606643506000
+    },
+    "page": "7534-7550",
+    "source": "Crossref",
+    "is-referenced-by-count": 208,
+    "title": [
+      "Fact or Fiction: Verifying Scientific Claims"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "David",
+        "family": "Wadden",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shanchuan",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kyle",
+        "family": "Lo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucy Lu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Madeleine",
+        "family": "van Zuylen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arman",
+        "family": "Cohan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hannaneh",
+        "family": "Hajishirzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "location": "Online",
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            11
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2020,
+            11
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2026-01-31T18:36:47Z",
+      "timestamp": 1769884607000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aclanthology.org/2020.emnlp-main.609"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/2020.emnlp-main.609",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    }
+  }
+}

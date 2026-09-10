@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{elastic}
+{Elastic},
+\newblock ``Reciprocal rank fusion,'' \url{https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion},
+\newblock Accessed September 10, 2026.
+
+\bibitem{rrf}
+Gordon~V. Cormack, Charles L.~A. Clarke, and Stefan Buettcher,
+\newblock ``Reciprocal rank fusion outperforms condorcet and individual rank learning methods,''
+\newblock in {\em Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval}, 2009, pp. 758--759.
+
+\bibitem{nra}
+Ronald Fagin, Amnon Lotem, and Moni Naor,
+\newblock ``Optimal aggregation algorithms for middleware,''
+\newblock {\em Journal of Computer and System Sciences}, vol. 66, no. 4, pp. 614--656, 2003.
+
+\bibitem{eahr}
+Chunran Zhang,
+\newblock ``Exact adaptive hybrid retrieval without fixed top-{L} cutoffs,''
+\newblock {\em arXiv preprint arXiv:2608.07152}, 2026.
+
+\bibitem{snra}
+Jing Yuan, Guang-Zhong Sun, Ye~Tian, Guoliang Chen, and Zhi Liu,
+\newblock ``Selective-{NRA} algorithms for top-$k$ queries,''
+\newblock in {\em Advances in Data and Web Management (APWeb/WAIM)}, 2009, pp. 15--26.
+
+\bibitem{lara}
+Nikos Mamoulis, Kit~Hung Cheng, Man~Lung Yiu, and David~W. Cheung,
+\newblock ``Efficient aggregation of ranked inputs,''
+\newblock in {\em Proc. IEEE International Conference on Data Engineering (ICDE)}, 2006, p.~72.
+
+\bibitem{dl19}
+Nick Craswell, Bhaskar Mitra, Emine Yilmaz, Daniel Campos, and Ellen~M. Voorhees,
+\newblock ``Overview of the {TREC} 2019 deep learning track,''
+\newblock {\em arXiv preprint arXiv:2003.07820}, 2020.
+
+\bibitem{dl20}
+Nick Craswell, Bhaskar Mitra, Emine Yilmaz, and Daniel Campos,
+\newblock ``Overview of the {TREC} 2020 deep learning track,''
+\newblock {\em arXiv preprint arXiv:2102.07662}, 2021.
+
+\bibitem{nfcorpus}
+Vera Boteva, Demian Gholipour, Artem Sokolov, and Stefan Riezler,
+\newblock ``A full-text learning to rank dataset for medical information retrieval,''
+\newblock in {\em Advances in Information Retrieval}. 2016, pp. 716--722, Springer.
+
+\bibitem{scifact}
+David Wadden, Shanchuan Lin, Kyle Lo, Lucy~Lu Wang, Madeleine van Zuylen, Arman Cohan, and Hannaneh Hajishirzi,
+\newblock ``Fact or fiction: Verifying scientific claims,''
+\newblock in {\em Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing}. 2020, pp. 7534--7550, Association for Computational Linguistics.
+
+\bibitem{covid}
+Kirk Roberts, Tasmeer Alam, Steven Bedrick, Dina Demner-Fushman, Kyle Lo, Ian Soboroff, Ellen Voorhees, Lucy~Lu Wang, and William~R. Hersh,
+\newblock ``Searching for scientific evidence in a pandemic: An overview of {TREC-COVID},''
+\newblock {\em Journal of Biomedical Informatics}, vol. 121, pp. 103865, 2021.
+
+\bibitem{bge}
+{BAAI},
+\newblock ``{bge-small-en-v1.5}: Model card,'' \url{https://huggingface.co/BAAI/bge-small-en-v1.5},
+\newblock Accessed September 10, 2026.
+
+\bibitem{bm25}
+Stephen Robertson and Hugo Zaragoza,
+\newblock ``The probabilistic relevance framework: {BM25} and beyond,''
+\newblock {\em Foundations and Trends in Information Retrieval}, vol. 3, no. 4, pp. 333--389, 2009.
+
+\end{thebibliography}

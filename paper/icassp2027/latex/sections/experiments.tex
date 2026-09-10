@@ -1,0 +1,26 @@
+\section{Experiments}
+\label{sec:experiments}
+\subsection{Experimental setup}
+We use TREC-DL 2019/2020~\cite{dl19,dl20}, NFCorpus~\cite{nfcorpus}, SciFact~\cite{scifact}, and TREC-COVID~\cite{covid}, with 43, 54, 323, 300, and 50 queries, respectively (770 in total). The two TREC-DL sets share the MS MARCO passage corpus. We also replay the same 30 queries across five TREC-COVID corpus snapshots. Dense retrieval uses bge-small-en-v1.5~\cite{bge}; sparse retrieval uses BM25~\cite{bm25} with $k_1=0.9$ and $b=0.4$. Equal-weight RRF uses the frozen implementation's rank contribution $1/(59+r)$.
+
+All methods replay the same exact channel prefixes, with at most 64 entries per batch and total read budgets
+\begin{equation*}
+ \mathcal{B}=\{128,256,512,1024,2048,4096,8192,10000\}.
+\end{equation*}
+We compare balanced reading, competition-pressure scheduling, and DiBud. They share the certification rule and differ only in channel selection. Balanced reading alternates channels. Competition pressure weights each channel's bound reduction by the number of unresolved competitors missing that channel's contribution; the unseen bound also contributes when it blocks certification. Pressure ties favor the shallower channel, then the dense channel.
+
+The metric is certified output length $K(B)$, reported with caps of 20 and 100. These caps are reporting limits, not requested completion targets. To summarize the budget range, we integrate $\min(K(B),100)/100$ against $\log B$ using the trapezoidal rule and divide by the log-budget span. We compute this normalized area for each query and then average within each set. Cross-set summaries weight the five sets equally.
+
+All certified outputs are checked position by position against the complete RRF reference for their snapshot. Replay and reference use the same floating-point scoring and identifier tie order. Reaching the end of a saved prefix does not establish channel exhaustion; an unconfirmed channel retains its unread bound. The experiments measure logical ranking reads.
+
+\subsection{Certified yield at equal budgets}
+\input{tables/static}
+Table~\ref{tab:static} shows that DiBud improves normalized certified-prefix area over balanced reading on all five query sets, by 1.06\%--5.95\% relative. Its results are close to competition-pressure scheduling.
+
+At a budget of 2048 reads, the mean certified count among the first 100 positions increases from 41.77 with balanced reading to 44.87 with DiBud, a gain of approximately 7.4\%. Among the first 20 positions, it increases from 18.07 to 18.17. Selective reading yields more certified results under the same budget; at this budget, most of the gain occurs in longer prefixes.
+
+\subsection{Delivery across corpus snapshots}
+\input{tables/temporal}
+With queries and budget held fixed, DiBud's mean certified count decreases from 17.93 in the first snapshot to 15.10 in the fifth (Table~\ref{tab:temporal}). It exceeds balanced reading in all five snapshots.
+
+The same read budget certifies different numbers of results as the corpus changes. DiBud meets that budget by returning prefixes of different lengths, each matching the complete fusion ranking of its corresponding snapshot.
