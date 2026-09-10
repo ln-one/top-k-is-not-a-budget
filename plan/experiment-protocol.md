@@ -193,3 +193,7 @@ under 16-KiB accounting, saves 43.42%--83.11% of addressed bytes at rank 100 on
 eight fixed real corpora. All 16,000 independently checked top-100 positions
 match the original-order exhaustive oracle. No latency claim is allowed: the
 current scalar prototype is slower than the warm exhaustive control.
+
+## 2026-09-10 Publication replay validation
+
+Current protocols: research/matched-budget-truncation-protocol.md and research/temporal-prefix-protocol.md. Five static query sets plus five snapshots of the same 30 queries. See REPRODUCE.md for exact gain conventions, limits, dependencies and commands.

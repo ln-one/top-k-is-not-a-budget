@@ -1,0 +1,11 @@
+{
+  "rows": 12000,
+  "negative_qrel_labels": 0,
+  "rows_changed_by_clamping_negative_labels": 0,
+  "max_absolute_reproduction_error": 2.220446049250313e-16,
+  "evaluator": "pytrec-eval-terrier",
+  "version": "0.5.10",
+  "finding": "Historical nDCG uses exponential gains 2^rel-1; trec_eval default uses linear rel. Both exported separately. Historical Recall uses relevance >0. Negative judgment labels clamped to zero gain in external exponential evaluation; differences explicitly counted.",
+  "script_sha256": "bb2d35bc0d2406943a8ac06f45467090b6f8e17afb5bb6d949a8dda2cc4995d2",
+  "input_manifest_sha256": "33f074d0470bc19c645483e97d711da47ad248097846d562adbe8d63fadbc4e3"
+}

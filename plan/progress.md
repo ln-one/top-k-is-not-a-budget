@@ -388,3 +388,7 @@
 - Remaining risk: L-PAVE-RP still needs an optimized cold/far-memory latency
   study before it is a publishable systems result; its physical-ordering and
   compression ingredients have substantial prior art.
+
+## 2026-09-10 Paper repository consolidation
+
+Accepted Introduction/Method synced. Static comparison reproduced, metrics audited with external trec_eval wrapper, five temporal snapshots evaluated. Reproduction entry and locally packaged940-file inputs documented in REPRODUCE.md. No physical-engine or missing-value compensation experiment added.

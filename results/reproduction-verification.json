@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "independent_extracted_input_directory": true,
+  "byte_identical_result_files": [
+    "results/matched-budget-truncation/per_query.csv",
+    "results/matched-budget-truncation/aggregate.csv",
+    "results/matched-budget-truncation/macro.csv",
+    "results/metric-audit/per_query.csv",
+    "results/metric-audit/aggregate.csv",
+    "results/metric-audit/macro.csv",
+    "results/temporal-matched/per_query.csv",
+    "results/temporal-matched/aggregate.csv",
+    "results/temporal-matched/macro.csv",
+    "results/temporal-metric-audit/per_query.csv",
+    "results/temporal-metric-audit/aggregate.csv",
+    "results/temporal-metric-audit/macro.csv",
+    "results/temporal-prefix/trace.csv"
+  ],
+  "entry_script_sha256": "d24c6d6711a55650f723c517fc263f7f52852dbb7f11d012e93173c4b6fb254f"
+}

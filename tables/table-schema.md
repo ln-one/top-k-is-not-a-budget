@@ -11,3 +11,7 @@
 | T7 | Correctness and adversarial audit | dataset/test family × method | order mismatches, unsafe emissions, tie failures, score deviations | future verifier logs | exact-order verifier |
 | T8 | Bound/cascade ablation | dataset × bound × basis × projected dimension | node opens, tight-bound calls, exact scores, latency, memory | future sweep logs | aggregate-index benchmark |
 | T9 | Geometry and collapse analysis | dataset/query stratum × method | local dimension, compactness, scan fraction, tail latency, fallback rate | future derived logs | analysis script |
+
+## 2026-09-10 New tables
+
+Static/temporal budget tables: dataset/snapshot × budget × cap × method, using results/matched-budget-truncation and temporal-matched aggregate.csv. Metric audits export both gains in results/metric-audit and temporal-metric-audit. No synthetic values.

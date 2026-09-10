@@ -7,3 +7,7 @@
 | F3 Time/work to exact Dense rank | future `figures/data/aggregate_prefix_frontier.csv` | Real, not yet generated | aggregate exact-MIPS benchmark logs | future plotting script | future PNG/SVG |
 | F4 Bound cascade accounting | future `figures/data/aggregate_bound_ablation.csv` | Real, not yet generated | node/bound telemetry | future plotting script | future PNG/SVG |
 | F5 Geometry versus collapse | future `figures/data/aggregate_collapse.csv` | Real, not yet generated | per-query geometry/work analysis | future plotting script | future PNG/SVG |
+
+## 2026-09-10 New real data
+
+results/temporal-matched/aggregate.csv and results/metric-audit/aggregate.csv are real measured replay summaries; no additional figures generated during this update.

@@ -13,3 +13,11 @@
 | Preserve EAHR Dense-stream semantics | L-PAVE-RP compact point certificate plus lossless two-point tail | M2 exhaustive order validation | L-PAVE summary | Emitted Dense identities exactly match exhaustive f32 ordering | Verified: 16,000 positions, zero ID or score-bit mismatch |
 | Tight bounds at affordable cost | Residual-PQ, cap, and threshold/posting ablations | M3 bound ablation | Aggregate negative controls | A stated aggregate cascade improves physical work over balls/PVS on tested collections | Failed: selective pointwise PQ bound does not yield a selective aggregate iterator |
 | Generalize beyond one geometry | Fixed eight-corpus evaluation, including 1.18M-vector GloVe | M4 cross-collection/collapse study | L-PAVE summary | Gains and failures are reported across several real embedding geometries | Verified for addressed pages only; no latency claim |
+
+## 2026-09-10 Evidence update
+
+| Claim | Evidence | Boundary |
+|---|---|---|
+| Budget bounds rank accesses while output varies across snapshots | results/temporal-matched and temporal-prefix | Same30 queries; no wall-clock guarantee |
+| Metric computations are externally reproducible | results/metric-audit and temporal-metric-audit | Linear and exponential nDCG kept separate; Recall rel>0 |
+| Relevant-document quality exceeds truncation | results/matched-budget-truncation | Not supported |

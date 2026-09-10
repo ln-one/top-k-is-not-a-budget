@@ -62,3 +62,7 @@ python3 scripts/run_anytime_frontier_pilot.py \
 从 `adaptive-top-k` 选取代码和实验快照，未复制原 Git 历史。文件来源、原提交及 SHA-256 见 [HANDOFF-MANIFEST.json](HANDOFF-MANIFEST.json)。当前候选记录是交接时额外纳入的未提交文档。
 
 `plan/` 中保留历史讨论，部分结论已被后续讨论调整，部分链接指向未打包的父项目或物理索引分支。当前范围以本 README 和 HANDOFF.md 为准。PAVE/LPAVE 等索引实现与大型产物未纳入本项目。
+
+## 2026-09-10 论文工作版本
+
+已确认中文稿件位于 [paper/icassp2027](paper/icassp2027/README.md)。当前复现入口见 [REPRODUCE.md](REPRODUCE.md)，包括外部指标审计和新增五轮时间验证。历史HANDOFF仅作背景；本轮不要求内核或真实时延实验。输入数据包本地单独保存，未上传。

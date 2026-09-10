@@ -1,0 +1,5 @@
+# Temporal prefix validation — locked 2026-09-10 before execution
+
+Reuse chronological-v1 ranks for the same 30 queries over five TREC-COVID snapshots. Run existing balanced/blocker rules unchanged, chunk64, budgets128 through10000 as in static experiments. Exactness checked against each snapshot's exhaustive WRRF reference, offset59. No new policy or parameter selection. Compare fixed per-channel Top-L zero filling and matched actual-work zero/cert outputs, caps20/100, retaining all snapshots and budgets.
+
+This is a temporal extension using existing EAHR queries/snapshots, not 150 independent queries or a new untouched dataset. Snapshot qrels can change; quality differences across rounds conflate corpus and judgments. Primary temporal outcomes are within-snapshot paired certification yield and variation of K for fixed B. Frozen prefix endpoints are right-censoring unless source exhaustion is confirmed. No physical p95 claim. Evaluate linear and exponential nDCG separately with external evaluator.
