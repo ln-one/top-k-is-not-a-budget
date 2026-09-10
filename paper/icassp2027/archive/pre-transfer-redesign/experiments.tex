@@ -10,13 +10,14 @@ Finally, we compare budgeted stopping with completing exact Top-20. Budgets are 
 Results are averaged within each query set, then equally across sets. Where reported, 95\% confidence intervals use 2000 query bootstrap samples. Queries that reach the end of the saved rankings remain in the analysis, with bounds reported for outcomes that cannot be determined.
 
 \subsection{Transfer of fixed depths}
-We evaluate $L\in\{10,\allowbreak20,\allowbreak50,\allowbreak100,\allowbreak200,\allowbreak500,\allowbreak1000,\allowbreak2000,\allowbreak5000\}$. On the same MS MARCO corpus, increasing $L$ from 20 to 5000 raises nDCG@10 from 0.6538 to 0.6812 for TREC-DL 2019, but lowers it from 0.6424 to 0.6243 for TREC-DL 2020 (Fig.~\ref{fig:transfer}a). Changing queries reverses the benefit of a deeper window.
-
-For the same 30 queries across five TREC-COVID snapshots, the best tested depths are 50, 100, 200, 200, and 5000 (Fig.~\ref{fig:transfer}b). We then test whether an earlier selection transfers: five-fold calibration selects $L$ using Round-1 queries and freezes it for held-out queries across all rounds. The nDCG@10 difference from full RRF changes from $-0.0085$ in Round 1 to $-0.0272$ in Round 5 (95\% CI: $[-0.0699,-0.0058]$; Fig.~\ref{fig:transfer}c). A depth selected on earlier data does not necessarily maintain its relative effectiveness as the corpus changes.
-\begin{figure*}[t]
-\centering\includegraphics[width=\textwidth]{../../../figures/paper-v2/transfer.pdf}
-\caption{Depth sensitivity and transfer. (a) Different queries on the same corpus. (b) The same queries across corpus snapshots, evaluated with each round's judgments. Circled points mark retrospectively selected best depths. (c) Round-1 depths applied to held-out queries across rounds. Error bars show nested bootstrap 95\% confidence intervals, including depth reselection and preserving query identities across rounds.}
-\label{fig:transfer}\end{figure*}
+Depths are 10, 20, 50, 100, 200, 500, 1000, 2000, and 5000. Five-fold calibration selects the depth with the highest mean linear-gain nDCG@10 on four folds, breaking ties toward smaller depths, and evaluates it on the held-out fold. Temporal calibration uses only Round-1 calibration topics and freezes the selection for disjoint held-out topics across all rounds. Bootstrap intervals reselect depths within calibration samples.
+\input{tables/transfer-v2}
+Similar relevance scores do not imply similar fused rankings (Table~\ref{tab:transfer}). On SciFact, the selected depths attain nDCG@10 of 0.7437 versus 0.7442 for full-list RRF, but exact ordered Top-20 agreement is only 32.33\%. On TREC-DL 2020, the selected $L=20$ has higher held-out nDCG@10 (0.6424 versus 0.6243), while ordered agreement is zero. Truncation can be effective for relevance without reproducing full-list fusion.
+\begin{figure}[tbp]
+\centering\includegraphics[width=\columnwidth]{../../../figures/paper-v2/transfer.pdf}
+\caption{Fixed-depth transfer. Differences compare the frozen calibration selection with full-list RRF on the same held-out queries. Intervals are nested bootstrap 95\% intervals with depth reselection; temporal resampling preserves query identities across snapshots.}
+\label{fig:transfer}\end{figure}
+Across snapshots, the five fold-specific depths are 50, 50, 100, 1000, and 50, giving 500 mean accesses. The nDCG@10 difference from full-list RRF changes from $-0.0085$ in Round 1 to $-0.0272$ in Round 5; the latter has a paired 95\% interval of $[-0.0699,-0.0058]$. The change is not monotonic (Fig.~\ref{fig:transfer}). The frozen choice does not maintain the same relative effectiveness in this sequence. Comparisons remain within snapshot because judgments also change.
 
 \subsection{Fixed-K cost and incremental certification}
 \input{tables/cost-v2}
