@@ -1,0 +1,158 @@
+{
+  "dataset": "trec-covid",
+  "query_id": "31",
+  "cost20": 10118,
+  "dense": 1777,
+  "sparse": 8341,
+  "certification_times": {
+    "1": 86,
+    "2": 88,
+    "3": 140,
+    "4": 156,
+    "5": 308,
+    "6": 310,
+    "7": 334,
+    "8": 358,
+    "9": 386,
+    "10": 868,
+    "11": 995,
+    "12": 1341,
+    "13": 1720,
+    "14": 1789,
+    "15": 4800,
+    "16": 7497,
+    "17": 9845,
+    "18": 9903,
+    "19": 10002,
+    "20": 10118
+  },
+  "events": [
+    {
+      "accesses": 86,
+      "dense": 43,
+      "sparse": 43,
+      "k": 1
+    },
+    {
+      "accesses": 88,
+      "dense": 44,
+      "sparse": 44,
+      "k": 2
+    },
+    {
+      "accesses": 140,
+      "dense": 70,
+      "sparse": 70,
+      "k": 3
+    },
+    {
+      "accesses": 156,
+      "dense": 78,
+      "sparse": 78,
+      "k": 4
+    },
+    {
+      "accesses": 308,
+      "dense": 154,
+      "sparse": 154,
+      "k": 5
+    },
+    {
+      "accesses": 310,
+      "dense": 155,
+      "sparse": 155,
+      "k": 6
+    },
+    {
+      "accesses": 334,
+      "dense": 167,
+      "sparse": 167,
+      "k": 7
+    },
+    {
+      "accesses": 358,
+      "dense": 179,
+      "sparse": 179,
+      "k": 8
+    },
+    {
+      "accesses": 386,
+      "dense": 193,
+      "sparse": 193,
+      "k": 9
+    },
+    {
+      "accesses": 868,
+      "dense": 434,
+      "sparse": 434,
+      "k": 10
+    },
+    {
+      "accesses": 995,
+      "dense": 434,
+      "sparse": 561,
+      "k": 11
+    },
+    {
+      "accesses": 1341,
+      "dense": 474,
+      "sparse": 867,
+      "k": 12
+    },
+    {
+      "accesses": 1720,
+      "dense": 560,
+      "sparse": 1160,
+      "k": 13
+    },
+    {
+      "accesses": 1789,
+      "dense": 574,
+      "sparse": 1215,
+      "k": 14
+    },
+    {
+      "accesses": 4800,
+      "dense": 1200,
+      "sparse": 3600,
+      "k": 15
+    },
+    {
+      "accesses": 7497,
+      "dense": 1405,
+      "sparse": 6092,
+      "k": 16
+    },
+    {
+      "accesses": 9845,
+      "dense": 1504,
+      "sparse": 8341,
+      "k": 17
+    },
+    {
+      "accesses": 9903,
+      "dense": 1562,
+      "sparse": 8341,
+      "k": 18
+    },
+    {
+      "accesses": 10002,
+      "dense": 1661,
+      "sparse": 8341,
+      "k": 19
+    },
+    {
+      "accesses": 10118,
+      "dense": 1777,
+      "sparse": 8341,
+      "k": 20
+    }
+  ],
+  "full_top20_matches_old": true,
+  "full_top100_matches_old": true,
+  "dense_prefix_mismatches": 0,
+  "sparse_prefix_mismatches": 3,
+  "independent_checks": 20,
+  "seconds": 0.10526108741760254,
+  "provenance": "Reconstructed complete rankings; sparse accumulation in original term-id order. Not a claim of identity with frozen segment-specific arithmetic."
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "query": "1037798",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1037798",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1063750",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1063750",
+    "channel": "sparse",
+    "mismatches": 14,
+    "first": [
+      166,
+      167,
+      1381,
+      1382,
+      1383,
+      1384,
+      2245,
+      2246
+    ]
+  },
+  {
+    "query": "1110199",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1110199",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1121709",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1121709",
+    "channel": "sparse",
+    "mismatches": 10,
+    "first": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      239,
+      240,
+      241
+    ]
+  },
+  {
+    "query": "1124210",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "1124210",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "131843",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "131843",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "443396",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "443396",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "855410",
+    "channel": "dense",
+    "mismatches": 0,
+    "first": []
+  },
+  {
+    "query": "855410",
+    "channel": "sparse",
+    "mismatches": 0,
+    "first": []
+  }
+]

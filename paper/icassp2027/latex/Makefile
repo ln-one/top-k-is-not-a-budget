@@ -4,7 +4,7 @@ all:
 	cp build/main.pdf DiBud-ICASSP2027.pdf
 
 tables:
-	python3 tools/build_tables.py
+	python3 tools/build_tables_v3.py
 
 clean:
 	latexmk -C -outdir=build main.tex

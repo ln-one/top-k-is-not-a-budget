@@ -1,0 +1,24 @@
+{
+  "dataset": "scifact",
+  "queries": 300,
+  "seconds": 1.5517950057983398,
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/scifact/dense/bge-small-en-v1.5-f32/documents-000000.parquet",
+      "sha256": "9ee5b019092816080ea46a247a168278f4b590a6d2a23434ff68143ff5e0d7c6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/scifact/sparse/bm25-impact-v1/documents-000000.parquet",
+      "sha256": "a1053e85800f28421a5489f0e08767755b88c436390fd0851fde1ee15024b741"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/scifact/dense/bge-small-en-v1.5-f32/queries-000000.parquet",
+      "sha256": "fd745caf47c78e87f83098315d288770d72ca53a7125be2a3d20f37357d7c9c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/scifact/sparse/bm25-impact-v1/queries-000000.parquet",
+      "sha256": "83a7be9820b4faaaaba2cd4ce79e3689ad5a2cb4142d6020b7552e37a12c067a"
+    }
+  ],
+  "protocol": "Full Dense NEON float32 cosine; Sparse float32 original-term-id accumulation; ascending stable UUID ties; positive sparse support"
+}

@@ -1,0 +1,92 @@
+{
+  "dataset": "msmarco-passage-trec-dl-2019",
+  "query_id": "855410",
+  "cost20": 3533518,
+  "dense": 1767417,
+  "sparse": 1766101,
+  "certification_times": {
+    "1": 6,
+    "2": 7,
+    "3": 9,
+    "4": 9,
+    "5": 17,
+    "6": 8202,
+    "7": 138619,
+    "8": 138619,
+    "9": 166484,
+    "10": 166484,
+    "11": 166484,
+    "12": 3458738,
+    "13": 3458738,
+    "14": 3458738,
+    "15": 3458738,
+    "16": 3533518,
+    "17": 3533518,
+    "18": 3533518,
+    "19": 3533518,
+    "20": 3533518
+  },
+  "events": [
+    {
+      "accesses": 6,
+      "dense": 3,
+      "sparse": 3,
+      "k": 1
+    },
+    {
+      "accesses": 7,
+      "dense": 4,
+      "sparse": 3,
+      "k": 2
+    },
+    {
+      "accesses": 9,
+      "dense": 4,
+      "sparse": 5,
+      "k": 4
+    },
+    {
+      "accesses": 17,
+      "dense": 8,
+      "sparse": 9,
+      "k": 5
+    },
+    {
+      "accesses": 8202,
+      "dense": 4101,
+      "sparse": 4101,
+      "k": 6
+    },
+    {
+      "accesses": 138619,
+      "dense": 69309,
+      "sparse": 69310,
+      "k": 8
+    },
+    {
+      "accesses": 166484,
+      "dense": 83240,
+      "sparse": 83244,
+      "k": 11
+    },
+    {
+      "accesses": 3458738,
+      "dense": 1730387,
+      "sparse": 1728351,
+      "k": 15
+    },
+    {
+      "accesses": 3533518,
+      "dense": 1767417,
+      "sparse": 1766101,
+      "k": 33
+    }
+  ],
+  "full_top20_matches_old": true,
+  "full_top100_matches_old": true,
+  "dense_prefix_mismatches": 0,
+  "sparse_prefix_mismatches": 0,
+  "independent_checks": 9,
+  "seconds": 38.614158153533936,
+  "provenance": "Reconstructed complete rankings; sparse accumulation in original term-id order. Not a claim of identity with frozen segment-specific arithmetic."
+}

@@ -1,0 +1,17 @@
+{
+  "queries": 770,
+  "all_top20_complete": true,
+  "array_checks": 107018,
+  "rank_protocol": "reconstructed-ranks-v1",
+  "script_sha256": "1a08c45076f6c0b62556c33ead20299568bf4d55f5c87b607d9a6015f08e2f5f",
+  "budgets": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    10000
+  ]
+}

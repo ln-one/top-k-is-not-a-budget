@@ -1,0 +1,1788 @@
+{
+  "dataset": "msmarco-passage-trec-dl-2020",
+  "queries": 54,
+  "seconds": 141.36130619049072,
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000000.parquet",
+      "sha256": "c715a2c2414261194b91a101bff169b3a6ef7c4dd7d0aaba75096277dd584db1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000001.parquet",
+      "sha256": "fc0f752801575fd25ec86d62ca8650b00328078b9820aa0258b0447e9f4bd5e7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000002.parquet",
+      "sha256": "6dc05cb49b70bc988a14cdccb568cf5bd3f5f2fdc12ed978d5c76ef9da406b0b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000003.parquet",
+      "sha256": "abdd833e5f6b05ea78246c75e2cdcd380a567ef5ea5874eb37653f2143d97d91"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000004.parquet",
+      "sha256": "70eb5e05dbcbbd64ca9e3f08ba9a86caff5746df44a9737881230961b85e4007"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000005.parquet",
+      "sha256": "e227dec0dfec5894943c03b6e673bb0822e4e08f744269b634c45da184a7d901"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000006.parquet",
+      "sha256": "231c9c76207d2ac810e32affcaeda3ab7d3f45e15d65bbfba93929f09535e88b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000007.parquet",
+      "sha256": "8d70b25808c9780b2f0915b89ecb5bc81461ac0bc94b98fcc9869e20c31eabda"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000008.parquet",
+      "sha256": "6354f598c5d247ecb62ecae5253ffa9d244cbbf071444768f89f2bd311e25587"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000009.parquet",
+      "sha256": "1f8efb06eb8ba1947e94a357753d0141059e2931660218bb38eaa32352db416d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000010.parquet",
+      "sha256": "be61c48e4cdc245019fed65ca339fad0388d47abc9fb7f1811ee5e699c30bdc7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000011.parquet",
+      "sha256": "083c3fc9656ccad8c212bf4bfb7071feda1ae5b062e5ee3c644da8b7c000551d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000012.parquet",
+      "sha256": "ad113f566f1def74bae2a47a3c476210bc7b53cb6fc9312086f0ba22698a76e6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000013.parquet",
+      "sha256": "3e886e8270099cba41055b324ea5407144fcf46da0889f3fa8f2a7aa2a052133"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000014.parquet",
+      "sha256": "a6d28be084f52a90e67fedd529122f866a9f81f85e8df3c00d5efc78d567c545"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000015.parquet",
+      "sha256": "dcf2b38e327641c3637ad608694f0020f7c7e5fb286d779ac82aa21ae3b9b281"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000016.parquet",
+      "sha256": "221ec4bbd1c8581b8915fc6bc855e33e24273c2efb89df9ed093945285ebbbca"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000017.parquet",
+      "sha256": "2be4aabf121393edea306f459c62bde27e5b3ee7416db70a8dba794e1ded278a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000018.parquet",
+      "sha256": "a220a63e71564cd6d21dc99cd8d6d978bf3528866c542b5f543d55ab4057ab35"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000019.parquet",
+      "sha256": "1c61decc45d1d29be8fee1c040e7c613f76ce99575a7c10eb49544fe978ea53f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000020.parquet",
+      "sha256": "a22161abf528702bd5c0bdfedcb2b65b4b4cd184a2cd89d64f6cb78e6a4554a8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000021.parquet",
+      "sha256": "d7f62b1c74a61d5e74d81f34639452672a677c8bfec50a02439f18176596a5bc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000022.parquet",
+      "sha256": "3c7b45322c247adb28680456c5b804bd173179410746bdf04322c6515e043644"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000023.parquet",
+      "sha256": "14dcb68d503e9994b68eaef3e497e107fb22af0031af2336ae36e886f4e76922"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000024.parquet",
+      "sha256": "a44c814ac0013cc41dd1932e8026aa8f5f6b10d882ba60b784add4f11218ae88"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000025.parquet",
+      "sha256": "5dc6c16c96cd9c59689c59bc7e8c2b13cf7810c3f43797e57cd19e2e9eeaaf24"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000026.parquet",
+      "sha256": "970aaae64d8780785f0cd6570f2d300ad0d33f06a5ca1548413f12972cc409fb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000027.parquet",
+      "sha256": "86b8da032d14b9c5f91705129814c5af4a6d6477bf3e9dbb0a99f4ad66b0b372"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000028.parquet",
+      "sha256": "c276c5d2ae4c5927914ac69e4712db8aceca5e08d69e670793a809574eac50e7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000029.parquet",
+      "sha256": "7f639be2c59963f8171c37dc1ddf9c0fb3ed8d8dc9e48bdffe33530776c31409"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000030.parquet",
+      "sha256": "f1f8e0f1052b3c425904d99b7aaa809721bb3b84914006f3441714c8a6106ff2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000031.parquet",
+      "sha256": "699d29e3bedc0357676588040023db26753faac3dd59c7ba46d83efe31f58401"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000032.parquet",
+      "sha256": "1818281706635b229f779169a5f717ff24f50b8d6811925abaa13f27dbe221fd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000033.parquet",
+      "sha256": "4f90370e065d61ad7971e59cbf82063f531bc41200185af6dc3158dd5b112192"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000034.parquet",
+      "sha256": "1ea6e73fc862c129cd5121fee919af779a468965fcea0d6e4813eb0cdc837def"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000035.parquet",
+      "sha256": "b7acddc8a59e9fe01b18a1db49564816ece3a4578139522f12757198bfdb53ab"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000036.parquet",
+      "sha256": "90ce2380a6afda402d25f82a7c2089ff55cabf1c6f545f8aafe4740f905691dd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000037.parquet",
+      "sha256": "fc1d04ab667e3c9d8b4a8165738f96b9276862089bd8b01d02a3f3256226693a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000038.parquet",
+      "sha256": "83c8693fb50c34b003dd11df91f8a582241689b2ed0973992aa11cc03c120ca6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000039.parquet",
+      "sha256": "7d5ba15ca4091a572a4a4f84df852be3b6f6fce69f7a5550d247d1698e5f29ec"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000040.parquet",
+      "sha256": "4b24a99987f51a948efbf34fc23aa01e9c38fc1d76db066381e1c0972c98eb8f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000041.parquet",
+      "sha256": "c751c3c94dedb12cb7877a6870b7b5890fe3459e8e6710dc21ee64fbb68167f7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000042.parquet",
+      "sha256": "d73729245e20305b6d0510890141adfbd8cb3bf8b15217d144565b6d92d9cbcb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000043.parquet",
+      "sha256": "7c848c12a5d974f1be7a1dea0eec79dc016a22def77f02efd7a932ea9b125abf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000044.parquet",
+      "sha256": "60a3a3897c918c413882f2c465d0379c0b474b6743c3a80296964f0cbbbc8aa0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000045.parquet",
+      "sha256": "c2e759209f4b27ba601c55de5d8444d4a480c876d43558a95d69dc0e5b86da1e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000046.parquet",
+      "sha256": "49e7dd6d3f642c8c81db940c95fe93a4f36b967d9e86d67c2af0d27fdca68d32"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000047.parquet",
+      "sha256": "ed6c0a2ef3221f418fffdcb442b9ab7a17ca1de6f79e88ff7a807e2840a29e4a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000048.parquet",
+      "sha256": "7b9124fa7afa645f081ba33c6dda2a8bcb3507d5fd2822e3e3deaa5e2b57b46c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000049.parquet",
+      "sha256": "9908365a8cb44a2e7b453ba0bb973337b72e8c0333363baf00feeeafe84427af"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000050.parquet",
+      "sha256": "3e5b6d3f967bed77501a62d5467a778645612b1309b8aa70c9a9c76bb740ccc9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000051.parquet",
+      "sha256": "20faac000ff55b9cbb62a3c6d04351ba937d278526273a7226ceac9936423b70"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000052.parquet",
+      "sha256": "1f1598c0b48f6451f0bd6bb0374c43206097dfbd44b0980f547e9cc4ae1a90ec"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000053.parquet",
+      "sha256": "45493b28f7130e8b1470547f387820fda4820383a8f65b35c2e5602f3b9e034a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000054.parquet",
+      "sha256": "a6507acae2ce32d22474f8b7f75108773b2574376f6f68dd900bc9c8ef98a94e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000055.parquet",
+      "sha256": "0d6421ddfb2e208d5dfcf84a3576359ab4c039b83863c14b053066e6a16ba869"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000056.parquet",
+      "sha256": "01a0ee9999bee1843b15f7d07f7a810e1f12a7cb9131c1b68a4f10faf0dc3ede"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000057.parquet",
+      "sha256": "47be6796359c6d1bd62723ee3aa495efc0ad011f49eebc6eb6ea88e7c2546e81"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000058.parquet",
+      "sha256": "4dc6929d794ae79c1961be23172e2af11f285723ef5d087d64a503cc9e0cadde"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000059.parquet",
+      "sha256": "774e68eed549cc701ac655df10a3279c6d38d07cfd1e07fc3132644caedacbd1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000060.parquet",
+      "sha256": "c9bb64b34b688fc0a6c81842f0344eacd6ef07212d295e5cf993226f7510b2fd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000061.parquet",
+      "sha256": "c2e93da5fdcdc268c6d15d1548d6b3555b3c63af228b4195fa167a461b63de68"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000062.parquet",
+      "sha256": "9e6270df38f4132c251e71528eb5e574c902030257fe974a0f916cbd89ae4b16"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000063.parquet",
+      "sha256": "210733c245bc8ef3641ae3b587c7d5e1a6e459233e99ae3ee9cc6968b36a3d9c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000064.parquet",
+      "sha256": "6ea90d0b25362cb26177fbf6aaf84d1b89294caf05cd59ec3f1ab47557985477"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000065.parquet",
+      "sha256": "48d7655c12f4437dbae35d08ecd1808b68f06d76f777e4906a30592aad1e9b16"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000066.parquet",
+      "sha256": "7aa1b32dbcf5bc1961411063e39812bfe5b1decd72677f02e17e56afd200ca19"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000067.parquet",
+      "sha256": "22d65bc1dc9e72e3214b226c23a10bdc3ca648b653e1a835f6e0baedc90a538b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000068.parquet",
+      "sha256": "296ad2cbcb4d412276ceb2e999f6a7fe2ca41b35d2ff5146acda57c875be786d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000069.parquet",
+      "sha256": "3c456eb2d2ce9f46f46538ff251fec415866dc7780886f52bcf939fde990515b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000070.parquet",
+      "sha256": "303b4e35fb40211a6d2872b11045f85df59ef0f7417ef935ace19754fe636ad8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000071.parquet",
+      "sha256": "01a9d9d2be163da6c906e8ed3b458dbbb6f899c04a0b78724e07b5c5bcc68074"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000072.parquet",
+      "sha256": "031e00cdecff8892bcb3f403112ca69a09370634aa2eacfdb635ae2a0a0b9a05"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000073.parquet",
+      "sha256": "a5fe11c8f2dc9c7718083f74ae06d104c938d6442dac3fde4cfd2e93b2622959"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000074.parquet",
+      "sha256": "d62b79e374639cdaac5736b44add55cc91cb1db0811a4caa65c08f7d5af46e55"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000075.parquet",
+      "sha256": "e41b9bfe67b81846fa5afba4b927d799855452383ec1ffc61585c7ddf95107fa"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000076.parquet",
+      "sha256": "8c38592a1f3b940b5003554d7182ae2c77e262491ac91b27681fa7579196eec9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000077.parquet",
+      "sha256": "75e7f52ebb5d240d3b7b75319c43a02c30f0a8f372cf6d0c9ada22445cf565b0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000078.parquet",
+      "sha256": "57512f5e3fa8e162d96d2950a3dbd1987b6266eebaa34acb8902fd37792b3794"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000079.parquet",
+      "sha256": "c31b4a5cd0376622809eb5634baaf1c70d5040738934da1c160003de5c987236"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000080.parquet",
+      "sha256": "064d08899246aa9d0fed79b466bd84e2bab8d4d3d4a630cfaf6677a4203cc784"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000081.parquet",
+      "sha256": "d7d254914f60e0ad35633e5b4cf46d47bfade3f8ffd8d52757f582122c59d9e4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000082.parquet",
+      "sha256": "6c77c71352d5bbb26e5c68dc81041b9ea2c2dbceddeda6683f796f1d8de0bdcd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000083.parquet",
+      "sha256": "d787b7b0acffd872ae3766aef2a5d0c059160bbe0a924859a9faeab8a6e844bd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000084.parquet",
+      "sha256": "293d0bc22403ca456ee68ed2635abe845d67fc19e717a5c147b53b738ad22019"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000085.parquet",
+      "sha256": "fa2660e0211b04bd7128715a73238cc464a02a49dd95ba855a08c1c6e99846a5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000086.parquet",
+      "sha256": "2fe072befbdad6c9a9841f94e23cf31947e9dad2423ccbed0b6bfbd3d9176954"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000087.parquet",
+      "sha256": "c6a7ddceea00ef838377da7866629c2a4da934ee90277707d919db5a0578e6c7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000088.parquet",
+      "sha256": "9e86c82d2511c66f624c2c0d8ebed7f4592c74c500d1b25e2f66e23220c7d9eb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000089.parquet",
+      "sha256": "ec814e48f41167d89b2c143ffeae4d33a645974e673e90dd95b1c4f76a51e330"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000090.parquet",
+      "sha256": "f24040b2d150b0446b9f8a36c4c60ce5a87d948a3dff627261425f7959acea84"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000091.parquet",
+      "sha256": "a51050ed7502e6486c690ee73dd1ad8b4090ecf294d57e08ea1f38a9030fb6d4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000092.parquet",
+      "sha256": "e6ccfdfb21c8f5f06c1f219c1b1eee7e74b45871b254d2b5a3d8397371958cfe"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000093.parquet",
+      "sha256": "1a1b39eadc1719d13e11d5cc9707e4e7ebb4bda2270a93e8aedc3e83c6cba799"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000094.parquet",
+      "sha256": "3dbfe837909fe742ab77481d327fe1499fd279a84425cda84fc4968d2b000123"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000095.parquet",
+      "sha256": "f38232810957813c28b674adaaf2d0a03ce29c91a0a5eae56abd43775e51885e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000096.parquet",
+      "sha256": "2bae1ba0892d732955012f89e6a348ad941a2a691c2fca3fd5ab2d9e1d55182e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000097.parquet",
+      "sha256": "492f559fa716ced8788028ea8f37402c4e7a20dc97ff3304d822677c3f16406b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000098.parquet",
+      "sha256": "ba33d32276671d9a918567eb57ffc1a69c61b984f18ebc6fd09ec6d12c506dbd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000099.parquet",
+      "sha256": "a27be837ce3e50146ac1782eeb353aa8099a67729af788b96934bb4090329f61"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000100.parquet",
+      "sha256": "a595521e95944742b384df7f7e6bce51022aa0bb15d6a72cfd42223ad7e36dfb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000101.parquet",
+      "sha256": "fb331a97cc6dbd2d2132f363e1373fe7576a75309c378454c37851dbe338cb46"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000102.parquet",
+      "sha256": "f6afaf0a6ba312334dbf8b369964227513f5e28b3f455f9bc819bfe1f8454150"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000103.parquet",
+      "sha256": "d6e792bc1adc37dc2a5d2f3e928098d2238a2edf0e6be51c32cd6fb5be9aa5eb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000104.parquet",
+      "sha256": "34d2820c8c41a004011ff1fae768bb445f3c6ca370adb07d1dac351f543babdc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000105.parquet",
+      "sha256": "863fd65bad2c745d043ad1886d7e6ca7893791758387f277ccfca19a60b2cd4e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000106.parquet",
+      "sha256": "f2f05d5d6f0ec917baaddb8f0efd9059caa423d6f47352f2d4a28258044a1598"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000107.parquet",
+      "sha256": "df00f7272db04375e4e7e63773c87d5a2c1a931a2078f23bf34de79540583f65"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000108.parquet",
+      "sha256": "d9fb7d76d59dd890e64447a86a33122f2881ec5f3d58b8d942cc8f234a25d09e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000109.parquet",
+      "sha256": "adb0620e172426c51992aad95a5ab852a5786157551c445936ed34c3ffb381a0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000110.parquet",
+      "sha256": "1c9287637fdb9a9a32f1144544817db85888998c8089fcf17b20422268f6da86"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000111.parquet",
+      "sha256": "40dd822203fe06ca97fbfef9ec8c2c97882173422d6a2a82105d132e7f8886d5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000112.parquet",
+      "sha256": "a87e81d09eee8d287adf83c9168de678ab89d392e5604cc5c38494bdf5d18538"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000113.parquet",
+      "sha256": "adf3488dffbd523a7e75cdceffc8d240ed25e2515dde7367877ed4fdaafa01e4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000114.parquet",
+      "sha256": "dd61ade4a31b1975ad4735a45db544ea5023d492b209c25636a79ee31bae57e9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000115.parquet",
+      "sha256": "05b88c7f34bb6ad29fb1a6116a5af64082100879bd54441fdbf51d5da5930536"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000116.parquet",
+      "sha256": "730539e0cf4523d16afc6a4996c59573f1da19480abe971419a6787c9e9c8a7c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000117.parquet",
+      "sha256": "38b4bc08ee96205872ae04ca086446935b7a80e3a3ccad3d9128fbeb4f4b525e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000118.parquet",
+      "sha256": "6dade89b14191c000a05e12a50158f3a80d3dc143c72348f25c9bf69a7500a23"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000119.parquet",
+      "sha256": "799e1c089722a02c5aa09f3ff152fd6178ab9187390a0c467c585a0ddf4dcb82"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000120.parquet",
+      "sha256": "0fd0db40cc42e99facc9e627b24f7d82b3d09edc87580f33fc628d366dba5ea0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000121.parquet",
+      "sha256": "f578cd347c1e4003666649bd1f94926de0dd0ac08f555cf9babdf5c3c036aaab"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000122.parquet",
+      "sha256": "7dd158b32d623136f73e17791d67ff83efa389b9671b4c43d14f9b32f1669732"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000123.parquet",
+      "sha256": "929d0109a9bdd465b34f02e798ff317aca6338430b9cbfb11bce0486f427254c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000124.parquet",
+      "sha256": "db6ff79b0329551db99621d1e09185694b6cc5bf2e37e115837453b6db348d6b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000125.parquet",
+      "sha256": "36d1b5fddc6122392e15c38f0495aea497d983a6455f14672260043a7c276d86"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000126.parquet",
+      "sha256": "e317dab9f0dd8bcf2050aedce322981ce53164c52f34621e47c7c548223cdf0a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000127.parquet",
+      "sha256": "0a604d4e39e1a24cad4afbc9cf257ce3e73d4e3c96127772ad2ad6cbe9096606"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000128.parquet",
+      "sha256": "4438503c992b2acfa3d967c373cbd128c625f6d811ea3c8bbe08ae9819c8bdaa"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000129.parquet",
+      "sha256": "831d4b8c3554a26439abef7e47c8706ec39aa9e09e1666a44699d0b13edb17df"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000130.parquet",
+      "sha256": "250bf5b2a7df5b4aeb305e58ab6c6d40752d4c4b1ea57952d897c9e2baf2e5e9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000131.parquet",
+      "sha256": "a13614747dbb745c5f516126c4ee48019985a80e948daf90e94ba46664c3c5c6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000132.parquet",
+      "sha256": "d80cd2a2e7e125d13708a64e0ace82504731bd96d102be8deb81e6559c078228"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000133.parquet",
+      "sha256": "4e4f864287c238d39bf8e8041e79ef1ddbe7003dfe5415dbc575bdbbc338892b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000134.parquet",
+      "sha256": "44e4e3176227c9f934b703d9875867bc51cebbc119917daa1c90edae0d23e2ce"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000135.parquet",
+      "sha256": "ead88b244a361acd0826063cef24f86338756e818ea7d6ef9f61c398a456cc64"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000136.parquet",
+      "sha256": "7b9160b473bc07d8f6b13fe2e75a3fd36a02887fddb87a2c3e3ce2f3404134c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000137.parquet",
+      "sha256": "6bc6336669937d368e29dc3417e927920921d3be49720166b27086b689aab29f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000138.parquet",
+      "sha256": "26ab7b2b8ae6a9f1c685409d2ba82957d10aeea21418db4f42b59668506503b4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000139.parquet",
+      "sha256": "3c46a6ecc20f7a75c580c50b769fdb04a2642ee83a4302668c2b6260cadfa268"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000140.parquet",
+      "sha256": "70750718cfc013f80d874d3807b92e0b1d04adf0630aaa8253637ed0e8057be0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000141.parquet",
+      "sha256": "c019c0d7659b63a61aa157ead0a006e036b9847d43d7adf06e76c66192ac6c48"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000142.parquet",
+      "sha256": "2c04568c974edd5b4a9234a6bf33019243c0156b567e5ee1debb13c8799c11c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000143.parquet",
+      "sha256": "fb8f71a7879b6eab6c8ef700f69e5461085585c6deaa3a64b77ac350f613ff8e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000144.parquet",
+      "sha256": "d7185ff89bb1c56f74901d5613e0bc3b2d0244196b4f1738b7de1b77b6f92c05"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000145.parquet",
+      "sha256": "d0deec3fa168b482536966cf0ea311895a568d70faafada0789394d47b14d788"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000146.parquet",
+      "sha256": "a1c9bb34796ebba97a948ad7cfbddffdaf09ec258d1c2d2e3837e128fc35f80a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000147.parquet",
+      "sha256": "11dca6bddd14454168cae9bf46c0987a2c6a2718ea77f193eaf917c11a1c257f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000148.parquet",
+      "sha256": "aca2a20f30a0c12ff1c339e62daaded7892aee1bc8d499a7e309776b2ef1a0d0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000149.parquet",
+      "sha256": "a148ed80129de9f92979d65cd34291dda81779e2502e76ec00b006fa2df75cf0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000150.parquet",
+      "sha256": "1bbe5fee9811429b6b42109552267e89185afac003cae9a67c79aff37dad568f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000151.parquet",
+      "sha256": "1ed9b1b89017e44883b3cf4c3a2c5e1883e94b4cc89c7f588f04e12e962bf714"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000152.parquet",
+      "sha256": "e0ca4cb222c18018fb5ee78d08c8366488ee313bf3d9fec4c1e3d106eb7190d8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000153.parquet",
+      "sha256": "84c4bc7beee4581033ec8de127dc45e47e6159647cc3e83a88da5cc2c32ba7ed"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000154.parquet",
+      "sha256": "75d98bc6399596ec9d25404e9ea9ece6ba1cccc8ee1ade482a7729f99d0ef450"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000155.parquet",
+      "sha256": "db5ff07fb4faef5da7ff595e7f07ed5c7362f9a2a963a30bf8a12ab313d84921"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000156.parquet",
+      "sha256": "36240ffa5c78f54863939586aa6975904dc98ba3419c7b0ee083a5de435ce2bd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000157.parquet",
+      "sha256": "ecf01a18d558d724768e21210a3168dfae7d6010fe328f3dbe562f06c2d47ede"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000158.parquet",
+      "sha256": "5e08426c756f5bd66d414204a3b63552f6e8adeff0bb72829835ad1a7cd45ead"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000159.parquet",
+      "sha256": "f6ccd6f3cf0b87b22c9ee1c01216dba8e26989fcb21620b57dc3c9c28686963d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000160.parquet",
+      "sha256": "f7e1f32792c6aad1796b6bd9bf44ae60fff7eb47145cf29d76fdcf8554c1ac67"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000161.parquet",
+      "sha256": "be764aa87cc31a5513ec67fb9b7f2b4c001e6909d7ef1887ee093a094ecc834d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000162.parquet",
+      "sha256": "1b290bd42ea82cc270795cf1a32129a6313ac43f3fc53ef70ea634000ce215d8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000163.parquet",
+      "sha256": "02b0b9f46d98a01aa2ca84a67ff70dc39f3f962c06c55106210139c6fe996806"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000164.parquet",
+      "sha256": "7a4d464847a98a22640aafdbbff9e9ea5ceeb199aca77bea899fe54c6d0a1c73"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000165.parquet",
+      "sha256": "7e069b8bde35bce73834508ccc406780bc8177d6a2d06a5997a34ffadb4a1688"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000166.parquet",
+      "sha256": "14ac0a348289be50a315d717101d75b942dadaffec9c8b4123866bc8c3e84d99"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000167.parquet",
+      "sha256": "0315fa410a7a84b4b801e7d47bf756d9301634b9f0edd780cf689fc9a06cc3ab"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000168.parquet",
+      "sha256": "94df962e37a04fdab7f1b6e3e31ec6a75c2bdc97825b9320bfa6c74c8434ad13"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000169.parquet",
+      "sha256": "401525f3ee7d72aa99466af734e3f93cb4ab7360b477d197ae415c58bd17216b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000170.parquet",
+      "sha256": "a19c2c04fb36dd6f019ec60cde3e90449ff8fc4f5171e2deeaa96f6cc83c34a3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000171.parquet",
+      "sha256": "0648f804dd025a4bd4d2c748bb916b50527752cdc7fa88d54406e87cdb403219"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000172.parquet",
+      "sha256": "340ebf01027411f9711157cb76adb1e0f875fb3859bee5ff6c38f6d200f1ccb0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000173.parquet",
+      "sha256": "90f5aae34fbff98f8c276b9cf928f596e0d1883534ddf9d2d6ef578dc26344ad"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000174.parquet",
+      "sha256": "88abf3fbf843a534716d8df0c4f21643b0264e52d916731c1e462b269b4239ac"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000175.parquet",
+      "sha256": "77fd2edea70ff8565b37c713dc4a3c97ce4e608ebf7c5d69c2f695706d6cf6c4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000176.parquet",
+      "sha256": "e48118b429e6314e511bb0516ce34b9c156ffa2f363b0233804a4a75d456d3a7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000177.parquet",
+      "sha256": "4b508089ffb08b790430d792ccf2e1f25f3ef6fd0fd5ccf7349a0ac423f1838d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000178.parquet",
+      "sha256": "72bfd819e796a67287e1ff873caba4867b1a1e41442e2c101a80c9a2f8afce9d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000179.parquet",
+      "sha256": "149fe80af359e504df0e87ccb9d493d92c5f82a3cfb266642b2731c6d96fc1a0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000180.parquet",
+      "sha256": "a18298fe24bae715afebeb41de28b710eed127298edf81cdf7271e7dcbc9e272"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000181.parquet",
+      "sha256": "b372612b8958940b6779d6c1baa6dcb37e196d83a347a12f8fa3332fd7193668"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000182.parquet",
+      "sha256": "89cd43105b3f6b026edd33a591df88e333b20d9f5854ccb85056806a82e6d09a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000183.parquet",
+      "sha256": "9277748a205b357c998b4775e022572f482a552be9100bd2cbf04409918cbe84"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000184.parquet",
+      "sha256": "da12361c4613f370fd8c72da39ff1549c402dccd3377ab1aa21750d9d62f9184"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000185.parquet",
+      "sha256": "dfa32d54e61e663ba53bbbc72eb6ca12c4f85a3d75191dc19052ccabc0d5a74a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000186.parquet",
+      "sha256": "941b6016ac4b057f7689b028ed78c03fa431a834aa0e69fd6732757ee0a5d485"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000187.parquet",
+      "sha256": "9a0209d87def275325641156ecd8fc337c281b658904eae85abf65adb6840797"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000188.parquet",
+      "sha256": "0751e119678ac4ab16c8229a8d75eed43808f77a8a8c6be90c1bba893828448d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000189.parquet",
+      "sha256": "36c816afc5a5d1a49b55773670a40596a444e7800343b4b35a39115290e75f99"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000190.parquet",
+      "sha256": "f1bc1fda41346aa4ea618e77d645a205fe804b75f0292a3dd4148cb79ade9313"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000191.parquet",
+      "sha256": "3ebcd0051ed9c1b0a67bea0f97e36ab1a54aef418d1d39a3a639a410a3071d0e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000192.parquet",
+      "sha256": "643840e4fea31fe9871fcfb4f7616696ed2b32fa081bd88e5f0609e2c85cea7d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000193.parquet",
+      "sha256": "470be109b9b09b2901a03546b46f318304583e98e5512ce777e6dce7c0b7a483"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000194.parquet",
+      "sha256": "4c3ac99ded9e5e22b03ce344cd905e092f2957c73386380104b279b25f15f5ed"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000195.parquet",
+      "sha256": "d593bf47dbdecdd6cf4d25ea7dbaa00925e5a8b8292d4932e867630e496ae343"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000196.parquet",
+      "sha256": "53aedda3f51d0490a57a44c0e11dfa4f79f10a428e7b2a70be8fa0b58a148635"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000197.parquet",
+      "sha256": "9bc64cd98d93ad787b67f40bae19e402cd715b63839defb3ad66ee3d1c628b4f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000198.parquet",
+      "sha256": "5b0ef5578c22848525aede8b63a7969e462629d49a3362db6158763f28f4816f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000199.parquet",
+      "sha256": "5720a8392b9421bdccb54a65c9468a7383a575b5d81806895cf143f38c5e708b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000200.parquet",
+      "sha256": "0f67c5e69b682e5e55e893f685ac30b59115fb737df23b1cd40e8d2f84a62216"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000201.parquet",
+      "sha256": "e1f7dae0d6c9acc5629eecba5882365ae0bf5ba561878e4657cf8c09e4ceb906"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000202.parquet",
+      "sha256": "0001a8965c88bd92f456b0f209590394a1cf47ae1a8f8027df944eefa1fae90a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000203.parquet",
+      "sha256": "17dd0c2c8dfab83006a531a7998a61183cc214631696ab4155accaee364c0f31"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000204.parquet",
+      "sha256": "a334b6e9850caa3b8084cc94beddc4224bc2194c791974427b214b360f2bc70e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000205.parquet",
+      "sha256": "ebfad234b16f7faed34a4eb1697103bae706d06f22cd5870c17b928dc97c56c8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000206.parquet",
+      "sha256": "78d5a99709f96e5a67675051f81583eb906b8e86dab3e9cef2da8ffa142cd0e2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000207.parquet",
+      "sha256": "a5b3aa1cbcc482e5b808f8d097d57d0beacd54ec392f9b30dcf7c7390cbd7554"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000208.parquet",
+      "sha256": "693d71184bd630edbe0e1a9366f9869533b0d7bf412e92fed8f2e264da20d29d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000209.parquet",
+      "sha256": "30b261b8fd24e3f7e8a76fc74444658860aea73edec8d45d3846e71119791f70"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000210.parquet",
+      "sha256": "bfadf1fc818a2d85ab4f42c0fa9f2fe89d922d0868aad04aa753b5e662d34238"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000211.parquet",
+      "sha256": "ecfeeafc503543976d9be7287c2daea8127a62521035ba0ae8260c43743fc124"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000212.parquet",
+      "sha256": "23e1552728066ff8173e31991b5d51819106bd3398d1a35d7aa2f52e8c8109f3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000213.parquet",
+      "sha256": "57a7cff03d2936790b1d63811f411478978c650a8241f6537a052abae1899e18"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000214.parquet",
+      "sha256": "e3ff0ac2fe3dfb31962d4e79f5fc6781863aea4bd8f44fecc3f203fa0f6600a9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000215.parquet",
+      "sha256": "eb8e78e2ea0bbe669c1c77630b3227efbec1b33be8deeadaa6c582ecdad93acb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000216.parquet",
+      "sha256": "1a01e93f62593686dc7e63b27c86071d81cbf41ee03c564c15a1dddc119f63e0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000217.parquet",
+      "sha256": "ac80e8e975c056ab351061096c47f1623c5f7510b5b4786285d048256bee4a7a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000218.parquet",
+      "sha256": "e97cebcc89929a03cc109bf5b03c42b45144285cd5af0abf08def485410d5774"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000219.parquet",
+      "sha256": "1b21325251b21fbcd57c58cfe7aa281d773511a2f90ecd6e2c7c7143481ecb5d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000220.parquet",
+      "sha256": "1a591451869f13df083271b40a6aa21211da6497aa2c91fd20e978c807824a3e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000221.parquet",
+      "sha256": "274a8e11b700b2d1a5654ee469b9aa8eb83c9cb60b74d3fc5a84458f9f59f4fc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000222.parquet",
+      "sha256": "e2608248c9a24819aa3bc04dc25c5f1091a987b73cd809f75fbd8e3dd0071098"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000223.parquet",
+      "sha256": "e53697dabac20153971d7fda32da23b3fe4b3f4ec548a8ddad41da28cd313da5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000224.parquet",
+      "sha256": "a9c4dfcbf8a242451fe7accb50c35f1c6be739f2f74f8c4a5b8d0fc2830383b5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000225.parquet",
+      "sha256": "c96ca4456595569e549cb234053c68261f082fbdcd832d72171f7687304e246a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000226.parquet",
+      "sha256": "03352a9055f2a768e78ce2cad335f4b3c17f669cfd8a506738a156baac164b04"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000227.parquet",
+      "sha256": "d62c0e0960753fa8dd761cf4a028c107068a749c136dabb3f6152f106da02b51"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000228.parquet",
+      "sha256": "e08a94469de9472c5b69ca1bd6f7a5a177992b93e84e37052913963c49633257"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000229.parquet",
+      "sha256": "17eedf2290f4cc763ac7dbaa833c78fa8dd657fc955edbe5c03a79aec4e74e61"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000230.parquet",
+      "sha256": "8e28db27af23de09e68895608fb12f7141f339a0f97c36a1ef15b4ae224656ff"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000231.parquet",
+      "sha256": "3f6ba29591e36b38c1d9eb5a56195beecbc6082fe00d964e00951e5944bef23a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000232.parquet",
+      "sha256": "02499427a14f82405e8cee9aae36086b017b0692c861abdfaa98a55c7c120c39"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000233.parquet",
+      "sha256": "4e5794478fe794655c3d833d45ee450544ee0a922802cf80367d8b468db1a08f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000234.parquet",
+      "sha256": "14199067a3326a78f00d2aebe8c2c3ec484c240f3b053a5ea2f07de64cef4e8f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000235.parquet",
+      "sha256": "788785f7d19e957f19722e590a7832a8d55efcd46d4a70289ee07135062d29dd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000236.parquet",
+      "sha256": "a477abca20194573e3483d9eef056ee9b9898979ce9cd74861f4a673ce19200d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000237.parquet",
+      "sha256": "3234c68db1476238e146ededc52997c38b10376866f414e1d1dade2791a8a228"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000238.parquet",
+      "sha256": "124bbbccf47494204dabf66f9e17a7c0c082157a189a794239a0605cdb194b07"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000239.parquet",
+      "sha256": "dbbd06d7d83902bb25941ae3c5491bc26d12d1e5317265fc45736ee446886464"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000240.parquet",
+      "sha256": "fb54e27d390f85173b19a27b5174468f7a076f5a3264130fce326f43d344527e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000241.parquet",
+      "sha256": "e6f87336ad05a50a14f9da0e06c749c2d8a75696c8b9d5ad81851a2098bb327d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000242.parquet",
+      "sha256": "08682be5a733322c17567b0f0b27cb408cf362a2b6129833f3eafe96ed4e71ed"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000243.parquet",
+      "sha256": "4add25742b76208c57df97db62ec368176c70c4ddcd7ba1b26a7fb8fd9ca3ff4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000244.parquet",
+      "sha256": "1ff1b50849cb2b6c67a7878c0f223b012bb53a387baf63462450e3ffa0d24fe4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000245.parquet",
+      "sha256": "b07118fdadadec87232f4ea6b204dc66d8f1ee9677e5aee091d59663360e0ab6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000246.parquet",
+      "sha256": "e1c72b36eb7012e45159db7ee50fc80ad82670f3cdc59e9bd7ac4692dcf9bf3c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000247.parquet",
+      "sha256": "25d054724b1b6f8cf9279db6e25ea4e862a225be856071d780b8d08623f80a39"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000248.parquet",
+      "sha256": "132b83ca8a3784b9b3f720864421db60e0e417df29572e56941a0dd1400503fd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000249.parquet",
+      "sha256": "8307b3042cbbb3765cfacad61f643a32784796c27cff3fa5e635d0fe52c82ee3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000250.parquet",
+      "sha256": "1ecc430c35907b778677d4cfa45eaedd147dc2f7a786e18cfd4a984b9088684b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000251.parquet",
+      "sha256": "c165984c0f5b37206d730de66dff379675060a64af9ac63a5a5efcf5e0700ccb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000252.parquet",
+      "sha256": "39a6bcb886d7b20cd98a82dde946e274381ebbb182375b85c5d5ae39e371cafa"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000253.parquet",
+      "sha256": "17fb9c569a54527e36a8d2b8bb01c2b41698c1d291666a2d1a456ab7c68a0e27"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000254.parquet",
+      "sha256": "93046de3cdfbd16be5eda861b5f6c215deb3f7584364a99b2ca27e9af4133c8a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000255.parquet",
+      "sha256": "3b53a1c54f8abf1cb763abdeff19488f7cc03f2171a1b62e0332c4f08e288ab7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000256.parquet",
+      "sha256": "82584a6c061331c83f72aab372c248e74ceeae5501809978b832cabcdd2170df"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000257.parquet",
+      "sha256": "488fe3ded4efd55447fe4b0cd77b347ef1cc931f47ce72e5d3edb6901e43310b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000258.parquet",
+      "sha256": "87b4db8c7ac8ee7bf8385e50ad9fd3ac1c40b20f56e5ffd609c11fe03fcd10a9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000259.parquet",
+      "sha256": "1395c5752d9c46c28fd44b6961204e171396c142cdafa52cf31a22f45d82af1e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000260.parquet",
+      "sha256": "5aa775e7c2ddaa66df44b3cebc3e3e5417c7430e3a857678930368cd474af24c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000261.parquet",
+      "sha256": "4403c6d56c696c1e238507067d15d1e09cb51fa15623249e027ad8612b68853e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000262.parquet",
+      "sha256": "a445d2c81bc42fc6e6f17e229d77269f4fe56f2718f185d6c0f17eb4989157d1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000263.parquet",
+      "sha256": "3d5de8d1deee3b5522cb54b1098470d3521eeec9568e7356ec77ddec9515afe2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000264.parquet",
+      "sha256": "cc887c47be9881b45bbfdf35c0180bffcf88145929f0d2469612ea2d89ea934f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000265.parquet",
+      "sha256": "cf882d0b14fa1d2af144b6b1354152aaf6d3c89d54d4dba633a18b8460c02940"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000266.parquet",
+      "sha256": "1e2742869bcc77079e33fdc5d3f561216c6215622b4e288973c7edc6b8eae35c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000267.parquet",
+      "sha256": "97ebc366c196e89e6ee59acef9963bfac1a5701d1896f9dbd11957e262a448d4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000268.parquet",
+      "sha256": "b6eb1ddce7e7c443c5fb53c274f581bbe1b99cc474df094d16fbce51c829ea93"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000269.parquet",
+      "sha256": "c3e6e19f18e0b6f2c14d379a1e1e3e315fff656ea4a07eeff071d51f132c7e46"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000270.parquet",
+      "sha256": "cf50d3006397c7be108e88ff5bf5c0c108df9b7293f2908432c959148b9e9b1d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000271.parquet",
+      "sha256": "88b6102200488cab669f50a68da4f3f2c89a11fdc865d21b4e04527d390b972a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000272.parquet",
+      "sha256": "563128d4a03d657f7a42d2fcba824bd84a2870242d9473b59bbf473f637146f6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000273.parquet",
+      "sha256": "94f0bfd2a6c9fca00d12b6faa2c2998a739cee70bb46210f0fc30d5aff6c8630"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000274.parquet",
+      "sha256": "6c412f81963124398ab7a391f4fe99a9360b8aa50cc3282a165f0efd2e1cf839"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000275.parquet",
+      "sha256": "3fc83e75c94b2f66049d83b4a8a03ba18f3a595b874f80f9975d4856316d45f0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000276.parquet",
+      "sha256": "933fb1230f0ed728d7acfc2a107d49f5689fcc4fb281875b0d14d0541fa6c86b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000277.parquet",
+      "sha256": "45b90f53e21d1992db3444c05a93ff91a78c4bbade5a531b37000df86ff52f24"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000278.parquet",
+      "sha256": "89846ea1be6dd9a38985dcec84c325f34d3dd715199638242ded4048f7c82449"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000279.parquet",
+      "sha256": "232084823c9d4790db9bf5dcd8c04d6b8a525da65e575c8c2852d8ea1153e6f6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000280.parquet",
+      "sha256": "2c5c1f0bf0ff82f3b9d16b4a853169cedc29bfdc41b531ed6ae97d061f0fab87"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000281.parquet",
+      "sha256": "0d56c57d031e851f27d7f9a5303f5295e9622558e387379423fad6b14c7f8d78"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000282.parquet",
+      "sha256": "c8c7235dd5406701c6f6fc661958ed840922881106a6ba67d56eaa49f2bb24a8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000283.parquet",
+      "sha256": "2bc49765c9f906f5d63492c486e79651201eda1dd4f711fcbe70868441578aef"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000284.parquet",
+      "sha256": "74aaf7bd9029fedc7e3f62e4aff0d4a486bb961a474e64d33d1074c19301f22f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000285.parquet",
+      "sha256": "b189500372fc570511aa4ac1004481107129886d9805cf29062a504945096783"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000286.parquet",
+      "sha256": "36b26e0cdb72afcc7b7be49f08d06dbad20b90b69e4ffa6c61b081bc5c2f12c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000287.parquet",
+      "sha256": "a8f915d1792f5354368cd2a957322c65dddba2e278a9816debb43935cd0b71f2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000288.parquet",
+      "sha256": "ee796b2b866a411eadc60db73127aae1038285f62b34c1968902db7b3052d034"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000289.parquet",
+      "sha256": "0470fe9642a1d3cfdc49a7d5afc7c8338494167b42d2621278c1738b17547573"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000290.parquet",
+      "sha256": "0e38725c4b88a35c7cc4868648ead1bc7b5ed01e5e0a64ee54568147cd861807"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000291.parquet",
+      "sha256": "7bb31408a98df3e26668070caab7812a70998e33868b9468049d1eff2959a9b4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000292.parquet",
+      "sha256": "2c02cf27d8b52268eac6484cc2ab3e6bbfd1605ffe4642b7ff38f4401db90f79"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000293.parquet",
+      "sha256": "371b27e2a8e0cdc0568f792143dad8c11c959c625b007eb3fa535041f3a6b012"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000294.parquet",
+      "sha256": "f8f0bd13d0d1c9a35822ce195e815bf7f58c6c095f9e29c733e0db5f276950ec"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000295.parquet",
+      "sha256": "e6cc3955c5240b4fcc325dcd4def47f38f3e2401e40af5297b3548ff6f0799fb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000296.parquet",
+      "sha256": "ff6cba2abb0a599f16ad96e2e35f2c9e158af5332d6607ebbe86ec29366b9ff1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000297.parquet",
+      "sha256": "d00a17f900f09316c6fbd845e33a9f98e59d3defc4e1901429d25d417070ef87"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000298.parquet",
+      "sha256": "4a43d1128918c4c9451e67f5b951a3abd3d4c97903ae3ba847f83f5a674d7fb2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000299.parquet",
+      "sha256": "f8d3376eb8821414c5b16412fbfba0cc45c5de93dab0562d28a4a524f2ac7a47"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000300.parquet",
+      "sha256": "1d0bd3d80a13033f6dcdf97000705eff1879d7943bcc5ebcabea460382a46543"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000301.parquet",
+      "sha256": "190635707f8dc9a043be5347dff4757cb86c2954d4e16a45cde47ee9683ebb5a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000302.parquet",
+      "sha256": "e852b96a7cb7d2487c760c523ee8b0bb157c86169918f751d9d23fc00504700b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000303.parquet",
+      "sha256": "25d1e7907023c627efe9030dbef61225cd15ae62fe31d24b7d387dd7488a559c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000304.parquet",
+      "sha256": "3c93f3531fb1077bce7dd524fd66792d353c3adb4459a73a16b9ae636aefc28a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000305.parquet",
+      "sha256": "b2e6ca4f7d887adebeee5262903f21420e94f0e6f8f87917adc293571f5a05c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000306.parquet",
+      "sha256": "d1f387c6cbb924c9f645bcf1cce4286063d0d34a448babb906764a7dd0d9cd3d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000307.parquet",
+      "sha256": "c0d5fe0cc10e33bd0584a9ab48234b0077e3aab55d07fecfa6b19205493051fc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000308.parquet",
+      "sha256": "39e0a3087cf58be364f7eb0aa2d4bbde65b513c5a111575b769137ce03d0c6dc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000309.parquet",
+      "sha256": "61232ef8efbe62388b58cb88a5206fa5a742502e8b662eeb294e16f3438bf746"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000310.parquet",
+      "sha256": "2280f5539a0c8d4d15c5a37eec71ac7f11bffd10b309e13d3ffe50e03d0c20ff"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000311.parquet",
+      "sha256": "462c9e4c8392457cf3d1c399286525c69165b8ce3ec69f63eba6b937dc822057"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000312.parquet",
+      "sha256": "c1d213ee0f2e95163c2f51aed9329f87da4cf696872aa7106e966679be9bfcbb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000313.parquet",
+      "sha256": "8336665709ba495db28f5f6c982035f25cbd798608f5672a454ad2a904824c66"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000314.parquet",
+      "sha256": "fc5cf7ee961cbf30d748236ab40b96929eb0286ac2636dc3f32fd8a08ae511e5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000315.parquet",
+      "sha256": "750f79ed37708119beb7a0430927e8dfbb899d48e60d39b5f438e1f4412a683d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000316.parquet",
+      "sha256": "aabf5ffdf12e521ab600339cf639d3603f844ec2b4c30afe1b9ffb84d6eb9562"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000317.parquet",
+      "sha256": "17de525f17cf780f55ca978f285569d5147ae6a1dd7539be09bf5c9681b83f2f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000318.parquet",
+      "sha256": "5a2881ce1d3929451c1daf06c11255da8a1039a66c8f057a89a5f524232482d9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000319.parquet",
+      "sha256": "0777567a7d26a02f7429733afc2e505b7e4c902ef7d45bc4e0033ffc3ae4ff12"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000320.parquet",
+      "sha256": "022fb8cbd51595ff2eb6526f9c04bb9459ad40b0744d773dde4f7d50787020eb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000321.parquet",
+      "sha256": "7a7c2bd791bff810346a5eac1267ba9698f14de54fe75bc43c8f33b3fbc746d6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000322.parquet",
+      "sha256": "78e92f56a20199222b61e780c5ce18de63ce8549f8e6158fc3a74acf4bb89c96"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000323.parquet",
+      "sha256": "1b3950057e88b98643e7f6fa42701a6104e34042f13930e1dbe80289b99c35c8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000324.parquet",
+      "sha256": "de33a43bda01cbd31c8b05c2c4e399372d6fa8b5a50404cc87be60f88c320614"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000325.parquet",
+      "sha256": "1abe999bd59a73167cf64026b8656bfbbb440e64f5033ffeade66d604400e21e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000326.parquet",
+      "sha256": "f3e11dffc349dd9c2ba760faaee774224edcbf2bf7b0515b10cca6549348baeb"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000327.parquet",
+      "sha256": "a22bb40a129daf5ec07b87421ba0754383779a5c1ccfd4bc27cf67b0dbe0c6a3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000328.parquet",
+      "sha256": "6322ddc954e08789cc07e9c374accf37b94e852667bce39c6f730fd1b00aa15a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000329.parquet",
+      "sha256": "e337abff046c33bd648072c0ad5665ffb93424491ca64bcdfbba5f1a510af5f6"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000330.parquet",
+      "sha256": "218fe6ad685f4105502c41688875a0e3d574004e8b39eb3e42f13bfe2b1cc26a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000331.parquet",
+      "sha256": "60fab4b95adc4e756b3530f5dd6da34079675b1795828018e5ff3c8a6dfe56ba"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000332.parquet",
+      "sha256": "221e95b3e830a1b254a6823c103ed40d4f91aa7b166ead67abe5106fae8c937e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000333.parquet",
+      "sha256": "d1de7046c27584aa7e82396f0e21fc0f9f86ca3ab2b7afb937103f6dafd65ebf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000334.parquet",
+      "sha256": "5f2087ca708625cf47eec173bcde4eb09f0e1c7477be43d79198ef9e52981a43"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000335.parquet",
+      "sha256": "ccdb276e4ff8a6277a3e602651ce19c237abd435c01cf9bc7b99e1d04b597cc7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000336.parquet",
+      "sha256": "b6a3fe104cbedefbe5f1da0a76f45ddc1a3c92cfda0b0f9cb5af37ce1b433be3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000337.parquet",
+      "sha256": "408b1b967f5fb5eec324f618c864f8b25eb72edd8c31296b2108fa222d6458e0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000338.parquet",
+      "sha256": "686d0664944af089d4068fcf03d6c5b0f0e0c5703ed30fbc6a5b9f47fa787d3d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000339.parquet",
+      "sha256": "762b8dec34e9d49b906685707e484937372a43f74314edc7ff4557627021b111"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000340.parquet",
+      "sha256": "87a2c90fb23927ffe0f22b1522ec3f76a648b8eaa4b6a1aa575d0d6ef25b696c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000341.parquet",
+      "sha256": "c9da5c83cec86b3dbebd187908b77633eef563bb02e70d8fe846cb80e94f2e4a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000342.parquet",
+      "sha256": "36a5a4ae76f77ba4c1ca4849491557293d2a77608129c9e8a97d913ff80285b5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000343.parquet",
+      "sha256": "b5e91838367fd2ffd98feda795a3655952ae70c7ffb662006eb7a532e41131ae"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000344.parquet",
+      "sha256": "c105afbdbdcdd500cc7f4fd521478aa993e05c43fbb2ac01663cc4329c4322a7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000345.parquet",
+      "sha256": "22b7980be3d5386fba44f2fa19a1de04390b298b39c7a63cd05cfb0c6e8ce8fa"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000346.parquet",
+      "sha256": "f94d7355958d946247ec42284f3206f10773206faa853c6c1770a8ed4e81a696"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000347.parquet",
+      "sha256": "01fb6ec0e05a474db06206fe929c81e102408107e221581bf547c9f613a9b0d1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000348.parquet",
+      "sha256": "d9a60c8720b091757f3d921a694b647a25d2c9b031c406c4651def1049e1ac1e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000349.parquet",
+      "sha256": "3e8a610079de93f933e5382da4a0e22e24600f7f727e0671235d015caef27f85"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000350.parquet",
+      "sha256": "e500791f9bc73815b534c69b4055ba8e982452fe7ff4c911ddeebbae2d726df7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000351.parquet",
+      "sha256": "2292c2fc7b6c78bd705e69594bdf689d1e24a0665795dbb29122a198ababe8ed"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000352.parquet",
+      "sha256": "3ca5b1ecb1337f17233335b4fbd2068105928c7d64daf6ef0dfc6b4ab8c79fc8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/documents-000353.parquet",
+      "sha256": "b249bff2aefac45993810c330b3309467609fe2f76ff57a86180da848fe3c04b"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000000.parquet",
+      "sha256": "81775e8e618ca99fdd07c12f46c4a1fb881b96f3ae5d7e951ee7259129b655dc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000001.parquet",
+      "sha256": "409e8aa7c4f36783723ede161a423459d2d0705fda95de1042a51ce2b95a8018"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000002.parquet",
+      "sha256": "77c958081243f972391f4285c68444811a8d790670739f8e18ba5822deeee7c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000003.parquet",
+      "sha256": "b03faa3cbde7d7fcd853b36ac70f55c5eb31e790cc0ed64579f3a94899567eea"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000004.parquet",
+      "sha256": "8e7f45c6553cfba6b5a8310f8321962c44a95cdcf1cfb8be30a4246f2f53cedc"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000005.parquet",
+      "sha256": "6b040b26a8775e7a10261d9359f8469abaf47b266db95f38bcb938d3193e20f0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000006.parquet",
+      "sha256": "1ff3a0d82bebfcea2cf5aded09d3f681d5c5620da006a8a536058fa8c7d4b7f4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000007.parquet",
+      "sha256": "7edd2871a078d6d0f1f3a9e325db1ffb98c259e91d5361f910bac4a586dd2b99"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000008.parquet",
+      "sha256": "ff476ae62208b2d9b1c5080368908dd7a801d7ce4d458fde37daacfcc2a83f09"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000009.parquet",
+      "sha256": "c7112d2242a1a8f0c9dbbbab6091fda323bf3d842ec84561b7d5cc522cd96872"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000010.parquet",
+      "sha256": "d32e39a00ff4a18b603b37f9f183f95ef2be3389e673f48eaa14063d55cd2a27"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000011.parquet",
+      "sha256": "397434515bc91fa3b49b6159f2bf0ff60245b854cbc97dad6306b49e020529dd"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000012.parquet",
+      "sha256": "2eabde092b129527d0b1eb2141ea0328c8a71da6fb3aa454b00a7bf72e4e2851"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000013.parquet",
+      "sha256": "ba9a934ae56ebbb28e3036c2e07aa7fd34b85124ab9e05f45eede96f91414e6a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000014.parquet",
+      "sha256": "0dfd722f312964148b47978475920bef428715d830b4966360b45b50fe967a30"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000015.parquet",
+      "sha256": "5f6fa1338203c5a9864ea9510bbf840fc6969fb0ded72e18714c7e0482810cda"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000016.parquet",
+      "sha256": "2a366407437f110c322d881dd5ab24cc0322fefd4955e6652ab706adf4967d6f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000017.parquet",
+      "sha256": "401eb25058e196738af1e3bf99d5d2c77de032029caf744e83a0321f6f4fcf9a"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000018.parquet",
+      "sha256": "bcc23681173972c4efa1fa9039ff1ab6e6eec7b724f94c5c52b84b195f6da832"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000019.parquet",
+      "sha256": "abd118356083099957a9db9c5cf0e9b99132ca4cb077aa7f2d479429bccf0784"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000020.parquet",
+      "sha256": "ea9d91822ca51dbd442c730223e9a6c5674fd8e49fe1f3cf8afd4651d0dc509c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000021.parquet",
+      "sha256": "e813a2925e24743bdc1a8adbac1b197474e587917a683cb76f18a0ddc3e70e97"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000022.parquet",
+      "sha256": "fa098ad121dc4a2b6803ae401409b19c4d67c38868a5f50f548dcc23a0dfe194"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000023.parquet",
+      "sha256": "033a2a662555b92f3735a4800338d6c36cd5a24492101dd146729bb931886906"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000024.parquet",
+      "sha256": "b6217708eb70820722637cf5f9de66bb62a547eab8c4e336878e815f6a96cbd5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000025.parquet",
+      "sha256": "e56ef93094140084614b8af31c9fc7337c5e3ea26ec91e7582f063a174949117"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000026.parquet",
+      "sha256": "f53dd887b181ad38c9a689b70d080f76a3f74d58f7c77485469705ecae059806"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000027.parquet",
+      "sha256": "b89366225fb09005912a70bb4ce1dfdb29b75cde7da34f8f85200cc0f1bff4c5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000028.parquet",
+      "sha256": "df47e58a39579a3c047fcfd6fa254701f37573523600a083b791f165709630a7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000029.parquet",
+      "sha256": "0619005366e84f250cbc115a54d6a826e97ac1987dce742f675866e9a46a67f0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000030.parquet",
+      "sha256": "939d4cd6a309ed5177a772bf5144452263f53b1f0ec72dd4df28f4137fce2441"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000031.parquet",
+      "sha256": "13a5e1368614ea507bd714a41206d889e55ae8e5f4fbc9221f6dfe9467c242cf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000032.parquet",
+      "sha256": "9a4a11282792388202f78d059506bd8e7a549424551c62182851ea0afc5156c1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000033.parquet",
+      "sha256": "9c13e76c1d8768e39a68075ba35b605fd7edbc991672c827d2fc10f2034cfa38"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000034.parquet",
+      "sha256": "e78b78bab70113728987bf3a660ad413af4cd569ba99f82435ab5fa4eedbce27"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000035.parquet",
+      "sha256": "b168bb091da51e1188bbb7069360570c2662c1196b09d4a3e3575d764ad47393"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000036.parquet",
+      "sha256": "56abb5a40711d014271c5250a59d4d3268dde9e78cd9052e0609dd174c8816db"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000037.parquet",
+      "sha256": "be336ec96a8d86e1bafc585ef93d4ed0c6483c98286dff28f2d5a5ffdeb34107"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000038.parquet",
+      "sha256": "5cdfa2de3a2abd630b15215c84470f05e34f057a164c3a33f0fe00c37e67e5e5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000039.parquet",
+      "sha256": "dad4c1abbdf59047b0d7394c53c6a32ee2e856fe9bf7ce63df6bdbdcefb1cd42"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000040.parquet",
+      "sha256": "215c2d3fc93f2304587ec6b31fe0c3f9194abfb1bb8daa520272995771c8f1ce"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000041.parquet",
+      "sha256": "0326ec1545027317ba0942a419be05390a6201759ce86003a673614d3bdcf3ff"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000042.parquet",
+      "sha256": "6e382d254073758db20c09fa8e609c5019be8d29de9632e185c6a3feebbf2966"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000043.parquet",
+      "sha256": "3820ad5ea7a17dce770bb108cdf950552a7cb8827d460b60b11577f489edead3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000044.parquet",
+      "sha256": "5f76da4da3dd062113beb142819a29f6d0e0ca991babbee5f27e97603b5700d5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000045.parquet",
+      "sha256": "9e883427a592cf267747c7f7b47d9d8325be67c7de0129c5b4a4895c0aecb5ea"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000046.parquet",
+      "sha256": "ee4189510c153a07c58cfc39ebe711981173d5b882972cc386ceacb9456ef548"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000047.parquet",
+      "sha256": "9339d3387dde6bc87054197f807ecc6422c1da863c55f2156a970e0f7ecabe6f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000048.parquet",
+      "sha256": "c04e9fba92be42ead638ef45901286769b9312b514d4de3925fe6880428b5285"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000049.parquet",
+      "sha256": "14778b9dd29318371fc1562a6998ab31678ec173ca1e977bdb87bffff1a75de1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000050.parquet",
+      "sha256": "c3fedaeab575080def48eff60bc97f761e3cce55d79a4bbd6462a3df1134e277"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000051.parquet",
+      "sha256": "0754e2dcbe65851dec24df7a71e9802c130571ad80c9c752a6b8eaf1c5cd43c7"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000052.parquet",
+      "sha256": "5524f731700bd5c4158dc50d5f3255c6318257ac92080d6a1808ce8e52369236"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000053.parquet",
+      "sha256": "cc187c15d2df8482ad0bedf347a566263eec00123ddb70c696471bc7c9c0aff8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000054.parquet",
+      "sha256": "954c22ec6c461a43fd1d84d36cd28dcd76acfe2170e30ddff33c785d987dfd79"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000055.parquet",
+      "sha256": "c2f8c73bc62ad424673be0180fed49bfe46899604c3f43da830376c821b890ee"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000056.parquet",
+      "sha256": "746883ecfa06ac8361f4faa0c077e249d413a124856b02433713087b01889a20"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000057.parquet",
+      "sha256": "4bb1c7833339e436453bd02310b37126b481395dfa0c5a5a9d527dbd96edc6de"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000058.parquet",
+      "sha256": "133944fd63601402867054dade81a4d73ab25562b79b40550aee71afd6d25835"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000059.parquet",
+      "sha256": "51ce2e6fc87e8f37cda2d3bf61b6f55fe7183e01bc6144fcc435d226ad4d8ba3"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000060.parquet",
+      "sha256": "f814b45b4888aee90a969207d1cc6b1f9912f6b840ff91724fc68cae1760d526"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000061.parquet",
+      "sha256": "d59f4da777e32b19b26367a429280146fc824ecf52495b234a3022d98c49de4f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000062.parquet",
+      "sha256": "e57640f2862e8d52ee711406d549a3d4ff40ce44c41ca6cd559bbaf113f05ecf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000063.parquet",
+      "sha256": "c3c38cb9c2cf6d75891960f152e3eb5ef143ebdcb6b9062a190e621d136bc3d5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000064.parquet",
+      "sha256": "dda487b8ae2e74da3af8b8235f07df9ece5a0c4af9a8252f88d77eb0ae74d847"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000065.parquet",
+      "sha256": "36a9defcb2bb51d7c636a1e976eceea16b8b7310734bfef81e4b1c3f973ae6f2"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000066.parquet",
+      "sha256": "a754b2c6ab68018d151795ae96ed5ab970895ffef36d18d5b417f264384f9c86"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000067.parquet",
+      "sha256": "649dfc378e9cf3b6e9f4b3f8601c9f9b877d59c272cd51e3993c4dda9af0af49"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000068.parquet",
+      "sha256": "bd372199ff831a2765626ea6d6fe1671e99eed900d8ffadfc33b61f2b69332bf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000069.parquet",
+      "sha256": "1610cc0094aeb875a32a8c566937855daf86ab0084af3ea2264ab76a177135fe"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000070.parquet",
+      "sha256": "424d1fbe41be207f88454fc9997df7184e5da83aecf823c87c46a357e31d5656"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000071.parquet",
+      "sha256": "361c04bd06a237b08ba55948c0959623f086085fe4309f6342ab6fe333a198c0"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000072.parquet",
+      "sha256": "99f835a27ae07aa42cb6af820b26fbaee88fc9a06453abd77720407395587bc9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000073.parquet",
+      "sha256": "0da85cb703a039a2ee297d73a70443f0b1013436d6212859432339ec39acf527"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000074.parquet",
+      "sha256": "435ca13b6f3761b17361124e3d152111c175a18bc1868e1e291301b8eab396fe"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000075.parquet",
+      "sha256": "41177515d04ca5af96d033766e894d3de4606970e416a27ea2d157a01491fcda"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000076.parquet",
+      "sha256": "97d8ed662953a9d5574f65fd0b4ebfff7856fa20dad3addebb28c610581026ba"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000077.parquet",
+      "sha256": "dc640397666b6bdfb5f457dcee7ba61235a75d051eb7f6aefb828dc5d2eb497c"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000078.parquet",
+      "sha256": "4f18fd778212a28ffcf75780a99ee501d4b2292097a6b19ab34034071fb5af71"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000079.parquet",
+      "sha256": "b33cf31f3f4547a3cd7a2e91f9dd84ef15c5ce704caef5d731ccdc4722b69936"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000080.parquet",
+      "sha256": "ee292ba953e9cc5a7aa29f1c7092b6e1c5ec115affb396d3b2e56a1c0379021f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000081.parquet",
+      "sha256": "6b76d559c4768a006a410fca40ba214b15c507cfa9033c25b9589ec751d0b864"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000082.parquet",
+      "sha256": "7392240b1661390e5de430837878623c6fbdbf0f37bf96578809e663c4f68cd4"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000083.parquet",
+      "sha256": "4db00454b2c1f039bd1337f9f59e2499bf432cc95627bbc7d34fc21344919206"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000084.parquet",
+      "sha256": "c1799179323f607ba1579a50657f636d9b230a58dc55cedd8bc24882a306f986"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000085.parquet",
+      "sha256": "772986b357d95c97681888af0754529fe9c870cc29e53e941a30bf1b3958c85e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000086.parquet",
+      "sha256": "ba0851b65d924d43a996bf95b016d08c0230d75f96b4c50d6cf166f25d8dea57"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000087.parquet",
+      "sha256": "02c13561c9c3a00a9a03755d95a2d87f742734466f1f4256deae0e602bf3d27f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/documents-000088.parquet",
+      "sha256": "e9a0509a0b8c28a5633c1906188f963e2b62481952bf674ad3a0d35722e85cdf"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/dense/bge-small-en-v1.5-f32/queries-000000.parquet",
+      "sha256": "4b5ed7911c02b73da9b6b59c1429ca6f327c97d5229cae6ef50c1bd991e9d6c1"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/msmarco-passage-trec-dl-2020/sparse/bm25-impact-v1/queries-000000.parquet",
+      "sha256": "e936f105d153f7f9863c532a65112a4dee6e0ac3ebace0a82d21104cb389387a"
+    }
+  ],
+  "protocol": "Full Dense NEON float32 cosine; Sparse float32 original-term-id accumulation; ascending stable UUID ties; positive sparse support"
+}

@@ -1,0 +1,116 @@
+{
+  "dataset": "trec-covid",
+  "query_id": "27",
+  "cost20": 7362,
+  "dense": 1349,
+  "sparse": 6013,
+  "certification_times": {
+    "1": 48,
+    "2": 50,
+    "3": 52,
+    "4": 542,
+    "5": 600,
+    "6": 2338,
+    "7": 2615,
+    "8": 2653,
+    "9": 4313,
+    "10": 6005,
+    "11": 6371,
+    "12": 7084,
+    "13": 7362,
+    "14": 7362,
+    "15": 7362,
+    "16": 7362,
+    "17": 7362,
+    "18": 7362,
+    "19": 7362,
+    "20": 7362
+  },
+  "events": [
+    {
+      "accesses": 48,
+      "dense": 24,
+      "sparse": 24,
+      "k": 1
+    },
+    {
+      "accesses": 50,
+      "dense": 25,
+      "sparse": 25,
+      "k": 2
+    },
+    {
+      "accesses": 52,
+      "dense": 26,
+      "sparse": 26,
+      "k": 3
+    },
+    {
+      "accesses": 542,
+      "dense": 271,
+      "sparse": 271,
+      "k": 4
+    },
+    {
+      "accesses": 600,
+      "dense": 271,
+      "sparse": 329,
+      "k": 5
+    },
+    {
+      "accesses": 2338,
+      "dense": 800,
+      "sparse": 1538,
+      "k": 6
+    },
+    {
+      "accesses": 2615,
+      "dense": 859,
+      "sparse": 1756,
+      "k": 7
+    },
+    {
+      "accesses": 2653,
+      "dense": 867,
+      "sparse": 1786,
+      "k": 8
+    },
+    {
+      "accesses": 4313,
+      "dense": 1123,
+      "sparse": 3190,
+      "k": 9
+    },
+    {
+      "accesses": 6005,
+      "dense": 1280,
+      "sparse": 4725,
+      "k": 10
+    },
+    {
+      "accesses": 6371,
+      "dense": 1305,
+      "sparse": 5066,
+      "k": 11
+    },
+    {
+      "accesses": 7084,
+      "dense": 1349,
+      "sparse": 5735,
+      "k": 12
+    },
+    {
+      "accesses": 7362,
+      "dense": 1349,
+      "sparse": 6013,
+      "k": 21
+    }
+  ],
+  "full_top20_matches_old": true,
+  "full_top100_matches_old": true,
+  "dense_prefix_mismatches": 0,
+  "sparse_prefix_mismatches": 0,
+  "independent_checks": 13,
+  "seconds": 0.07929182052612305,
+  "provenance": "Reconstructed complete rankings; sparse accumulation in original term-id order. Not a claim of identity with frozen segment-specific arithmetic."
+}

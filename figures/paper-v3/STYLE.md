@@ -1,0 +1,1 @@
+Paul Tol Vibrant, unchanged from v2. Complete-cost panel spans up to 10 million sorted accesses so that measured tails remain visible. Source: results/paper-experiments-v3, uniformly reconstructed full rankings.

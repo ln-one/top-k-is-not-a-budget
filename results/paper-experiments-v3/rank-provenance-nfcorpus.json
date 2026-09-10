@@ -1,0 +1,36 @@
+{
+  "dataset": "nfcorpus",
+  "queries": 323,
+  "seconds": 1.086745023727417,
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/dense/bge-small-en-v1.5-f32/documents-000000.parquet",
+      "sha256": "aba11fca7beec551e427488a0dd6aec6d5d4ea95cd2d8011acd0be7ef02309f5"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/sparse/bm25-impact-v1/documents-000000.parquet",
+      "sha256": "ad758922e33d6e778e7d57c8aa93976553b9c5a9164e3855d61f14a9c974b455"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/sparse/bm25-impact-v1/documents-000001.parquet",
+      "sha256": "e3527f929b5e9becbfa66ff05cdfb18a10158fe6d52696bcff48fa84342d9506"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/sparse/bm25-impact-v1/documents-000002.parquet",
+      "sha256": "2045f2988b2a0fd64e37a957e3e996e104ee6598c4601f0bd4dd748ac93a06ec"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/sparse/bm25-impact-v1/documents-000003.parquet",
+      "sha256": "bb6fb3935ed160c7c6cb455449e7ac930720f78d03b809bff8bfc25c526cf263"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/dense/bge-small-en-v1.5-f32/queries-000000.parquet",
+      "sha256": "b68595927965e50a59b69445ebed3264f28db4a2c60b036a84b48a961b88b87e"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/nfcorpus/sparse/bm25-impact-v1/queries-000000.parquet",
+      "sha256": "037313e8c8d7594971e0f201b7ce4553be2332c32d0216c55157264a2c783f62"
+    }
+  ],
+  "protocol": "Full Dense NEON float32 cosine; Sparse float32 original-term-id accumulation; ascending stable UUID ties; positive sparse support"
+}

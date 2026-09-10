@@ -3,3 +3,4 @@ scipy==1.18.1
 pandas==3.0.5
 matplotlib==3.11.1
 pytrec-eval-terrier==0.5.10
+pyarrow==25.0.1

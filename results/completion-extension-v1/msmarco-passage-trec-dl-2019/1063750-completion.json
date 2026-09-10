@@ -1,0 +1,158 @@
+{
+  "dataset": "msmarco-passage-trec-dl-2019",
+  "query_id": "1063750",
+  "cost20": 26409,
+  "dense": 5165,
+  "sparse": 21244,
+  "certification_times": {
+    "1": 44,
+    "2": 58,
+    "3": 84,
+    "4": 113,
+    "5": 133,
+    "6": 212,
+    "7": 628,
+    "8": 629,
+    "9": 932,
+    "10": 1536,
+    "11": 2047,
+    "12": 2361,
+    "13": 2472,
+    "14": 2733,
+    "15": 3210,
+    "16": 3426,
+    "17": 5605,
+    "18": 24575,
+    "19": 25216,
+    "20": 26409
+  },
+  "events": [
+    {
+      "accesses": 44,
+      "dense": 22,
+      "sparse": 22,
+      "k": 1
+    },
+    {
+      "accesses": 58,
+      "dense": 29,
+      "sparse": 29,
+      "k": 2
+    },
+    {
+      "accesses": 84,
+      "dense": 42,
+      "sparse": 42,
+      "k": 3
+    },
+    {
+      "accesses": 113,
+      "dense": 62,
+      "sparse": 51,
+      "k": 4
+    },
+    {
+      "accesses": 133,
+      "dense": 73,
+      "sparse": 60,
+      "k": 5
+    },
+    {
+      "accesses": 212,
+      "dense": 117,
+      "sparse": 95,
+      "k": 6
+    },
+    {
+      "accesses": 628,
+      "dense": 368,
+      "sparse": 260,
+      "k": 7
+    },
+    {
+      "accesses": 629,
+      "dense": 369,
+      "sparse": 260,
+      "k": 8
+    },
+    {
+      "accesses": 932,
+      "dense": 571,
+      "sparse": 361,
+      "k": 9
+    },
+    {
+      "accesses": 1536,
+      "dense": 1015,
+      "sparse": 521,
+      "k": 10
+    },
+    {
+      "accesses": 2047,
+      "dense": 1425,
+      "sparse": 622,
+      "k": 11
+    },
+    {
+      "accesses": 2361,
+      "dense": 1688,
+      "sparse": 673,
+      "k": 12
+    },
+    {
+      "accesses": 2472,
+      "dense": 1783,
+      "sparse": 689,
+      "k": 13
+    },
+    {
+      "accesses": 2733,
+      "dense": 2009,
+      "sparse": 724,
+      "k": 14
+    },
+    {
+      "accesses": 3210,
+      "dense": 2009,
+      "sparse": 1201,
+      "k": 15
+    },
+    {
+      "accesses": 3426,
+      "dense": 2009,
+      "sparse": 1417,
+      "k": 16
+    },
+    {
+      "accesses": 5605,
+      "dense": 2009,
+      "sparse": 3596,
+      "k": 17
+    },
+    {
+      "accesses": 24575,
+      "dense": 3331,
+      "sparse": 21244,
+      "k": 18
+    },
+    {
+      "accesses": 25216,
+      "dense": 3972,
+      "sparse": 21244,
+      "k": 19
+    },
+    {
+      "accesses": 26409,
+      "dense": 5165,
+      "sparse": 21244,
+      "k": 20
+    }
+  ],
+  "full_top20_matches_old": true,
+  "full_top100_matches_old": true,
+  "dense_prefix_mismatches": 0,
+  "sparse_prefix_mismatches": 14,
+  "independent_checks": 20,
+  "seconds": 1.7500579357147217,
+  "provenance": "Reconstructed complete rankings; sparse accumulation in original term-id order. Not a claim of identity with frozen segment-specific arithmetic."
+}

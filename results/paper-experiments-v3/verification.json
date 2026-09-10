@@ -1,0 +1,16 @@
+{
+  "queries": 770,
+  "static_queries": 770,
+  "temporal_query_snapshots": 0,
+  "budget_rows": 24640,
+  "all_budget_endpoints_known": true,
+  "all_four_static_top20_completed": 770,
+  "top20_trajectory_completions": 3080,
+  "ndcg20_rows_checked": 24640,
+  "max_ndcg20_error": 3.3306690738754696e-16,
+  "independent_array_states": 107018,
+  "ordered_mismatches": 0,
+  "budget_violations": 0,
+  "old_top20_equal": 770,
+  "old_top100_equal": 770
+}

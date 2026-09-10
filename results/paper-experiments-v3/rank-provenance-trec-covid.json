@@ -1,0 +1,52 @@
+{
+  "dataset": "trec-covid",
+  "queries": 50,
+  "seconds": 2.676481246948242,
+  "sources": [
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000000.parquet",
+      "sha256": "1fb802362fd1734d5c53e03083bacb11d568280aaf011ca22a2819b08bf17365"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000001.parquet",
+      "sha256": "3f36bee6eadaa5c92cf9cca5d2aea37b8f63e9d30a766e7f22917c6f0085e9f9"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000002.parquet",
+      "sha256": "7f6f5bdf7ff64d80d19464af60a55b020abb3cfe609ef2592d6a7abba119e28d"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000003.parquet",
+      "sha256": "c772f9f33cb1cd1672fa8acc8da0ae4135a07c576aa04119b7ad9777f2f3a13f"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000004.parquet",
+      "sha256": "72e7c47263769cc54f2d33b8d962a802403a2256519aaea884f1dacf90257e38"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000005.parquet",
+      "sha256": "79fdfafbaf6f049f82cd27aafe246570d425b1ef8f186f99c9c620fbf6f96251"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/documents-000006.parquet",
+      "sha256": "c01f9a906e25a4c0ce63c6091d0ea8077cf2d4a292ccae08f594d2cb25a92104"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/sparse/bm25-impact-v1/documents-000000.parquet",
+      "sha256": "f014747dd50535af35660706cde297ebd96184eec3b4d388c8ab3bd51a6180f8"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/sparse/bm25-impact-v1/documents-000001.parquet",
+      "sha256": "b68b3d751aa653870ec1b7167b82d471edfab4990574b83af38c4d555c547695"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/dense/bge-small-en-v1.5-f32/queries-000000.parquet",
+      "sha256": "7d37c1eb567944c6e2392af5aea52a0466039ab3d7b31130f1a074b124402c24"
+    },
+    {
+      "path": "/Users/ln1/Projects/StratumindLab/artifacts/canonical-v1/datasets/trec-covid/sparse/bm25-impact-v1/queries-000000.parquet",
+      "sha256": "498dc1502ffe0fdd8c04ee07c965bd19b6203ee03a97767afbc1fb107fbee052"
+    }
+  ],
+  "protocol": "Full Dense NEON float32 cosine; Sparse float32 original-term-id accumulation; ascending stable UUID ties; positive sparse support"
+}
