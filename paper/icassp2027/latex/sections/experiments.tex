@@ -24,14 +24,7 @@ A fixed result count does not stabilize access cost (Table~\ref{tab:cost}). On T
 
 \subsection{Certified output under equal budgets}
 \input{tables/yield-v2}
-At $B=2048$, DiBud increases mean certified output within the first 100 positions from 41.77 to 45.05, a 7.86\% gain over Balanced (Table~\ref{tab:yield}). Within the first 20 positions, the mean changes from 18.07 to 18.18. All five sets gain output, with larger improvements for longer prefixes.
-\begin{figure*}[t]
-\centering\includegraphics[width=\textwidth]{../../../figures/paper-v3/yield.pdf}
-\caption{Certified output under equal budgets. Static panels cap output at 100; the snapshot panel uses a cap of 20 and $B=2048$. All plotted budget endpoints are observed.}
-\label{fig:yield}\end{figure*}
-Over the full log-budget range, DiBud has a larger normalized certified-prefix area than Balanced on all five static sets. The paired 95\% confidence intervals for these differences remain above zero with both unit accesses and batches of 64.
-
-Across the five snapshots at $B=2048$, DiBud returns means of 18.00, 17.57, 16.40, 15.77, and 15.10 results within the first 20 positions, versus 17.70, 17.20, 16.03, 15.30, and 14.83 for Balanced. A fixed budget yields different output sizes as the corpus changes. DiBud improves the mean in every round. Full budget curves, output quantiles, empty-output rates, and delivery thresholds are retained with the experiment artifacts.
+With the same budget of 2048 accesses, DiBud certifies more results than Balanced on all five query sets (Table~\ref{tab:yield}). Averaged equally across sets, output within the first 100 positions increases from 41.77 to 45.05, a 7.86\% gain; within the first 20, it increases from 18.07 to 18.18.
 
 \subsection{Quality and access cost relative to exact Top-20}
 We compare two stopping conditions on the same unit-SNRA trajectory: complete exact Top-20, or stop at the budget or at 20 certified results, whichever comes first. Evaluation uses linear-gain nDCG@20, with absent positions contributing zero. For each query set, five-fold calibration chooses the smallest budget retaining 90\%, 95\%, or 99\% of the reference mean nDCG@20; the frozen choice is evaluated on held-out queries. Retention is a ratio of means, not a mean of per-query ratios with an arbitrary value for zero-reference queries.

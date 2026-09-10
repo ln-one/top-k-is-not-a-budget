@@ -1,8 +1,8 @@
 {
   ".gitignore": "db3eff71800858393f5ad38611606ce485f8c196203900c1457b1c687ea03597",
   "CITATION-AUDIT.md": "bcfd3682814dc7b7aa57727e0e30310f4894c2056e571218c421421ab056b1cd",
-  "DELIVERY.md": "6db206e3301df2c7a7020d3746edb33682210e1a4b1a1b23303283f04625e814",
-  "DiBud-ICASSP2027.pdf": "53ee05787a52cf45d20e88a8840df24f3d600c3d6d86987e2e624d056486908f",
+  "DELIVERY.md": "4f7df852aeafe2d03d00ef34313228788f0924f5fc80ead592afecedef456da3",
+  "DiBud-ICASSP2027.pdf": "b6b3292842b2ee242a430d543a52de47a2faceb2c8289d5a0291ff2c6500cf10",
   "ICASSP2027_Paper_Templates.zip": "fd1cc4102c4ad9a3e85eba96ee5ed261a45fab9c2630875eb2566812230c91a8",
   "IEEEbib.bst": "7e6ca0c8b72158d504a12bb091f817c07032a021ba41ca783cca4c2dd80d570b",
   "Makefile": "f2bdb29e2df333220688331ce86618552582701366dfc5ed9df2fdb5f5aeadd5",
@@ -17,7 +17,7 @@
   "qa/complete-rank-v3/dibud-v3-page-4.png": "a5f6973e18c3bf1be1981d194a1dbba9a60a41b54df203e9e092a922eec0efdd",
   "qa/complete-rank-v3/dibud-v3-page-5.png": "1b0f3cc49b0c2ecf819e347c705c4d2703a82a680df82c2fd02d96ce122e988d",
   "qa/complete-rank-v3/dibud-v3-page-6.png": "c4757264598b991ba643c6a4d4a874af3b4fd81849544f932f00c59d05c76434",
-  "qa/manuscript.txt": "0a5a00991705f674e7b78f5920629c34daf4b5da7eb05e2d034d835bc045c3f5",
+  "qa/manuscript.txt": "abc5200ea584caffb2ae581dfcb521143cf1acc5496d9e2ce732f285bb64a202",
   "qa/page-1.png": "71b4e0fab1f54eaf983dd7eb4851f0b456a27d4abde63b61148344a2206b2f7f",
   "qa/page-2.png": "02a89ff392a1089cf4e92f987821ddb818861a0b6b07a9e93b7f2adb4cb96eb8",
   "qa/page-3.png": "b7cfafaf45f90a4761582b2856f8df0580c71d9f8c5dd150fb4452b1183c50c6",
@@ -27,7 +27,7 @@
   "result-audit.json": "7e5606c1bb3fca5efb673b175d616f68c48afa277891058808d4df7f5aa5b84c",
   "sections/abstract.tex": "bd90bc4ad81d909d1c98e97c91b64670df13e24d091c4a8880ff25a36c376d77",
   "sections/conclusion.tex": "a1916bb5126f107c917a9169f24daca89c3cc77354e01c24c10a453e146be789",
-  "sections/experiments.tex": "bead2d69926eecafdacb51c841307b3745fd792692cba1b1c90ab58876cedc00",
+  "sections/experiments.tex": "82f806a98e8262103292a8143d7c20dabf414b5891a6f97fa75eb2ec5cd04341",
   "sections/introduction.tex": "73808794010e88cb62ad76be359ff150e35f021e94406c44b0d8170f4055c15d",
   "sections/method.tex": "09b1ab6d9c0a60008b3c4c298dcfb15eae3e222b1a63a4ae298efdbfb4910578",
   "spconf.sty": "dc5d632639040cb183f2ab62780f314845aa021be73048c8a9ec9c2072d64a86",
@@ -38,7 +38,7 @@
   "tables/static.tex": "61c9978ee278506d9db1a46f5a37319948bd6450b4e7b8aac091f3fce3bf9b95",
   "tables/temporal.tex": "8391f2ccacf9142003cd544ed5c1c273b074a8f214a38062b2896369a5be3dbb",
   "tables/transfer-v2.tex": "3c5c191a8085550556b011a0d75add2d48498538978a5a0c58ca337f555218a1",
-  "tables/yield-v2.tex": "466ef4753aca78d77d3992a9c5e1d77430c69de71878b8583f88ca7908475d78",
+  "tables/yield-v2.tex": "2e05672fdf8f1299dc91ec1032601652a47791786d07f858d50361ce8fd7c240",
   "tools/build_tables.py": "d06134e65449afc9c12b15cc44d31628c2f23a4fb0bf2759d827dfad8998027f",
   "tools/build_tables_v3.py": "64b923719d10b04160d0d4ad06feb11346f897410a7f7f02b509f33093f24637"
 }
