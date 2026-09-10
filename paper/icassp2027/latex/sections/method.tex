@@ -1,6 +1,13 @@
 \section{DiBud: Budgeted Exact-Prefix Fusion}
 \label{sec:method}
-Given a query, a corpus snapshot, and a read budget $B$, DiBud reads the dense and sparse rankings on demand and returns a certified prefix of their complete RRF ranking. The budget determines how much can be read; certification determines how much can be returned.
+Given a query, a corpus snapshot, and a read budget $B$, DiBud reads the dense and sparse rankings on demand and returns a certified prefix of their complete RRF ranking. The budget determines how much can be read; certification determines how much can be returned (Fig.~\ref{fig:method}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\columnwidth]{../../../figures/method/dibud.pdf}
+\caption{DiBud overview. The budget directly limits reads, while current competition guides channel selection. Certification determines the returned prefix.}
+\label{fig:method}
+\end{figure}
 
 \subsection{Budget and output}
 Let $r_i(x)$ denote the one-based rank of document $x$ in channel $i\in\{D,S\}$, and let $g(r)=1/(c+r)$ for rank constant $c\geq 0$. Set $r_i(x)=\infty$ and $g(\infty)=0$ if $x$ is outside that channel's support. The complete fusion score is
@@ -15,7 +22,7 @@ Both channels supply resumable exact ranking prefixes from the same snapshot. If
  d_D+d_S\leq B,\qquad A=T^\star_{1:K},\quad K=|A|.
  \label{eq:contract}
 \end{equation}
-$K$ is not specified in advance. The output is empty if no position can be certified. The budget counts channel entries read, including separate reads of the same document in different channels.
+Here $B$ is the input limit; $K=|A|$ is the certified output size, not a preset count. Exactness applies to these returned positions. If none is certified, $A$ is empty. Reading the same document from both channels counts as two accesses.
 
 \subsection{Prefix certification}
 Let $S_i$ be the documents already read from channel $i$. An unread contribution in that channel is bounded by
@@ -35,10 +42,10 @@ A document unseen in both channels has score at most $h_{\varnothing}=u_D+u_S$.
 
 Among observed documents not yet emitted, select $x$ with the highest lower bound, breaking ties by the fixed identifier order. Certify $x$ as the next output when its lower bound exceeds every remaining competitor's upper bound and $h_{\varnothing}$. Equality with an observed competitor is allowed only when $x$ wins the identifier tie; comparison with the unseen bound remains strict. Append $x$ and repeat until the next position cannot be certified.
 
-The bounds ensure $\ell(x)\leq F(x)\leq h(x)$. Each emitted document therefore precedes every remaining document, including any not yet observed. Applying this argument at each output position establishes the prefix equality in~\eqref{eq:contract}.
+The bounds ensure $\ell(x)\leq F(x)\leq h(x)$. Each emitted document therefore precedes every remaining document, including any not yet observed. Applying this argument at each output position establishes the prefix equality in~\eqref{eq:contract}. Each position can be certified without resolving later positions, so the prefix grows incrementally and remains valid when the budget ends.
 
 \subsection{Reading and stopping}
-When the next position cannot be certified, let $y$ be the observed competitor with the highest upper bound, excluding $x$ and the emitted prefix and breaking ties by identifier. If $h(y)\geq h_{\varnothing}$ and $y$ is missing a contribution from exactly one channel, advance that channel. This either reveals the contribution or tightens its upper bound.
+When the next position cannot be certified, let $y$ be the observed competitor with the highest upper bound, excluding $x$ and the emitted prefix and breaking ties by identifier. If $h(y)\geq h_{\varnothing}$ and $y$ is missing a contribution from exactly one channel, advance that channel. Reading may reveal $y$ and determine its missing contribution. Otherwise, advancing the read depth lowers its contribution bound. Both outcomes help determine whether $y$ still blocks the next position.
 
 Otherwise, advance the channel whose next batch offers the larger reduction in the unread bound. For a batch of $b$ entries in a channel that remains open after the read, this reduction is
 \begin{equation}
@@ -47,4 +54,4 @@ Otherwise, advance the channel whose next batch offers the larger reduction in t
 \end{equation}
 If exhaustion is established, the new bound is zero. Exhausted channels are skipped, and equal reductions are resolved by a fixed channel order (dense first). This rule also initializes reading when no document has been observed.
 
-After each batch, update the bounds and extend the certified prefix. The batch size is capped by the remaining budget. When the budget is consumed, or both channels are exhausted, return the accumulated output. Certification depends on the observed bounds, so changing the read schedule affects the number of certified results without changing the meaning of an emitted position.
+After each batch, update the bounds and extend the certified prefix. The batch size is capped by the remaining budget. Complete these updates after the final allowed read, then return the accumulated output when the budget is consumed or both channels are exhausted. The schedule affects how many positions can be certified within the budget; the certification rule preserves the exactness of every returned position.
