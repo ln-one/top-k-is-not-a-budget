@@ -11,3 +11,5 @@
 ## 2026-09-10 New real data
 
 results/temporal-matched/aggregate.csv and results/metric-audit/aggregate.csv are real measured replay summaries; no additional figures generated during this update.
+
+2026-09-10 scheduler screening uses numerical tables only; no figure is generated. Real inputs and outputs are listed in `results/simple-schedulers-pilot/manifest.json`.

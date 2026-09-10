@@ -1,0 +1,8 @@
+{
+  "n": 6,
+  "second_permutations": 720,
+  "exhaustion_cases": 2,
+  "depth_pairs": 49,
+  "states_checked": 70560,
+  "mismatches": 0
+}

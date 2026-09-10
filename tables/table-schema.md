@@ -15,3 +15,5 @@
 ## 2026-09-10 New tables
 
 Static/temporal budget tables: dataset/snapshot × budget × cap × method, using results/matched-budget-truncation and temporal-matched aggregate.csv. Metric audits export both gains in results/metric-audit and temporal-metric-audit. No synthetic values.
+
+| Simple scheduler screening | Compare yield and actual replay overhead | dataset × policy | nAUC, cap20/100 yield, paired wins/losses, certificate calls, Python time | `results/simple-schedulers-pilot/per-query.csv` | `scripts/pilot_simple_schedulers.py` |

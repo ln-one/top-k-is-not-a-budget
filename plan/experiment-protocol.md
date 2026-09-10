@@ -197,3 +197,7 @@ current scalar prototype is slower than the warm exhaustive control.
 ## 2026-09-10 Publication replay validation
 
 Current protocols: research/matched-budget-truncation-protocol.md and research/temporal-prefix-protocol.md. Five static query sets plus five snapshots of the same 30 queries. See REPRODUCE.md for exact gain conventions, limits, dependencies and commands.
+
+## 2026-09-10 parameter-free scheduler screening
+
+The new bounded pilot is specified in `plan/research/parameter-free-scheduler-pilot.md`. It uses deterministic 20-query subsets of five already examined sets; it does not replace paper experiments. No fitted coefficients, no new imputation, no downstream or live-system claim.

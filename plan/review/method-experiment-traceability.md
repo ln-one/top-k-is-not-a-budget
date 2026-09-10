@@ -21,3 +21,5 @@
 | Budget bounds rank accesses while output varies across snapshots | results/temporal-matched and temporal-prefix | Same30 queries; no wall-clock guarantee |
 | Metric computations are externally reproducible | results/metric-audit and temporal-metric-audit | Linear and exponential nDCG kept separate; Recall rel>0 |
 | Relevant-document quality exceeds truncation | results/matched-budget-truncation | Not supported |
+
+| Simpler scheduler candidates (2026-09-10) | Unit decisions and bound-crossing batches | 100-query exploratory replay, matched logical budgets; certificate-call/time accounting | `results/simple-schedulers-pilot/` | Only observed yield/overhead tradeoffs on selected frozen queries; no novelty or optimality claim | 100-query pilot complete; paired timing and 70,560-state certificate check recorded |

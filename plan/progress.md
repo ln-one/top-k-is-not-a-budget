@@ -392,3 +392,7 @@
 ## 2026-09-10 Paper repository consolidation
 
 Accepted Introduction/Method synced. Static comparison reproduced, metrics audited with external trec_eval wrapper, five temporal snapshots evaluated. Reproduction entry and locally packaged940-file inputs documented in REPRODUCE.md. No physical-engine or missing-value compensation experiment added.
+
+## 2026-09-10 — Simple scheduler candidate screening
+
+User requested several elegant, coefficient-free candidates with pilots. Tested unit reading, bounded/unbounded boundary-triggered batches, and direct certificate-boundary jumps on100 deterministic queries (20 per set), budgets128–2048. No manuscript change. Unit and bounded handoff improve capped log-budget area by1.84% and1.60%; long jumps lose. Three-support-group maintenance exactly reproduces current certificate and choices; 70,560 small states match. Paired serial replay timing on50 queries×3 repeats: array-blocker64 4.91ms, grouped-blocker64 2.22ms, grouped-unit13.19ms, grouped-handoff64 14.08ms. These are reference Python replay timings, not live retrieval latency. Retain grouped maintenance and unit-granularity direction, do not claim a new superior channel-selection algorithm. Full record: results/simple-schedulers-pilot/analysis-zh.md.

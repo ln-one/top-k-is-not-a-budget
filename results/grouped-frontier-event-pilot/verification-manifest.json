@@ -1,0 +1,20 @@
+{
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "files": {
+    "scripts/pilot_simple_schedulers.py": "8196c93ba607160011e28ce4ccb1f43a95b7108ce855aac7e8a1d1b030e4c40e",
+    "scripts/pilot_grouped_frontier.py": "52b517ef0d26c47e8ac29405c3ace8ca73604d6f99de7c0d989387c942611d35",
+    "scripts/verify_grouped_frontier.py": "d647ffc528f890e3d7cb84fdd16a3112cba771afb99e249f8f29bfcbfccf3ce8",
+    "scripts/benchmark_grouped_frontier.py": "22e6ebdd5f0ab5fe4eff3eb1bef616572e03cc268c9c81def58964c9021075c7",
+    "plan/research/parameter-free-scheduler-pilot.md": "9fe6886671b55dec5f57792cb212c52945a567a19bfefb3ea06d2f3a5b08ab51",
+    "results/grouped-frontier-event-pilot/per-query.csv": "e9935f9a73478c6007a62433cfc90ccb199c00b27b7d915dfd4cb03d77012513",
+    "results/grouped-frontier-event-pilot/timing-summary.json": "2b31cce691522ada0c1f3eeec25c8006e690754aeb96cfc5e76810ad5a06adb3",
+    "results/grouped-frontier-event-pilot/timing-paired.csv": "3eba4cd0a53ad8e4265e488fcecfe698f6349ea858644af1be2284ba12830a13",
+    "results/grouped-frontier-event-pilot/exhaustive-check.json": "165dff68db70768086a2947395455dd8856bb3cc43652971a971f8dd81c7be7e",
+    "results/grouped-frontier-event-pilot/manifest.json": "d99b6ba5e04dd09b91b3a1ba183ddcecb8e0f652c3a162192d47b72ea58ef317",
+    "results/simple-schedulers-pilot/aggregate.csv": "af6e3498044d3b971b5b0d3295ecb20f5b1a435838d7ccbfcc0e4157e8184d94",
+    "results/simple-schedulers-pilot/analysis-zh.md": "631ac8b1b5c746cb80e6e7a3ef3791c6bcf4609192c55d0f62b1a638533cc647",
+    "results/simple-schedulers-pilot/per-query.csv": "18c5f1531d509e5c09d3846bc9ac44ebb742560d92fa0a20c367a45931336656",
+    "results/simple-schedulers-pilot/manifest.json": "ab6ff30f90f21f8701b591475140c535ab7bbbb40b4d605fd92693280e0d54ec"
+  }
+}
