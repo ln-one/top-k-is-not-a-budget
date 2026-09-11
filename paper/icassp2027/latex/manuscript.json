@@ -1,0 +1,102 @@
+{
+  "paper": "DiBud",
+  "numeric_citations": true,
+  "sections": [
+    {
+      "markdown": "markdown/abstract.md",
+      "latex": "sections/abstract.tex"
+    },
+    {
+      "markdown": "markdown/conclusion.md",
+      "latex": "sections/conclusion.tex"
+    },
+    {
+      "markdown": "markdown/experiments.md",
+      "latex": "sections/experiments.tex"
+    },
+    {
+      "markdown": "markdown/introduction.md",
+      "latex": "sections/introduction.tex"
+    },
+    {
+      "markdown": "markdown/method.md",
+      "latex": "sections/method.tex"
+    },
+    {
+      "markdown": "markdown/acknowledgments.md",
+      "latex": "sections/acknowledgments.tex"
+    },
+    {
+      "markdown": "markdown/keywords.md",
+      "latex": "sections/keywords.tex"
+    }
+  ],
+  "assets": {
+    "../preview/fig-transfer.png": {
+      "kind": "figure",
+      "latex": "layout/fig-transfer.tex",
+      "number": 2,
+      "label": "fig:transfer",
+      "pdf": "../../../figures/paper-v2/transfer.pdf"
+    },
+    "../preview/tab-cost.png": {
+      "kind": "table",
+      "latex": "tables/cost-v3.tex",
+      "number": 1,
+      "label": "tab:cost"
+    },
+    "../preview/tab-yield.png": {
+      "kind": "table",
+      "latex": "tables/yield-v2.tex",
+      "number": 2,
+      "label": "tab:yield"
+    },
+    "../preview/tab-quality.png": {
+      "kind": "table",
+      "latex": "tables/quality-v3.tex",
+      "number": 3,
+      "label": "tab:quality"
+    },
+    "../preview/fig-method.png": {
+      "kind": "figure",
+      "latex": "layout/fig-method.tex",
+      "number": 1,
+      "label": "fig:method",
+      "pdf": "../../../figures/method/dibud.pdf"
+    }
+  },
+  "anchors": {
+    "conclusion": "conclusion",
+    "sec-experiments": "sec:experiments",
+    "setup": "setup",
+    "transfer-of-fixed-depths": "transfer-of-fixed-depths",
+    "fixed-k-access-cost": "fixed-k-access-cost",
+    "certified-output-under-equal-budgets": "certified-output-under-equal-budgets",
+    "quality-and-access-cost-relative-to-exact-top-20": "quality-and-access-cost-relative-to-exact-top-20",
+    "sec-intro": "sec:intro",
+    "sec-method": "sec:method",
+    "budget-and-output": "budget-and-output",
+    "prefix-certification": "prefix-certification",
+    "reading-and-stopping": "reading-and-stopping",
+    "acknowledgments": "acknowledgments"
+  },
+  "labels": {
+    "fig:transfer": "experiments",
+    "sec:experiments": "experiments",
+    "sec:intro": "introduction",
+    "sec:method": "method",
+    "fig:method": "method",
+    "eq:score": "method",
+    "eq:contract": "method",
+    "eq:unread": "method",
+    "eq:lower": "method",
+    "eq:upper": "method",
+    "eq:drop": "method",
+    "tab:temporal": "experiments",
+    "tab:transfer": "experiments",
+    "tab:yield": "experiments",
+    "tab:static": "experiments",
+    "tab:quality": "experiments",
+    "tab:cost": "experiments"
+  }
+}

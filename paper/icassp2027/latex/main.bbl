@@ -5,6 +5,11 @@
 \newblock ``Reciprocal rank fusion,'' \url{https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion},
 \newblock Accessed September 10, 2026.
 
+\bibitem{azure}
+{Microsoft},
+\newblock ``Hybrid search scoring ({RRF})---{Azure AI Search},'' \url{https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking},
+\newblock Accessed September 11, 2026.
+
 \bibitem{rrf}
 Gordon~V. Cormack, Charles L.~A. Clarke, and Stefan Buettcher,
 \newblock ``Reciprocal rank fusion outperforms condorcet and individual rank learning methods,''

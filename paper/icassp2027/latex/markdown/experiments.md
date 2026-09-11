@@ -1,0 +1,49 @@
+![Depth sensitivity and transfer. (a) Different queries on the same corpus. (b) The same queries across snapshots, using each round's judgments. Circles mark the best tested depths. (c) Held-out transfer of Round-1 depths. Error bars show 95% nested bootstrap intervals with depth reselection and query identities preserved across rounds.](../preview/fig-transfer.png)
+
+# Experiments
+
+^sec-experiments
+
+## Setup
+
+^setup
+
+We evaluate 770 queries from five query sets---TREC-DL 2019/2020, NFCorpus, SciFact, and TREC-COVID---and the same 30 queries across five TREC-COVID snapshots [@dl19; @dl20; @nfcorpus; @scifact; @covid]. We replay exact rankings from bge-small-en-v1.5 [@bge] and BM25 [@bm25] ($k_1=0.9$, $b=0.4$), using equal-weight RRF with contributions $1/(59+r)$ and deterministic tie breaking.
+
+DiBud and Balanced use the same certification rules and access budgets, ranging from 128 to 10000. Both read one entry at a time; Balanced alternates between the two lists. We count certified results up to 20 and 100, and use completed exact Top-20 as the cost and quality reference.
+
+Static replays use reconstructed full rankings: all 770 queries complete exact Top-20. Temporal replays use frozen snapshot rankings without treating saved-list boundaries as exhaustion. Results are averaged within each query set, then equally across sets. Reported 95% confidence intervals use 2000 query bootstrap samples.
+
+## Transfer of fixed depths
+
+^transfer-of-fixed-depths
+
+We evaluate $L\in\{10,\allowbreak20,\allowbreak50,\allowbreak100,\allowbreak200,\allowbreak500,\allowbreak1000,\allowbreak2000,\allowbreak5000\}$. On the same MS MARCO corpus, increasing $L$ from 20 to 5000 raises nDCG@10 from 0.6538 to 0.6812 for TREC-DL 2019, but lowers it from 0.6424 to 0.6243 for TREC-DL 2020 (Fig. [2](experiments.md#^fig-transfer "ref:fig:transfer")a). Changing queries reverses the benefit of a deeper window.
+
+For the same 30 queries across five TREC-COVID snapshots, the best tested depths are 50, 100, 200, 200, and 5000 (Fig. [2](experiments.md#^fig-transfer "ref:fig:transfer")b). We then test whether an earlier selection transfers: five-fold calibration selects $L$ using Round-1 queries and freezes it for held-out queries across all rounds. The nDCG@10 difference from full RRF changes from $-0.0085$ in Round 1 to $-0.0272$ in Round 5 (95% CI: $[-0.0699,-0.0058]$; Fig. [2](experiments.md#^fig-transfer "ref:fig:transfer")c). A depth selected on earlier data does not necessarily maintain its relative effectiveness as the corpus changes.
+
+## Fixed-K access cost
+
+^fixed-k-access-cost
+
+Completing exact Top-20 is inexpensive for most queries but costly in the tail (Table [1](experiments.md#^tab-cost "ref:tab:cost")). On TREC-DL 2019, half the queries finish within 311 accesses, whereas the P95 reaches 196410 and the maximum reaches 3533518---approximately 632 and 11362 times the median. The same pattern appears on TREC-DL 2020 and TREC-COVID, where the P95 reaches 80 and 22 times the median, respectively. A $K$ that is affordable for most queries can therefore be expensive for others within the same query set. This variability motivates specifying the access budget directly and determining the output size during execution, without a preset $K$.
+
+![Table 1 (publication preview)](../preview/tab-cost.png)
+
+## Certified output under equal budgets
+
+^certified-output-under-equal-budgets
+
+We first isolate the effect of list selection by holding the budget and certification rule fixed. With the same budget of 2048 accesses, DiBud certifies more results than Balanced on all five query sets (Table [2](experiments.md#^tab-yield "ref:tab:yield")). Averaged equally across sets, output within the first 100 positions increases from 41.77 to 45.05, a 7.86% gain; within the first 20, it increases from 18.07 to 18.18. Selective reading therefore increases the number of exact positions obtained from the same access allowance.
+
+![Table 2 (publication preview)](../preview/tab-yield.png)
+
+## Quality and access cost relative to exact Top-20
+
+^quality-and-access-cost-relative-to-exact-top-20
+
+We next examine the cost of requiring a fixed output count. We compare two stopping conditions on the same access trajectory: complete exact Top-20, or stop earlier when the budget is exhausted. Five-fold calibration selects the smallest budget retaining 95% of the reference mean nDCG@20 and applies it to held-out queries. Missing output positions contribute zero gain.
+
+![Table 3 (publication preview)](../preview/tab-quality.png)
+
+Across the five query sets, budgeted stopping retains 95.05%--97.68% of mean nDCG@20 while reducing accesses by 65.92%--99.53% (Table [3](experiments.md#^tab-quality "ref:tab:quality")). Both stopping conditions follow the same access trajectory, so these savings come from stopping earlier. The 99.53% reduction on TREC-DL 2019 reflects the high cost of completing tail queries. These results show that completing all 20 positions is not necessary to retain most of the measured retrieval quality. Directly limiting accesses and allowing the output size to vary preserves most of that quality while avoiding much of the completion cost.

@@ -21,3 +21,7 @@ Academic-search MCP tools were not available in this session. Primary publisher 
 | bm25 | Verified; metadata conflict resolved | https://www.nowpublishers.com/article/DownloadEBook/INR-019 | Publisher's original front matter confirms vol. 3, no. 4, pp. 333–389 (2009), Robertson and Zaragoza. Crossref returned an inconsistent page field (1–174); the paper uses original publisher pagination. |
 
 No numerical DiBud results are taken from external papers. They come from the frozen repository CSVs; `result-audit.json` records the regenerated table values and prose values. The existing Chinese text is not rewritten by the bibliography workflow.
+
+## Addition — 2026-09-11
+
+Added `azure`: Microsoft, *Hybrid Search Scoring (RRF)—Azure AI Search*, official documentation, accessed September 11, 2026. https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking . Supports parallel text/vector retrieval, finite per-channel result lists, and RRF merging as an independent implementation alongside Elastic. This is an engineering source, not an additional research paper or a claim of universal adoption. The bibliography now contains 14 cited sources.

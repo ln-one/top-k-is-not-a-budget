@@ -1,4 +1,8 @@
-\section{Conclusion}
-Changing queries and corpora in modern RAG hybrid retrieval make it difficult for a previously selected Top-$L$ depth to preserve its original quality--cost tradeoff. Truncation assigns zero to unobserved cross-channel contributions and can change the fused ranking. Exact fusion removes the dependence on a fixed truncation depth, but completing the same Top-$K$ can still require sharply different numbers of accesses. Access cost therefore needs to be bounded directly through a budget rather than controlled indirectly through $K$.
+% Generated from markdown/conclusion.md; edit the Markdown source.
+\section{Conclusion}\label{conclusion}
 
-DiBud takes an access budget directly as input and returns as many results as it can certify within that budget, with the returned prefix matching the RRF ranking over the full lists. Experiments on five query sets reveal long-tailed costs for completing exact Top-20. After budget calibration for 95\% quality retention, held-out queries retain 95.05\%--97.68\% of mean nDCG@20 while using 65.92\%--99.53\% fewer accesses. Selective access allows DiBud to certify more results than balanced access under the same budget, while budgeted stopping bounds accesses per request and avoids the long-tail cost of completing a fixed number of results.
+\label{conclusion}
+
+Changing queries and corpora make it difficult for a fixed Top-\(L\) depth to preserve its quality--cost tradeoff in RAG hybrid retrieval. Exact fusion removes this fixed cutoff, but a prescribed Top-\(K\) still leaves access cost dependent on the query. DiBud takes an access budget directly as input and incrementally returns certified results, determining the output size during execution.
+
+Experiments on five query sets show that selective reading certifies more results than balanced reading under equal budgets. After calibration for 95\% quality retention, budgeted stopping retains 95.05\%--97.68\% of mean nDCG@20 on held-out queries while reducing accesses by 65.92\%--99.53\%. The long-tailed costs of completing exact Top-20 explain why direct control is needed: fixing the result count leaves the required accesses free to vary across queries. Top-\(K\) is therefore not a budget for hybrid retrieval.
