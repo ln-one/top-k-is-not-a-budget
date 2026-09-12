@@ -9,3 +9,5 @@ __pycache__/
 artifacts/
 data/
 tmp/
+
+results/completion-extension-v1/
