@@ -1,0 +1,2 @@
+# Optional: regenerating PNG previews from publication PDF/table assets.
+PyMuPDF>=1.24,<2

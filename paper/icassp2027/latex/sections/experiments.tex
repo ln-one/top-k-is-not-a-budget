@@ -1,14 +1,14 @@
-% Generated from markdown/experiments.md; edit the Markdown source.
+% Generated from markdown/05.experiments.md; edit the Markdown source.
 \begin{figure*}[!t]
 \centering\includegraphics[width=\textwidth]{../../../figures/paper-v2/transfer.pdf}
 \caption{Depth sensitivity and transfer. (a) Different queries on the same corpus. (b) The same queries across snapshots, using each round's judgments. Circles mark the best tested depths. (c) Held-out transfer of Round-1 depths. Error bars show 95\% nested bootstrap intervals with depth reselection and query identities preserved across rounds.}
 \label{fig:transfer}\end{figure*}
 
-\section{Experiments}\label{experiments}
+\section{Experiments}
 
 \label{sec:experiments}
 
-\subsection{Setup}\label{setup}
+\subsection{Setup}
 
 \label{setup}
 
@@ -18,7 +18,7 @@ DiBud and Balanced use the same certification rules and access budgets, ranging 
 
 Static replays use reconstructed full rankings: all 770 queries complete exact Top-20. Temporal replays use frozen snapshot rankings without treating saved-list boundaries as exhaustion. Results are averaged within each query set, then equally across sets. Reported 95\% confidence intervals use 2000 query bootstrap samples.
 
-\subsection{Transfer of fixed depths}\label{transfer-of-fixed-depths}
+\subsection{Transfer of fixed depths}
 
 \label{transfer-of-fixed-depths}
 
@@ -26,7 +26,7 @@ We evaluate \(L\in\{10,\allowbreak20,\allowbreak50,\allowbreak100,\allowbreak200
 
 For the same 30 queries across five TREC-COVID snapshots, the best tested depths are 50, 100, 200, 200, and 5000 (Fig.~\ref{fig:transfer}b). We then test whether an earlier selection transfers: five-fold calibration selects \(L\) using Round-1 queries and freezes it for held-out queries across all rounds. The nDCG@10 difference from full RRF changes from \(-0.0085\) in Round 1 to \(-0.0272\) in Round 5 (95\% CI: \([-0.0699,-0.0058]\); Fig.~\ref{fig:transfer}c). A depth selected on earlier data does not necessarily maintain its relative effectiveness as the corpus changes.
 
-\subsection{Fixed-K access cost}\label{fixed-k-access-cost}
+\subsection{Fixed-K access cost}
 
 \label{fixed-k-access-cost}
 
@@ -34,7 +34,7 @@ Completing exact Top-20 is inexpensive for most queries but costly in the tail (
 
 \input{tables/cost-v3.tex}
 
-\subsection{Certified output under equal budgets}\label{certified-output-under-equal-budgets}
+\subsection{Certified output under equal budgets}
 
 \label{certified-output-under-equal-budgets}
 
@@ -42,7 +42,7 @@ We first isolate the effect of list selection by holding the budget and certific
 
 \input{tables/yield-v2.tex}
 
-\subsection{Quality and access cost relative to exact Top-20}\label{quality-and-access-cost-relative-to-exact-top-20}
+\subsection{Quality and access cost relative to exact Top-20}
 
 \label{quality-and-access-cost-relative-to-exact-top-20}
 
