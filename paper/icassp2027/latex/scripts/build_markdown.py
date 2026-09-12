@@ -25,8 +25,11 @@ def document(blocks, version):
     return {"pandoc-api-version": version, "meta": {}, "blocks": blocks}
 
 
-def compile_ast(ast, config):
+def compile_ast(ast, config, section=None):
     version = ast["pandoc-api-version"]
+    layout = section or {}
+    equations = iter(layout.get("equations", []))
+    seen_headings = set()
 
     def visit(node):
         if isinstance(node, list):
@@ -34,12 +37,33 @@ def compile_ast(ast, config):
         if not isinstance(node, dict):
             return node
         kind, content = node.get("t"), node.get("c")
+        if kind == "Header":
+            content[1][0] = ""
+            title = pandoc(json.dumps(document([{"t": "Plain", "c": content[2]}], version)), "json", "plain").strip()
+            if title in layout.get("headings", {}):
+                label = layout["headings"][title]
+                if title in seen_headings:
+                    raise ValueError("Ambiguous heading: " + title)
+                seen_headings.add(title)
+                # A Div keeps the label after the heading, outside its title argument.
+                header = {"t": "Header", "c": content}
+                return {"t": "Div", "c": [["", [], []], [header, {"t": "RawBlock", "c": ["latex", "\\label{" + label + "}"]}]]}
+            if ast.get("meta", {}).get("unnumbered", {}).get("c") is True:
+                content[1][1] = list(set(content[1][1]) | {"unnumbered"})
+        if kind == "Code" and re.fullmatch(r"[0-9a-f]{40}", content[1]):
+            return {"t": "RawInline", "c": ["latex", "{\\footnotesize\\texttt{" + content[1] + "}}"]}
         if kind == "Cite" and config.get("numeric_citations"):
             if any(c["citationPrefix"] or c["citationSuffix"] for c in content[0]):
                 raise ValueError("Numeric citation affixes need an explicit LaTeX citation")
             keys = ",".join(c["citationId"] for c in content[0])
             return {"t": "RawInline", "c": ["latex", "\\cite{" + keys + "}"]}
         if kind in ("RawInline", "RawBlock") and content[0] == "html":
+            anchor = re.fullmatch(r"<!-- anchor: ([\w-]+) -->", content[1])
+            if anchor:
+                label = config["anchors"].get(anchor[1])
+                if label is None:
+                    raise ValueError("Unknown label: " + anchor[1])
+                return {"t": kind, "c": ["latex", "\\label{" + label + "}"]}
             match = re.fullmatch(r"<!-- latex\s*\n(.*?)\n-->", content[1], re.S)
             if not match:
                 raise ValueError("Unsupported HTML in manuscript: " + content[1][:100])
@@ -51,6 +75,9 @@ def compile_ast(ast, config):
                 if label is None:
                     raise ValueError("Unknown label: " + value)
                 return {"t": "RawBlock", "c": ["latex", "\\label{" + label + "}"]}
+        if kind == "Link" and content[2][0] in config.get("references", {}):
+            reference = config["references"][content[2][0]]
+            return {"t": "RawInline", "c": ["latex", "\\" + reference["kind"] + "{" + reference["label"] + "}"]}
         if kind == "Link" and content[2][1].startswith("ref:"):
             label = content[2][1][4:]
             if label not in config["labels"]:
@@ -79,17 +106,47 @@ def compile_ast(ast, config):
             else:
                 latex = "\\input{" + asset["latex"] + "}"
             return {"t": "RawBlock", "c": ["latex", latex]}
+        if kind == "Math" and content[1] in config.get("breakable_math", []):
+            # TeX-only line-breaking hints must not leak into MathJax source.
+            content[1] = content[1].replace(",", r",\allowbreak")
         if kind == "Math" and content[0]["t"] == "DisplayMath":
+            if "equations" in layout:
+                equation = next(equations, None)
+                if equation is None:
+                    raise ValueError("New display equation needs a layout entry")
+                body = content[1].strip()
+                labels = equation["labels"]
+                if equation["environment"] == "align":
+                    match = re.fullmatch(r"\\begin\{aligned\}(.*?)\\end\{aligned\}", body, re.S)
+                    if not match:
+                        raise ValueError("Expected aligned equation content")
+                    rows = match[1].strip().split(r"\\")
+                    if len(rows) != len(labels):
+                        raise ValueError("Equation row count differs from label count")
+                    body = "\\\\\n".join(row.strip() + "\\label{" + label + "}" for row, label in zip(rows, labels))
+                else:
+                    if len(labels) != 1:
+                        raise ValueError("An equation requires one label")
+                    body += "\n\\label{" + labels[0] + "}"
+                env = equation["environment"]
+                return {"t": "RawInline", "c": ["latex", "\\begin{" + env + "}\n" + body + "\n\\end{" + env + "}"]}
+            # MathJax keeps labels across editor/reader renders. Restore them only for TeX.
+            content[1] = re.sub(r"% label: ([\w:.-]+)\n", lambda m: "\\label{" + m[1] + "}\n", content[1])
             if re.match(r"\s*\\begin\{(?:equation|align)\*?\}", content[1]):
                 return {"t": "RawInline", "c": ["latex", content[1]]}
         return {key: visit(value) for key, value in node.items()}
 
-    return visit(copy.deepcopy(ast))
+    result = visit(copy.deepcopy(ast))
+    if next(equations, None) is not None:
+        raise ValueError("Missing display equation for layout entry")
+    if seen_headings != set(layout.get("headings", {})):
+        raise ValueError("Heading changed or missing; update manuscript.json")
+    return result
 
 
-def compile_markdown(text, config):
+def compile_markdown(text, config, section=None):
     ast = json.loads(pandoc(text, "markdown-implicit_figures", "json"))
-    converted = compile_ast(ast, config)
+    converted = compile_ast(ast, config, section)
     return pandoc(json.dumps(converted), "json", "latex")
 
 
@@ -98,7 +155,7 @@ def build(check=False):
     outputs = {}
     for section in config["sections"]:
         source = ROOT / section["markdown"]
-        latex = compile_markdown(source.read_text(), config)
+        latex = compile_markdown(source.read_text(), config, section)
         outputs[ROOT / section["latex"]] = (
             "% Generated from " + section["markdown"] + "; edit the Markdown source.\n" + latex
         )
@@ -116,7 +173,7 @@ def build(check=False):
 
 
 def previews():
-    """Refresh repository-owned PNG previews from the actual publication assets."""
+    """Refresh vector previews from publication assets, with a PNG fallback."""
     import pymupdf as fitz
 
     config = json.loads(MANIFEST.read_text())
@@ -126,6 +183,11 @@ def previews():
     for relative, asset in config["assets"].items():
         output = (ROOT / "markdown" / relative).resolve()
         output.parent.mkdir(parents=True, exist_ok=True)
+        if asset.get("svg"):
+            # Preserve draw.io's native automatic theme rules verbatim.
+            import shutil
+            shutil.copy2((ROOT / asset["svg"]).resolve(), output)
+            continue
         if asset["kind"] == "figure":
             pdf = (ROOT / asset["pdf"]).resolve()
         else:
@@ -161,7 +223,19 @@ def previews():
                 for rect in rects:
                     clip |= rect
                 clip = (clip + (-5, -5, 5, 5)) & page.rect
-            page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip, alpha=False).save(output)
+            if output.suffix == ".svg":
+                import xml.etree.ElementTree as ET
+                page.set_cropbox(clip)
+                svg = ET.fromstring(page.get_svg_image(text_as_path=True))
+                # Outlined glyphs avoid missing fonts; theme only the reading preview.
+                namespace = "http://www.w3.org/2000/svg"
+                ET.register_namespace("", namespace)
+                ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
+                from preview_theme import apply_theme
+                apply_theme(svg)
+                output.write_text(ET.tostring(svg, encoding="unicode"))
+            else:
+                page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip, alpha=False).save(output)
     print("Rendered", len(config["assets"]), "publication-asset previews")
 
 

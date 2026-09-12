@@ -3,66 +3,123 @@
   "numeric_citations": true,
   "sections": [
     {
-      "markdown": "markdown/abstract.md",
+      "markdown": "markdown/01.abstract.md",
       "latex": "sections/abstract.tex"
     },
     {
-      "markdown": "markdown/conclusion.md",
-      "latex": "sections/conclusion.tex"
-    },
-    {
-      "markdown": "markdown/experiments.md",
-      "latex": "sections/experiments.tex"
-    },
-    {
-      "markdown": "markdown/introduction.md",
-      "latex": "sections/introduction.tex"
-    },
-    {
-      "markdown": "markdown/method.md",
-      "latex": "sections/method.tex"
-    },
-    {
-      "markdown": "markdown/acknowledgments.md",
-      "latex": "sections/acknowledgments.tex"
-    },
-    {
-      "markdown": "markdown/keywords.md",
+      "markdown": "markdown/02.keywords.md",
       "latex": "sections/keywords.tex"
+    },
+    {
+      "markdown": "markdown/03.introduction.md",
+      "latex": "sections/introduction.tex",
+      "headings": {
+        "Introduction": "sec:intro"
+      }
+    },
+    {
+      "markdown": "markdown/04.method.md",
+      "latex": "sections/method.tex",
+      "headings": {
+        "DiBud: Budgeted Exact-Prefix Fusion": "sec:method",
+        "Budget and output": "budget-and-output",
+        "Prefix certification": "prefix-certification",
+        "Reading and stopping": "reading-and-stopping"
+      },
+      "equations": [
+        {
+          "environment": "equation",
+          "labels": [
+            "eq:score"
+          ]
+        },
+        {
+          "environment": "equation",
+          "labels": [
+            "eq:contract"
+          ]
+        },
+        {
+          "environment": "equation",
+          "labels": [
+            "eq:unread"
+          ]
+        },
+        {
+          "environment": "align",
+          "labels": [
+            "eq:lower",
+            "eq:upper"
+          ]
+        },
+        {
+          "environment": "equation",
+          "labels": [
+            "eq:drop"
+          ]
+        }
+      ]
+    },
+    {
+      "markdown": "markdown/05.experiments.md",
+      "latex": "sections/experiments.tex",
+      "headings": {
+        "Experiments": "sec:experiments",
+        "Setup": "setup",
+        "Transfer of fixed depths": "transfer-of-fixed-depths",
+        "Fixed-K access cost": "fixed-k-access-cost",
+        "Certified output under equal budgets": "certified-output-under-equal-budgets",
+        "Quality and access cost relative to exact Top-20": "quality-and-access-cost-relative-to-exact-top-20"
+      }
+    },
+    {
+      "markdown": "markdown/06.conclusion.md",
+      "latex": "sections/conclusion.tex",
+      "headings": {
+        "Conclusion": "conclusion"
+      }
+    },
+    {
+      "markdown": "markdown/07.acknowledgments.md",
+      "latex": "sections/acknowledgments.tex",
+      "headings": {
+        "Acknowledgments": "acknowledgments"
+      }
     }
   ],
   "assets": {
-    "../preview/fig-transfer.png": {
+    "../preview/fig-transfer.svg": {
       "kind": "figure",
       "latex": "layout/fig-transfer.tex",
       "number": 2,
       "label": "fig:transfer",
       "pdf": "../../../figures/paper-v2/transfer.pdf"
     },
-    "../preview/tab-cost.png": {
+    "../preview/tab-cost.svg": {
       "kind": "table",
       "latex": "tables/cost-v3.tex",
       "number": 1,
       "label": "tab:cost"
     },
-    "../preview/tab-yield.png": {
+    "../preview/tab-yield.svg": {
       "kind": "table",
       "latex": "tables/yield-v2.tex",
       "number": 2,
       "label": "tab:yield"
     },
-    "../preview/tab-quality.png": {
+    "../preview/tab-quality.svg": {
       "kind": "table",
       "latex": "tables/quality-v3.tex",
       "number": 3,
       "label": "tab:quality"
     },
-    "../preview/fig-method.png": {
+    "../preview/fig-method.svg": {
       "kind": "figure",
       "latex": "layout/fig-method.tex",
       "number": 1,
       "label": "fig:method",
-      "pdf": "../../../figures/method/dibud.pdf"
+      "pdf": "../../../figures/method/dibud.pdf",
+      "svg": "../../../figures/method/dibud.svg"
     }
   },
   "anchors": {
@@ -81,22 +138,51 @@
     "acknowledgments": "acknowledgments"
   },
   "labels": {
-    "fig:transfer": "experiments",
-    "sec:experiments": "experiments",
-    "sec:intro": "introduction",
-    "sec:method": "method",
-    "fig:method": "method",
-    "eq:score": "method",
-    "eq:contract": "method",
-    "eq:unread": "method",
-    "eq:lower": "method",
-    "eq:upper": "method",
-    "eq:drop": "method",
-    "tab:temporal": "experiments",
-    "tab:transfer": "experiments",
-    "tab:yield": "experiments",
-    "tab:static": "experiments",
-    "tab:quality": "experiments",
-    "tab:cost": "experiments"
+    "fig:transfer": "05.experiments",
+    "sec:experiments": "05.experiments",
+    "sec:intro": "03.introduction",
+    "sec:method": "04.method",
+    "fig:method": "04.method",
+    "eq:score": "04.method",
+    "eq:contract": "04.method",
+    "eq:unread": "04.method",
+    "eq:lower": "04.method",
+    "eq:upper": "04.method",
+    "eq:drop": "04.method",
+    "tab:temporal": "05.experiments",
+    "tab:transfer": "05.experiments",
+    "tab:yield": "05.experiments",
+    "tab:static": "05.experiments",
+    "tab:quality": "05.experiments",
+    "tab:cost": "05.experiments"
+  },
+  "breakable_math": [
+    "L\\in\\{10,20,50,100,200,500,1000,2000,5000\\}"
+  ],
+  "references": {
+    "../preview/fig-method.svg": {
+      "kind": "ref",
+      "label": "fig:method"
+    },
+    "04.method.md#Budget%20and%20output": {
+      "kind": "eqref",
+      "label": "eq:contract"
+    },
+    "../preview/fig-transfer.svg": {
+      "kind": "ref",
+      "label": "fig:transfer"
+    },
+    "../preview/tab-cost.svg": {
+      "kind": "ref",
+      "label": "tab:cost"
+    },
+    "../preview/tab-yield.svg": {
+      "kind": "ref",
+      "label": "tab:yield"
+    },
+    "../preview/tab-quality.svg": {
+      "kind": "ref",
+      "label": "tab:quality"
+    }
   }
 }
