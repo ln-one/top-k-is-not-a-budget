@@ -1,7 +1,0 @@
-{
-  "source_manifest": "results/simple-schedulers-pilot/manifest.json",
-  "script_sha256": "52b517ef0d26c47e8ac29405c3ace8ca73604d6f99de7c0d989387c942611d35",
-  "all_reference_states_equal": true,
-  "query_count": 100,
-  "note": "Same certificate and same choices, compressed state maintenance. Times are descriptive single-run Python timings, not end-to-end retrieval latency."
-}

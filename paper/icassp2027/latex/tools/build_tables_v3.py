@@ -14,3 +14,8 @@ with (P/'quality-budget-summary.csv').open() as f:
  rows=[x for x in csv.DictReader(f) if float(x['target'])==.95]
 assert all(float(x['baseline20_completion'])==1 and x['quality_lower']==x['quality_upper'] for x in rows)
 update('quality-v3.tex',[[N[x['dataset']]]+[f"{100*float(x[k]):.2f}" for k in ('quality_lower','cost_saving_lower')] for x in rows])
+
+with (P/'aggregate.csv').open() as f:
+ rows=[x for x in csv.DictReader(f) if x['batch']=='1' and x['budget']=='2048']
+lookup={(x['dataset'],x['policy']):x for x in rows}
+update('yield-v2.tex',[[name]+[f"{float(lookup[ds,policy][key]):.2f}" for key in ('mean_k_lower','k20_lower') for policy in ('balanced','dibud')] for ds,name in N.items()])

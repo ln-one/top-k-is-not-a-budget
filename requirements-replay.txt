@@ -1,4 +1,0 @@
-# Verified with CPython 3.12.13 on macOS arm64. Replay/metric audit only.
-numpy==2.4.2
-scipy==1.18.1
-pytrec-eval-terrier==0.5.10

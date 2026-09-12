@@ -1,9 +1,15 @@
-# Paper repository scope
+# Reproduction repository
 
-Active work: budgeted exact-prefix hybrid fusion, ICASSP working draft. User-approved Chinese Introduction and concise Method are in paper/icassp2027. Do not rewrite their narrative without a requested revision. Avoid repeated SNRA/LARA-IN attribution inside the Method; attribution is in Introduction.
+Maintain the budgeted exact-prefix retrieval code and paper. Public documentation
+is English and should describe reproducible inputs, commands, and outputs.
 
-Fixed Top-L missing-contribution imputation is frozen by user instruction. Do not restart compensation formulas, coefficient tuning, or window-signal prediction unless explicitly reopened. This is separate from the active budgeted-prefix task.
+Preserve result records and executed-source provenance. Keep linear-gain nDCG
+separate from historical exponential-gain metrics. Ranking accesses are not latency.
+Do not claim a new invention of SNRA/LARA-IN or global scheduler optimality.
 
-Use REPRODUCE.md for experiment contracts. Keep standard linear-gain and historical exponential-gain nDCG separate. Logical access counts are not latency. Do not claim global optimality, new invention of SNRA/LARA-IN, or superiority over truncation in relevance quality. Preserve negative results.
+Fixed Top-L missing-contribution imputation remains frozen by user instruction.
+Do not resume that direction without an explicit request. Raw inputs under `data/`
+are local and must not be published automatically.
 
-Raw replay inputs under data/ are not tracked. Do not publish them automatically.
+Manuscript text lives in `paper/icassp2027/latex/markdown/`; generated TeX is not
+an editing source. Follow `REPRODUCE.md` for experiment contracts.
